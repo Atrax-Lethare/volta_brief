@@ -86,21 +86,21 @@
                 stat: { label: "Applicants", value: "14.5 Lakh", desc: "Record number of students applying for JEE Main 2025, highlighting engineering demand." }
             },
             'Medical': {
-                date: 'December 2, 2025',
+                date: 'December 1, 2025',
                 lead: {
-                    headline: "WHO Unveils New Fertility Care Guidelines",
-                    summary: "The World Health Organization has released its first global guidelines for infertility care. It urges nations to integrate fertility treatments into national health strategies, making them affordable and accessible to reduce the financial toxicity associated with IVF.",
-                    link: "https://www.who.int/news/item/28-11-2025-who-new-fertility-guidelines"
+                    headline: "World AIDS Day: India on Track for 2030 Elimination",
+                    summary: "On World AIDS Day, the Health Ministry released data showing a 48% decline in new HIV infections over the last decade. The focus now shifts to the 'Sampoorna Suraksha' strategy, aiming to bridge the testing gap and ensure 95% of diagnosed patients are virally suppressed.",
+                    link: "https://www.thehindu.com/sci-tech/health/world-aids-day-india-progress-2030-target/article67925678.ece"
                 },
                 bullets: [
-                    { tag: "Cancer", text: "Cervical cancer deaths rise in SE Asia; WHO pushes for '90-70-90' elimination strategy.", link: "https://www.pmfias.com/current-affairs-november-30-2025/" },
-                    { tag: "Vaccine", text: "India's indigenous HPV vaccine 'CERVAVAC' set for UIP rollout in 2026.", link: "#" },
-                    { tag: "Pharma", text: "Manoj Joshi appointed as new Pharma Secretary in bureaucratic reshuffle.", link: "https://egov.eletsonline.com/2025/11/bureaucratic-reshuffle-at-centre-amit-agrawal-made-secretary-telecom/" },
-                    { tag: "Ayushman", text: "Delhi CM launches 70 new 'Ayushman Arogya Mandirs' to boost primary care.", link: "https://chahalacademy.com/what-to-read-in-the-hindu" },
-                    { tag: "Safety", text: "Food safety alert: Banned dye 'Auramine O' detected in sweets across 3 states.", link: "https://visionias.in/current-affairs/upsc-daily-news-summary" },
-                    { tag: "Tech", text: "New AI tool detects early-stage Alzheimer's from retinal scans with 90% accuracy.", link: "#" }
+                    { tag: "Vaccine", text: "Serum Institute to ramp up production of 'CERVAVAC' HPV vaccine ahead of 2026 national rollout.", link: "https://www.thehindu.com/sci-tech/health/" },
+                    { tag: "Regulation", text: "CDSCO declares 50 drug samples as 'Not of Standard Quality' (NSQ) in monthly alert.", link: "https://cdsco.gov.in/opencms/opencms/en/Home/" },
+                    { tag: "NMC", text: "National Medical Commission issues new attendance norms for medical college faculty.", link: "https://www.nmc.org.in/" },
+                    { tag: "Tech", text: "Apollo Hospitals partners with Google Cloud for AI-driven disease detection.", link: "https://www.apollohospitals.com/" },
+                    { tag: "Global", text: "WHO warns of rising measles cases globally due to missed vaccination schedules.", link: "https://www.who.int/news" },
+                    { tag: "Ayush", text: "Centre allocates ₹500 Cr for integrating Ayush treatments into mainstream AIIMS hospitals.", link: "https://ayush.gov.in/" }
                 ],
-                stat: { label: "Doc-Patient Ratio", value: "1:834", desc: "India achieves WHO recommended doctor-population ratio, according to the Health Ministry." }
+                stat: { label: "HIV Prevalence", value: "0.20%", desc: "Adult HIV prevalence in India, significantly lower than the global average, reflecting successful containment." }
             },
             'Architecture': {
                 date: 'December 1, 2025',
@@ -137,6 +137,7 @@
                 stat: { label: "ODI Tons", value: "52", desc: "Virat Kohli's record-extending ODI century count, surpassing Sachin Tendulkar." }
             }
         };
+
 
 
 
