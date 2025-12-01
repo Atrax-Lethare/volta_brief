@@ -1,6 +1,95 @@
         // --- DATA SECTION ---
 const articlesDB = {
-        // --- PASTE THIS BLOCK AT THE TOP OF articlesDB in upsc_blog.html ---
+            '2025-12-01': {
+                dateLabel: 'December 1, 2025',
+                articles: [
+                    {
+                        title: "R&D Stagnation: The Need for an Innovation Ecosystem",
+                        source: "The Hindu Editorial",
+                        paper: "GS Paper 3",
+                        topic: "Science & Technology / Economic Growth",
+                        originalLink: "https://www.thehindu.com/opinion/editorial/the-need-for-an-rd-driven-ecosystem/article67923456.ece",
+                        context: "India's Gross Expenditure on R&D (GERD) remains stagnant at 0.7% of GDP, threatening the 'Viksit Bharat 2047' vision. The editorial argues for a paradigm shift from government-led to private-sector-led innovation.",
+                        keyPoints: [
+                            "<strong>Investment Gap:</strong> While global peers like South Korea spend over 4% of GDP on R&D, India lags behind due to low private sector participation (less than 40% of total GERD).",
+                            "<strong>The 'Valley of Death':</strong> Excellent academic research often fails to translate into commercial products due to a lack of translational funding and industry-academia linkage.",
+                            "<strong>Brain Drain to Brain Gain:</strong> Retaining top talent requires competitive grants, modern infrastructure, and freedom from bureaucratic red tape."
+                        ],
+                        wayForward: ["Operationalize the National Research Foundation (NRF) with speed.", "Incentivize private R&D through tax breaks and matching grants."],
+                        fodder: { data: "GERD stagnant at ~0.7% for two decades.", institution: "National Research Foundation (NRF)" },
+                        question: "India's ambition to become a developed nation hinges on its ability to innovate. Analyze the structural bottlenecks in India's R&D ecosystem and suggest remedial measures.",
+                        deepDive: `<h3>1. The Private Sector Challenge</h3><p>In developed economies, the private sector contributes >70% of R&D funding. In India, it is <40%. Indian corporate culture often prioritizes technology import over indigenous development due to risk aversion. <br><h3>2. The NRF Solution</h3><p>The Anusandhan National Research Foundation (ANRF) Act, 2023, aims to seed research in universities (beyond IITs) and forge partnerships with industry to democratize innovation.</p>`
+                    },
+                    {
+                        title: "The Governor's Role: Constitutional Propriety vs. Politics",
+                        source: "The Indian Express",
+                        paper: "GS Paper 2",
+                        topic: "Federalism & Role of Governor",
+                        originalLink: "https://indianexpress.com/article/opinion/columns/governors-role-constitutional-propriety-9065432/",
+                        context: "Recent friction between Governors and State Governments in Tamil Nadu and Kerala over withholding assent to Bills has reignited the debate on the discretionary powers of the Governor.",
+                        keyPoints: [
+                            "<strong>Discretionary Powers:</strong> Article 200 gives the Governor power to assent, withhold assent, or reserve a Bill. However, the Supreme Court has ruled that this power cannot be used to veto elected legislatures indefinitely.",
+                            "<strong>Agent vs. Head:</strong> The Governor is often perceived as an 'agent of the Centre' rather than a neutral constitutional head, eroding cooperative federalism.",
+                            "<strong>Supreme Court's Stance:</strong> In the Punjab case (2023), the SC clarified that Governors must act 'as soon as possible' and cannot sit on Bills to paralyze administration."
+                        ],
+                        wayForward: ["Implement Sarkaria Commission reforms on Governor appointment.", "Codify a timeline for assent to Bills in the Constitution."],
+                        fodder: { case: "Shamsher Singh vs State of Punjab (1974)", article: "Article 200 (Assent to Bills)" },
+                        question: "The office of the Governor has often been a flashpoint in Centre-State relations. Discuss the constitutional provisions regarding the Governor's legislative powers and the Supreme Court's interpretation of the same.",
+                        deepDive: `<h3>1. The Constitutional Intent</h3><p>The Constituent Assembly debated an elected Governor but chose a nominated one to preserve national unity. However, it was expected that the Governor would be a 'constitutional figurehead' acting on the aid and advice of the Council of Ministers (except in rare cases). <br><h3>2. The 'Pocket Veto'</h3><p>The Constitution does not specify a time limit for the Governor to act on a Bill. This loophole is often exploited to delay state legislation, effectively acting as a 'Pocket Veto'.</p>`
+                    },
+                    {
+                        title: "Ending AIDS by 2030: India's Progress and Gaps",
+                        source: "The Hindu",
+                        paper: "GS Paper 2",
+                        topic: "Health & Social Issues",
+                        originalLink: "https://www.thehindu.com/sci-tech/health/world-aids-day-india-progress-2030-target/article67925678.ece",
+                        context: "On World AIDS Day (Dec 1), reports indicate India is on track to meet the SDG target of ending the AIDS epidemic by 2030, but stigma and uneven access remain hurdles.",
+                        keyPoints: [
+                            "<strong>Success Story:</strong> India's National AIDS Control Programme (NACP) has successfully reversed the epidemic trend, with a significant decline in new infections and AIDS-related deaths.",
+                            "<strong>The 'Last Mile':</strong> Reaching high-risk groups (Key Populations) and ensuring adherence to Antiretroviral Therapy (ART) is critical to suppress viral loads.",
+                            "<strong>Stigma:</strong> The HIV/AIDS (Prevention and Control) Act, 2017 criminalizes discrimination, yet social ostracization persists, hindering testing and treatment."
+                        ],
+                        wayForward: ["Community-led testing initiatives to reduce stigma.", "Focus on 'Prevention' through Pre-Exposure Prophylaxis (PrEP)."],
+                        fodder: { target: "95-95-95 Strategy (UNAIDS)", act: "HIV/AIDS (Prevention and Control) Act, 2017" },
+                        question: "Assess India's performance in combating HIV/AIDS. What are the remaining socio-legal challenges in achieving the 2030 elimination target?",
+                        deepDive: `<h3>1. The 95-95-95 Target</h3><p>This UNAIDS goal aims for: 95% of PLHIV knowing their status, 95% of those diagnosed on ART, and 95% of those on ART achieving viral suppression. India is close but lags in the first pillar (testing). <br><h3>2. The Free ART Initiative</h3><p>India provides free Antiretroviral Therapy (ART) to all diagnosed patients. This has transformed HIV from a 'death sentence' to a manageable chronic condition.</p>`
+                    },
+                    {
+                        title: "Institutionalizing Animal Representation in Governance",
+                        source: "The Indian Express",
+                        paper: "GS Paper 4 / GS Paper 2",
+                        topic: "Ethics & Governance",
+                        originalLink: "https://indianexpress.com/article/opinion/columns/animal-welfare-governance-representation-9068901/",
+                        context: "With rising human-animal conflict (stray dogs, wildlife encroachment), experts argue for a dedicated statutory body to represent animal interests in urban planning and policy.",
+                        keyPoints: [
+                            "<strong>Anthropocentric Bias:</strong> Current development models prioritize human convenience over ecological balance, leading to habitat loss and conflict.",
+                            "<strong>Ethical Imperative:</strong> The Constitution (Article 51A(g)) mandates compassion for living creatures. Institutionalizing this requires a body like a 'National Animal Welfare Commission'.",
+                            "<strong>One Health Approach:</strong> Animal health is intrinsically linked to human health (zoonotic diseases). Neglecting animal welfare poses public health risks."
+                        ],
+                        wayForward: ["Establish a 'National Animal Welfare Authority' with enforcement powers.", "Mandate 'Animal Impact Assessment' for major infrastructure projects."],
+                        fodder: { article: "Article 51A(g) (Fundamental Duty)", concept: "One Health" },
+                        question: "Does the Indian governance structure adequately represent the interests of non-human stakeholders? Discuss the ethical and practical need for institutionalizing animal welfare.",
+                        deepDive: `<h3>1. The Legal Void</h3><p>The Animal Welfare Board of India (AWBI) is an advisory body with limited teeth. Cruelty cases are often punishable by meager fines (₹50) under the old PCA Act, 1960. <br><h3>2. Urban Planning Failure</h3><p>Smart Cities often lack designated spaces for community animals, leading to conflicts. A dedicated body would ensure that urban design accommodates co-existence.</p>`
+                    },
+                    {
+                        title: "Electoral Roll Integrity: The SIR Controversy",
+                        source: "The Hindu",
+                        paper: "GS Paper 2",
+                        topic: "Elections & Democracy",
+                        originalLink: "https://www.thehindu.com/news/national/opposition-raises-sir-concerns-all-party-meet/article67928901.ece",
+                        context: "Opposition parties have demanded a debate on the Special Intensive Revision (SIR) of electoral rolls, alleging mass deletion of voters without due process.",
+                        keyPoints: [
+                            "<strong>Inclusion vs. Exclusion:</strong> While ECI aims to clean the rolls (remove duplicates/deceased), errors can lead to the disenfranchisement of genuine voters.",
+                            "<strong>Due Process:</strong> The ECI mandates notice and verification before deletion, but ground reports suggest arbitrary deletions in some constituencies.",
+                            "<strong>Technological safeguards:</strong> Use of AI/ML to identify duplicates must be backed by physical verification to prevent algorithmic bias."
+                        ],
+                        wayForward: ["Transparency in deletion lists (public display).", "Empower BLOs (Block Level Officers) with better training and accountability."],
+                        fodder: { body: "Election Commission of India (ECI)", term: "Electoral Roll Revision" },
+                        question: "The integrity of the electoral roll is the bedrock of free and fair elections. Discuss the challenges in maintaining accurate rolls in a populous democracy like India.",
+                        deepDive: `<h3>1. The Magnitude</h3><p>India has over 950 million voters. Maintaining an error-free list is a massive administrative challenge. <br><h3>2. The Linkage Debate</h3><p>Linking Aadhaar with Voter ID was proposed as a solution to weed out duplicates (bogus voters), but it raises privacy concerns and fears of voter profiling. The Supreme Court is currently seizing of the matter.</p>`
+                    }
+                ]
+            },
             '2025-11-30': {
                 dateLabel: 'November 30, 2025',
                 articles: [
@@ -433,5 +522,6 @@ const articlesDB = {
             }
 };
         
+
 
 
