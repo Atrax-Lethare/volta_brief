@@ -4,38 +4,38 @@ const articlesDB = {
                 dateLabel: 'December 1, 2025',
                 articles: [
                     {
-                        title: "Q2 GDP Surges to 8.2%: Manufacturing Leads the Way",
+                        title: "Q2 GDP Growth at 8.2%: Manufacturing Leads Revival",
                         source: "The Hindu",
                         paper: "GS Paper 3",
                         topic: "Indian Economy & Growth",
                         originalLink: "https://www.thehindu.com/business/Economy/indian-economy-grows-82-in-q2-2025-26/article70334383.ece",
-                        context: "India's Gross Domestic Product (GDP) grew by 8.2% in the July-September quarter of 2025-26, surpassing estimates. This growth was primarily driven by a 9.1% surge in the manufacturing sector, signaling a robust industrial recovery.",
+                        context: "India's GDP grew by 8.2% in Q2 (July-Sept 2025-26), driven by a 9.1% surge in manufacturing. While real GDP growth is high, the low GDP deflator (0.5%) raises concerns about nominal growth (8.7%) and subdued pricing power.",
                         keyPoints: [
-                            "<strong>Sectoral Performance:</strong> Manufacturing grew at a six-quarter high of 9.1%, while the services sector expanded by 9.2%. Agriculture, however, lagged with a 3.5% growth rate.",
-                            "<strong>Low Deflator Concern:</strong> Economists point out that the high real GDP growth is partly due to a very low GDP deflator (0.5%), meaning nominal growth remains in single digits (8.7%).",
-                            "<strong>Investment Lag:</strong> Gross Fixed Capital Formation (GFCF), a proxy for private investment, has not shown a commensurate upswing, indicating reliance on government capex."
+                            "<strong>Sectoral Performance:</strong> Manufacturing grew at a six-quarter high of 9.1%, while services expanded by 9.2%. Agriculture lagged at 3.5%.",
+                            "<strong>Deflator Dilemma:</strong> A low GDP deflator (inflation adjustment) boosted real growth figures, masking weaker nominal growth.",
+                            "<strong>Investment Trends:</strong> Gross Fixed Capital Formation (GFCF) showed modest growth, indicating reliance on government capex over private investment."
                         ],
-                        wayForward: ["Monitor inflation trends to stabilize the GDP deflator.", "Incentivize private sector capital expenditure to sustain growth."],
-                        fodder: { stat: "8.2% Real GDP Growth.", keyword: "GDP Deflator" },
-                        question: "India's Q2 GDP growth has surprised on the upside, but underlying indicators like the GDP deflator present a complex picture. Analyze. (10 Marks, 150 Words)",
-                        deepDive: `<p>The calculation of India's GDP has evolved significantly since the base year revision to 2011-12. Historically, high growth periods in India have often been accompanied by double-digit nominal growth. The current divergence, where Real GDP is high but Nominal GDP is relatively low due to a negligible deflator (inflation adjustment), mirrors trends seen during periods of falling commodity prices. This phenomenon was notably observed in 2015-16 when a crash in oil prices similarly boosted GVA figures by reducing input costs for manufacturers.</p>`
+                        wayForward: ["Monitor inflation trends to stabilize the GDP deflator.", "Incentivize private sector capital expenditure."],
+                        fodder: { stat: "8.2% Real GDP vs 8.7% Nominal GDP.", keyword: "GDP Deflator" },
+                        question: "India's Q2 GDP growth surprises on the upside, but underlying indicators like the GDP deflator present a complex picture. Analyze. (10 Marks, 150 Words)",
+                        deepDive: `<p>The methodology for calculating India's GDP was revised in 2015, shifting the base year to 2011-12 and moving from Factor Cost to Market Prices. The GDP Deflator is a comprehensive measure of inflation across the entire economy, unlike CPI or WPI. Historically, a low deflator (as seen during the 2015-16 oil price crash) can artificially inflate Real GDP growth figures when input costs fall faster than output prices, creating a 'statistical boost' rather than reflecting purely demand-driven growth.</p>`
                     },
                     {
-                        title: "HECI Bill: A Single Regulator for Higher Education",
+                        title: "HECI Bill: Unifying Higher Education Regulation",
                         source: "The Indian Express",
                         paper: "GS Paper 2",
                         topic: "Education Sector Reforms",
                         originalLink: "https://indianexpress.com/article/explained/everyday-explainers/what-is-the-centres-higher-education-commission-of-india-bill-2025-10382060/",
-                        context: "The government is set to introduce the Higher Education Commission of India (HECI) Bill in the Winter Session. This bill aims to replace the UGC, AICTE, and NCTE with a single, unified regulator to streamline higher education governance.",
+                        context: "The government is set to introduce the Higher Education Commission of India (HECI) Bill to replace UGC, AICTE, and NCTE with a single regulator, aiming to streamline governance as per NEP 2020.",
                         keyPoints: [
-                            "<strong>Unified Structure:</strong> HECI will consolidate the functions of regulation, accreditation, and academic standards under one roof, ending the fragmentation of the current system.",
-                            "<strong>Four Verticals:</strong> The commission will operate through four independent verticals: Regulation, Accreditation, Grants, and General Education Council.",
-                            "<strong>Exclusions:</strong> Medical and legal education will remain outside the purview of HECI to maintain specialized oversight."
+                            "<strong>Unified Structure:</strong> Consolidates regulation, accreditation, and standards under one roof to end fragmentation.",
+                            "<strong>Four Verticals:</strong> Separate independent verticals for Regulation (NHERC), Accreditation (NAC), Grants (HEGC), and Standards (GEC).",
+                            "<strong>Exclusions:</strong> Medical and legal education will remain outside HECI's purview."
                         ],
-                        wayForward: ["Ensure the new body fosters autonomy rather than centralization.", "Prioritize the creation of a robust accreditation framework."],
-                        fodder: { policy: "National Education Policy (NEP) 2020", body: "Higher Education Commission of India (HECI)" },
-                        question: "The proposed Higher Education Commission of India (HECI) seeks to replace multiple regulators with a single body. Discuss the potential benefits and challenges of this centralization. (15 Marks, 250 Words)",
-                        deepDive: `<p>The genesis of the HECI Bill lies in the National Education Policy (NEP) 2020, which advocated for an overhaul of the 'Inspector Raj' system prevalent in Indian higher education. For decades, the University Grants Commission (UGC) and the All India Council for Technical Education (AICTE) operated with overlapping mandates, leading to bureaucratic delays and a lack of focus on learning outcomes. The concept of a single regulator was first mooted by the Yash Pal Committee in 2009, which recommended a National Commission for Higher Education and Research (NCHER) to subsume existing bodies, a vision that is finally taking legislative shape now.</p>`
+                        wayForward: ["Ensure the new body fosters autonomy rather than centralization.", "Prioritize a robust accreditation framework."],
+                        fodder: { policy: "NEP 2020", body: "Higher Education Commission of India (HECI)" },
+                        question: "The proposed HECI seeks to replace multiple regulators with a single body. Discuss the potential benefits and challenges of this centralization. (15 Marks, 250 Words)",
+                        deepDive: `<p>The regulatory landscape of Indian higher education has long been fragmented, with the University Grants Commission (UGC) established in 1956 and the All India Council for Technical Education (AICTE) in 1987 often having overlapping mandates. The Yash Pal Committee (2009) and the National Knowledge Commission first recommended subsuming these bodies into a single National Commission for Higher Education and Research (NCHER) to eliminate the 'Inspector Raj' culture and focus on learning outcomes rather than just infrastructure norms.</p>`
                     },
                     {
                         title: "Urban Pollution: The Failure of 'Safe' Air Standards",
@@ -43,16 +43,16 @@ const articlesDB = {
                         paper: "GS Paper 3",
                         topic: "Environment & Pollution",
                         originalLink: "https://indianexpress.com/article/explained/urban-indian-city-safe-air-quality-10391338/",
-                        context: "A new report by Climate Trends reveals that no major Indian city has met 'safe' air quality levels consistently over the last decade (2015-2025). Northern cities like Delhi fare significantly worse than their southern counterparts.",
+                        context: "A Climate Trends report reveals that no major Indian city met 'safe' air quality levels consistently from 2015-2025, with Northern cities faring significantly worse than Southern ones due to geography and policy failures.",
                         keyPoints: [
-                            "<strong>North vs. South Divide:</strong> Northern cities in the Indo-Gangetic Plain (IGP) suffer from the 'valley effect' and winter inversion, trapping pollutants. Southern cities benefit from coastal sea breezes.",
-                            "<strong>Surface Roughness:</strong> Dense urban structures in cities like Delhi reduce wind speed, further preventing the dispersion of pollutants.",
-                            "<strong>Policy Failure:</strong> Despite the National Clean Air Programme (NCAP), cities have failed to curb emissions at the source, relying instead on reactive measures."
+                            "<strong>North vs. South:</strong> Northern cities suffer from the 'valley effect' and winter inversion, while Southern cities benefit from coastal breezes.",
+                            "<strong>Surface Roughness:</strong> Dense urban structures reduce wind speed, trapping pollutants locally.",
+                            "<strong>Policy Failure:</strong> Reactive measures (GRAP) have failed to curb emissions at the source effectively."
                         ],
-                        wayForward: ["Shift focus from city-specific plans to 'Airshed Management'.", "Prioritize source apportionment studies for targeted action."],
+                        wayForward: ["Shift to 'Airshed Management' planning.", "Strict controls on construction dust in landlocked cities."],
                         fodder: { concept: "Airshed Management", report: "Climate Trends 10-Year Analysis" },
-                        question: "The persistent failure of Indian cities to meet air quality standards points to structural flaws in governance and planning. Analyze. (10 Marks, 150 Words)",
-                        deepDive: `<p>The systematic tracking of air quality in India began in earnest with the launch of the National Air Quality Index (NAQI) in 2014 and the subsequent National Clean Air Programme (NCAP) in 2019. While these initiatives aimed to reduce particulate matter by 20-30% by 2024, they largely focused on city-specific action plans. Historically, pollution control in India has been reactive, driven by judicial interventions like the MC Mehta cases, rather than proactive urban planning. The unique geography of the Indo-Gangetic Plain, which acts as a bowl trapping pollutants, has historically exacerbated the issue, a factor often overlooked in policy designs copied from the West.</p>`
+                        question: "Geography is destiny when it comes to air pollution in India. Analyze why Northern Indian cities face a more severe crisis than their Southern counterparts. (10 Marks, 150 Words)",
+                        deepDive: `<p>India's systematic air quality monitoring began with the National Air Quality Index (NAQI) in 2014. The Indo-Gangetic Plain has historically acted as a pollution trap due to its unique topography—landlocked and bounded by the Himalayas—which prevents the dispersal of pollutants during winter. This 'meteorological misfortune' is compounded by the phenomenon of 'Temperature Inversion,' where a layer of cold air near the ground traps pollutants under a layer of warm air, a condition not typically faced by India's coastal peninsular cities.</p>`
                     },
                     {
                         title: "Electricity Amendment Bill: The Federal Spark",
@@ -60,33 +60,33 @@ const articlesDB = {
                         paper: "GS Paper 2 & 3",
                         topic: "Federalism & Infrastructure",
                         originalLink: "https://indianexpress.com/article/explained/everyday-explainers/inside-punjab-protests-against-centres-new-power-law-concerns-about-cherry-picking-consumers-eroding-subsidies-10389175/",
-                        context: "Farmers and engineers in Punjab are protesting the Electricity Amendment Bill 2025, fearing privatization of profits and nationalization of losses in the power sector.",
+                        context: "Farmers and engineers in Punjab are protesting the Electricity Amendment Bill 2025, fearing privatization will lead to the loss of cross-subsidies and cherry-picking of profitable consumers by private players.",
                         keyPoints: [
-                            "<strong>Cherry-Picking:</strong> Protesters argue private players will serve only profitable commercial/industrial consumers, leaving state DISCOMs with subsidized rural/agricultural consumers.",
-                            "<strong>Cross-Subsidy Threat:</strong> State DISCOMs rely on high commercial tariffs to subsidize farmers. If commercial users leave, the subsidy model collapses.",
-                            "<strong>Federal Encroachment:</strong> Electricity is a concurrent subject; states feel the Centre is unilaterally imposing a market model."
+                            "<strong>Cherry-Picking:</strong> Fear that private players will serve only profitable commercial consumers, leaving state DISCOMs with subsidized rural loads.",
+                            "<strong>Cross-Subsidy Threat:</strong> State DISCOMs rely on commercial tariffs to subsidize farmers; this model is threatened by de-licensing.",
+                            "<strong>Federal Encroachment:</strong> Electricity is a concurrent subject, and states feel the Centre is imposing a market model unilaterally."
                         ],
-                        wayForward: ["Guarantee 'Universal Service Obligation' for private licensees.", "Direct Benefit Transfer (DBT) for subsidies to protect farmers."],
+                        wayForward: ["Guarantee 'Universal Service Obligation' for private licensees.", "Direct Benefit Transfer (DBT) for subsidies."],
                         fodder: { term: "Cross-Subsidy Surcharge", list: "Concurrent List (Entry 38)" },
                         question: "Power sector reforms often face resistance due to the complex political economy of subsidies. Discuss the concerns raised by states regarding the Electricity Amendment Bill. (15 Marks, 250 Words)",
-                        deepDive: `<p>The Indian power sector has been plagued by the 'DISCOM crisis' for decades, with cumulative losses reaching unsustainable levels despite multiple bailout packages like UDAY. The Electricity Act of 2003 was the first major step towards de-licensing generation and introducing open access. The current amendment builds on this by attempting to de-license distribution, similar to the telecom sector. However, unlike telecom, electricity in India is deeply tied to the welfare state model, where agricultural and domestic subsidies have been political non-negotiables since the Green Revolution era.</p>`
+                        deepDive: `<p>The Electricity Act of 2003 was a landmark reform that de-licensed power generation and introduced the concept of Open Access. However, the distribution sector remained a state monopoly and continued to suffer from high Aggregate Technical & Commercial (AT&C) losses. The current Amendment Bill seeks to replicate the success of the telecom sector by de-licensing distribution, allowing multiple suppliers in the same area. This move challenges the decades-old political economy where state governments use free power as a key welfare tool for the agricultural sector.</p>`
                     },
                     {
                         title: "Army & Conscience: The Kamalesan Verdict",
                         source: "The Hindu",
                         paper: "GS Paper 4",
                         topic: "Ethics in Public Administration",
-                        originalLink: "https://www.indiatoday.in/india/law-news/story/army-is-secular-supreme-court-upholds-christian-officers-dismissal-over-refusal-to-enter-temple-sanctum-2825546-2025-11-25",
-                        context: "The Supreme Court upheld the dismissal of an Army officer who refused to enter a temple sanctum citing religious beliefs, reinforcing that military discipline overrides individual choices.",
+                        originalLink: "https://www.thehindu.com/news/national/supreme-court-dismisses-christian-army-officers-plea-against-termination-of-service-samuel-kamalesan-nov-25-2025/article70321067.ece",
+                        context: "The Supreme Court upheld the dismissal of a Christian Army officer who refused to enter a temple sanctum citing religious beliefs, ruling that military discipline and secular ethos override individual 'private understanding' of religion.",
                         keyPoints: [
-                            "<strong>Secular Fabric:</strong> The Army operates on the 'Sarva Dharma Sthal' principle where officers must respect and participate in the religious traditions of their troops to build cohesion.",
-                            "<strong>Discipline First:</strong> The court ruled that an officer cannot have a 'private understanding' of religion that conflicts with lawful commands.",
-                            "<strong>Article 33:</strong> This constitutional provision allows Parliament to restrict the fundamental rights of armed forces personnel to ensure the proper discharge of duties."
+                            "<strong>Secular Fabric:</strong> The Army follows 'Sarva Dharma Sthal', requiring officers to participate in all religious traditions to build unit cohesion.",
+                            "<strong>Discipline First:</strong> The court ruled that refusing a lawful command based on private religious interpretation constitutes gross indiscipline.",
+                            "<strong>Article 33:</strong> Empowers Parliament to restrict fundamental rights of armed forces personnel to ensure duty discharge."
                         ],
-                        wayForward: ["Reinforce the 'Unit Ethos' training for young officers.", "Ensure command sensitivity to genuine religious constraints where operational readiness isn't affected."],
-                        fodder: { article: "Article 33", concept: "Unit Cohesion" },
+                        wayForward: ["Reinforce 'Unit Ethos' training.", "Ensure command sensitivity to genuine constraints without compromising discipline."],
+                        fodder: { article: "Article 33", concept: "Esprit de Corps" },
                         question: "In the armed forces, 'Duty' often supersedes 'Right'. Analyze this statement in the context of the recent Supreme Court judgment on military discipline. (10 Marks, 150 Words)",
-                        deepDive: `<p>The Indian Army's tradition of secularism is unique, derived not from the separation of religion and state, but from the integration of all faiths within the regiment. Since the British era, officers have been expected to lead troops of diverse faiths by participating in their festivals and rituals to foster 'Esprit de Corps'. This specific case highlights the legal tension between Article 25 (Freedom of Religion) and Article 33. Historically, courts in India have consistently deferred to military wisdom on matters of discipline, viewing the armed forces as a distinct class where operational cohesion is paramount over individual liberty.</p>`
+                        deepDive: `<p>The Indian Army's secularism is distinct from the Western concept; it is not the absence of religion but the celebration of all faiths (Sarva Dharma Sambhav) within the regiment. Since the British era, Indian officers have been mandated to lead troops of diverse faiths by participating in their religious festivals to foster trust and 'Esprit de Corps'. Article 33 of the Constitution specifically allows for the restriction of Fundamental Rights for armed forces personnel, a provision courts have consistently upheld to maintain the strict chain of command essential for national security.</p>`
                     }
                 ]
             },
@@ -522,6 +522,7 @@ const articlesDB = {
             }
 };
         
+
 
 
 
