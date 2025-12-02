@@ -1,5 +1,96 @@
         // --- DATA SECTION ---
 const articlesDB = {
+            '2025-12-02': {
+                dateLabel: 'December 2, 2025',
+                articles: [
+                    {
+                        title: "R&D Ecosystem: India's Innovation Deficit",
+                        source: "The Hindu",
+                        paper: "GS Paper 3",
+                        topic: "Science & Technology",
+                        originalLink: "https://www.thehindu.com/opinion/op-ed/india-needs-research-pipelines/article70341873.ece",
+                        context: "To achieve high growth, India must emulate advanced economies by enhancing private R&D investment and fostering industry-academia partnerships, as current public funding is insufficient.",
+                        keyPoints: [
+                            "<strong>Investment Gap:</strong> India's Gross Expenditure on R&D (GERD) has remained stagnant at ~0.7% of GDP, compared to >2% in developed nations.",
+                            "<strong>Private Sector Role:</strong> Unlike the West where the private sector leads innovation, in India, the government still shoulders the majority of R&D funding.",
+                            "<strong>Structural Issues:</strong> Lack of 'research pipelines' connecting universities to industries results in a 'Valley of Death' for promising prototypes."
+                        ],
+                        wayForward: ["Operationalize the National Research Foundation (NRF) to democratize funding.", "Incentivize private sector R&D through tax breaks and matching grants."],
+                        fodder: { stat: "GERD: 0.7% of GDP", body: "National Research Foundation (NRF)" },
+                        question: "India's ambition to become a developed nation hinges on its ability to innovate. Analyze the structural bottlenecks in India's R&D ecosystem. (15 Marks, 250 Words)",
+                        deepDive: `<p>India's R&D landscape has historically been dominated by government institutions like ISRO, DRDO, and CSIR, with limited contribution from the private sector and state universities. The Science, Technology, and Innovation Policy (STIP) 2013 aimed to double GERD to 2% of GDP, a target that remains elusive due to risk aversion in the Indian corporate sector and a lack of translational research mechanisms in academia.</p>`
+                    },
+                    {
+                        title: "State PSC Reforms: Restoring Meritocracy",
+                        source: "The Hindu / PMF IAS",
+                        paper: "GS Paper 2",
+                        topic: "Constitutional Bodies",
+                        originalLink: "https://www.pmfias.com/current-affairs-november-30-2025/",
+                        context: "Recurring scandals in State Public Service Commissions (SPSCs) have eroded public trust. Reforms are needed to ensure transparent, merit-based recruitment for state administrations.",
+                        keyPoints: [
+                            "<strong>Political Patronage:</strong> Appointments of SPSC members are often political, leading to compromised autonomy and corruption.",
+                            "<strong>Governance Impact:</strong> Delays and litigation in recruitment cycles cause chronic vacancies in essential services like health and policing.",
+                            "<strong>Constitutional Gap:</strong> While Article 316 details appointment, it lacks strict qualification criteria, leaving room for discretionary appointments."
+                        ],
+                        wayForward: ["Establish a 'State Personnel Ministry' for oversight.", "Codify minimum academic qualifications for SPSC members."],
+                        fodder: { article: "Article 315-323", report: "Hota Committee on Civil Service Reforms" },
+                        question: "State Public Service Commissions are critical for state governance but face a credibility crisis. Discuss the structural reforms needed to restore their integrity. (10 Marks, 150 Words)",
+                        deepDive: `<p>The Constitution of India envisages the Public Service Commissions as the 'watchdogs of the merit system'. However, unlike the UPSC which has largely maintained its reputation, SPSCs have been plagued by allegations of nepotism and paper leaks. The Administrative Reforms Commission (ARC) has repeatedly flagged the need to insulate these bodies from political interference, suggesting that members should be appointed by a committee involving the Chief Minister, Leader of Opposition, and Chief Justice of the High Court.</p>`
+                    },
+                    {
+                        title: "India's Cervical Cancer Battle: The HPV Vaccine Push",
+                        source: "The Hindu",
+                        paper: "GS Paper 2",
+                        topic: "Health Sector",
+                        originalLink: "https://www.pmfias.com/current-affairs-november-30-2025/",
+                        context: "With South-East Asia accounting for a quarter of global cervical cancer deaths, India is ramping up efforts to introduce the indigenous HPV vaccine in the national immunization drive.",
+                        keyPoints: [
+                            "<strong>Preventable Burden:</strong> Cervical cancer is the second most common cancer in Indian women and is largely preventable via vaccination.",
+                            "<strong>Indigenous Solution:</strong> The development of 'CERVAVAC' (Serum Institute) has made the vaccine affordable for mass deployment.",
+                            "<strong>Policy Shift:</strong> The government plans to include the HPV vaccine in the Universal Immunization Programme (UIP) for girls aged 9-14."
+                        ],
+                        wayForward: ["Implement a school-based vaccination strategy for high coverage.", "Integrate cervical screening for women aged 30-49 in PHCs."],
+                        fodder: { vaccine: "CERVAVAC", goal: "WHO 90-70-90 Target" },
+                        question: "Cervical cancer is a major public health challenge in India. Discuss the significance of the indigenous HPV vaccine and the challenges in its universal rollout. (10 Marks, 150 Words)",
+                        deepDive: `<p>Cervical cancer is primarily caused by the Human Papillomavirus (HPV). Globally, countries like Australia have nearly eliminated the disease through robust vaccination programs. In India, high costs and lack of awareness previously hindered uptake. The National Technical Advisory Group on Immunization (NTAGI) has recommended the vaccine's inclusion in the national program, marking a shift from curative to preventive oncology in public health policy.</p>`
+                    },
+                    {
+                        title: "Methane Emissions: The Missing Climate Pledge",
+                        source: "The Indian Express",
+                        paper: "GS Paper 3",
+                        topic: "Environment & Climate Change",
+                        originalLink: "https://www.pmfias.com/current-affairs-november-30-2025/",
+                        context: "A UNEP report identifies India as a methane hotspot, primarily from agriculture. India has consistently avoided signing the Global Methane Pledge due to food security concerns.",
+                        keyPoints: [
+                            "<strong>Agricultural Source:</strong> Unlike the West where fossil fuels drive methane, in India, it is enteric fermentation (livestock) and paddy cultivation.",
+                            "<strong>Survival vs. Luxury:</strong> India argues that 'survival emissions' from agriculture cannot be equated with 'luxury emissions' from oil and gas.",
+                            "<strong>Mitigation Options:</strong> Technologies like System of Rice Intensification (SRI) and better livestock feed can reduce emissions without cutting output."
+                        ],
+                        wayForward: ["Promote Direct Seeding of Rice (DSR) to reduce methanogenesis.", "Incentivize biogas production from cattle waste."],
+                        fodder: { gas: "Methane (CH4)", potency: "80x more potent than CO2 (20-year GWP)" },
+                        question: "India faces international pressure to curb methane emissions. Analyze the challenges in balancing climate goals with agricultural livelihood security. (15 Marks, 250 Words)",
+                        deepDive: `<p>Methane is a short-lived climate pollutant (SLCP) that contributes significantly to near-term warming. The Global Methane Pledge, launched at COP26, aims to cut methane by 30% by 2030. India abstained because its methane emissions are tied to the livelihoods of small and marginal farmers. Targeting livestock methane would require changes in animal husbandry practices that are capital-intensive and culturally sensitive, making it a complex policy challenge.</p>`
+                    },
+                    {
+                        title: "Fiscal Federalism: The Shrinking Space for States",
+                        source: "The Hindu Editorial",
+                        paper: "GS Paper 2",
+                        topic: "Centre-State Relations",
+                        originalLink: "https://vajiramandravi.com/current-affairs/daily-editorial-analysis-2-december-2025/",
+                        context: "Trends show a shrinking fiscal space for states due to the Centre's increasing reliance on cesses and surcharges, which are not shared with states, eroding the divisible pool.",
+                        keyPoints: [
+                            "<strong>Divisible Pool Erosion:</strong> While the 14th Finance Commission raised state share to 42%, the effective share is lower due to high cesses.",
+                            "<strong>Vertical Imbalance:</strong> States have higher expenditure responsibilities (health, education) but limited revenue-raising powers compared to the Centre.",
+                            "<strong>High-Income States:</strong> States like Karnataka and Tamil Nadu argue they are penalized for better performance in demographic control and development."
+                        ],
+                        wayForward: ["Include cesses and surcharges in the divisible pool via constitutional amendment.", " rationalize CSS (Centrally Sponsored Schemes) to give states more autonomy."],
+                        fodder: { article: "Article 270 & 271", term: "Fiscal Federalism" },
+                        question: "The increasing use of cesses and surcharges by the Centre threatens the spirit of fiscal federalism. Discuss with reference to the 15th Finance Commission. (15 Marks, 250 Words)",
+                        deepDive: `<p>Fiscal federalism in India is based on the constitutional division of financial powers. The Finance Commission (Article 280) recommends the distribution of net tax proceeds between the Centre and States. However, Article 271 allows the Centre to levy surcharges for its own purposes. Over the last decade, the share of cesses/surcharges in Gross Tax Revenue has doubled, effectively shrinking the 'Divisible Pool' available for states, leading to friction between the Union and State governments.</p>`
+                    }
+                ]
+            },
+        
             '2025-12-01': {
                 dateLabel: 'December 1, 2025',
                 articles: [
@@ -522,6 +613,7 @@ const articlesDB = {
             }
 };
         
+
 
 
 
