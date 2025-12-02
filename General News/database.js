@@ -135,7 +135,7 @@
                     { tag: "Funding", text: "Centre allocates ₹5,000 Cr for AYUSH development and National Mission.", link: "https://www.entrepreneurindia.com/blog/en/article/union-government-allocates-rs-5-000-crore-for-ayush-development.36609" }
                 ],
                 stat: { label: "Patients Treated", value: "300+", desc: "Number of patients treated by India's BHISHM Cube unit in cyclone-hit Sri Lanka." }
-            }
+            },
         'Space': {
                 date: 'December 2, 2025',
                 lead: {
@@ -154,6 +154,7 @@
                 stat: { label: "Tests Done", value: "80,000", desc: "Number of rigorous tests completed by ISRO systems to qualify for the manned Gaganyaan mission." }
             },
         };
+
 
 
 
