@@ -1,15 +1,14 @@
         // --- DATA SECTION ---
 const articlesDB = {
-            // --- PASTE THIS BLOCK AT THE TOP OF articlesDB in upsc_blog.html ---
             '2025-12-03': {
                 dateLabel: 'December 3, 2025',
                 articles: [
                     {
                         title: "'Heart-Resilient' Cities: Rethinking Urban Planning",
-                        source: "The Hindu",
+                        source: "The Indian Express",
                         paper: "GS Paper 1 & 2",
                         topic: "Urbanization & Health Policy",
-                        originalLink: "https://www.thehindu.com/news/cities/Delhi/world-habitat-day-urban-solutions-to-crisis/article67930123.ece",
+                        originalLink: "https://vajiramandravi.com/current-affairs/daily-editorial-analysis-2-december-2025/",
                         wikiLink: "https://en.wikipedia.org/wiki/Urban_planning_in_India",
                         context: "Rising cardiovascular diseases in urban India have prompted calls for 'Heart-Resilient' urban planning, integrating health metrics into city master plans to combat sedentary lifestyles and pollution.",
                         keyPoints: [
@@ -77,7 +76,7 @@ const articlesDB = {
                         source: "The Hindu",
                         paper: "GS Paper 3",
                         topic: "Cyber Security & Money Laundering",
-                        originalLink: "https://www.thehindu.com/news/national/supreme-court-entrusts-cbi-with-pan-india-probe-into-digital-arrest-cases/article70344884.ece",
+                        originalLink: "https://visionias.in/current-affairs/upsc-daily-news-summary",
                         wikiLink: "https://en.wikipedia.org/wiki/Cybercrime_in_India",
                         context: "The Supreme Court has directed the CBI to conduct a pan-India probe into 'digital arrest' scams, where fraudsters impersonate police to extort money, bypassing the need for state consent.",
                         keyPoints: [
@@ -108,7 +107,7 @@ const articlesDB = {
                         source: "The Hindu",
                         paper: "GS Paper 3",
                         topic: "Science & Technology",
-                        originalLink: "https://www.thehindu.com/opinion/op-ed/india-needs-research-pipelines/article70341873.ece",
+                        originalLink: "https://visionias.in/current-affairs/upsc-daily-news-summary",
                         wikiLink: "https://en.wikipedia.org/wiki/Science_and_technology_in_India",
                         context: "Despite high growth, India's R&D expenditure remains low at 0.7% of GDP. An editorial argues for policy reforms to boost private sector participation and create 'research pipelines'.",
                         keyPoints: [
@@ -144,7 +143,7 @@ const articlesDB = {
                         source: "The Indian Express",
                         paper: "GS Paper 2",
                         topic: "Parliamentary Functioning",
-                        originalLink: "https://indianexpress.com/article/opinion/columns/as-parliament-reconvenes-lets-ask-why-legislature-is-in-retreat-9091234/",
+                        originalLink: "https://forumias.com/blog/must-read-news-daily-current-affairs-articles-2-december-2025/",
                         wikiLink: "https://en.wikipedia.org/wiki/Parliament_of_India",
                         context: "As the Winter Session begins, concerns are raised about the decline in parliamentary deliberation, with frequent disruptions and the bypassing of standing committees.",
                         keyPoints: [
@@ -791,6 +790,7 @@ const articlesDB = {
             }
 };
         
+
 
 
 
