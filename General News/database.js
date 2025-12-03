@@ -3,174 +3,175 @@
             'Economics': {
                 date: 'December 3, 2025',
                 lead: {
-                    headline: "RBI MPC Preview: Status Quo Likely on Rates",
-                    summary: "The Reserve Bank of India's Monetary Policy Committee (MPC) begins its meeting today. Despite the robust 8.2% GDP growth, analysts expect the Repo Rate to remain unchanged at 6.5% as the central bank prioritizes controlling food inflation over stimulating growth further.",
-                    link: "https://www.financialexpress.com/policy/economy-rbi-mpc-meet-december-2025-preview-repo-rate-inflation-growth-4065432/"
+                    headline: "Gold Prices Surge as Fed Cut Hopes Rise",
+                    summary: "Gold prices in India are trending higher today, driven by growing expectations of a US Federal Reserve rate cut in December. Analysts predict volatility ahead of key US economic data, advising investors to track global cues closely.",
+                    link: "https://www.financialexpress.com/market/gold-pulse/gold-rate-today-on-3rd-december-2025-check-22k-24k-mcx-gold-price-today-in-delhi-mumbai-hyderabad-chennai-bangalore-dubai/4063860/"
                 },
                 bullets: [
-                    { tag: "Stock Market", text: "Sensex opens flat ahead of MPC outcome; Banking stocks see marginal dip.", link: "https://www.moneycontrol.com/news/business/markets/stock-market-live-updates-sensex-nifty-dec-3-2025-11854321.html" },
-                    { tag: "Energy", text: "India's power consumption rose 8% in November, signaling industrial activity.", link: "https://economictimes.indiatimes.com/industry/energy/power/india-power-consumption-nov-2025/articleshow/125789012.cms" },
-                    { tag: "Telecom", text: "Supreme Court dismisses telcos' plea on AGR dues recalculation.", link: "https://www.thehindu.com/business/Industry/supreme-court-agr-dues-telecom-companies/article70361234.ece" },
-                    { tag: "Retail", text: "IKEA India announces ₹3,000 crore expansion plan for Tier-2 cities.", link: "https://www.livemint.com/companies/news/ikea-india-expansion-tier-2-cities-investment-11709876543210.html" },
-                    { tag: "Startups", text: "Fintech unicorn 'Cred' acquires wealth management firm for $50 million.", link: "https://inc42.com/buzz/cred-acquires-wealth-management-firm/" },
-                    { tag: "Gold", text: "Gold prices hit a 3-week high as the Rupee weakens against the Dollar.", link: "https://www.goodreturns.in/gold-rates/" }
+                    { tag: "Stock Market", text: "Sensex and Nifty rally led by banking heavyweights; HDFC and ICICI surge.", link: "https://indianexpress.com/article/explained/explained-economics/stock-markets-bull-run-what-next-rally-heavyweights-10399524/" },
+                    { tag: "Engineering", text: "Thyssenkrupp to supply ₹1,000 Cr electrolyzer plant for Numaligarh Refinery.", link: "https://www.newsonprojects.com/" },
+                    { tag: "Commodities", text: "Silver prices eclipse gold in weekly gains due to supply shortage.", link: "https://timesofindia.indiatimes.com/business/india-business/gold-price-prediction-today-india-where-is-gold-silver-rate-headed-on-december-03-2025-mcx-gold-futures-outlook/articleshow/125732747.cms" },
+                    { tag: "Export", text: "India-UK FTA talks face 'final lap' hurdles over visa norms.", link: "https://www.thehindu.com/business/Economy/india-uk-fta-talks-enter-final-stage-migration-rules-key/article70358901.ece" },
+                    { tag: "Energy", text: "THDC India achieves major milestone in Vishnugad Pipalkoti Hydro Project.", link: "https://www.psuconnect.in/psu-news/thdc-india-vishnugad-pipalkoti-hydro-project-achieves-major-milestone-with-unit-2-hydro-static-testing" },
+                    { tag: "Policy", text: "Govt prepares new levies on tobacco as GST compensation cess expires.", link: "https://indianexpress.com/article/education/today-news-headlines-for-school-assembly-02-december-2025-india-cat-application-costs-rose-by-31-sanchar-saathi-app-now-mandatory-and-more-10396345/" }
                 ],
-                stat: { label: "Repo Rate", value: "6.5%", desc: "The current benchmark interest rate set by the RBI, unchanged for the last 10 months." }
+                stat: { label: "Silver Ratio", value: "73", desc: "The Gold/Silver ratio has fallen to an annual low, indicating silver is outperforming gold." }
             },
             'Politics': {
                 date: 'December 3, 2025',
                 lead: {
-                    headline: "Winter Session: Govt Agrees to Discuss Colonial Laws",
-                    summary: "On Day 3 of the Winter Session, the government has agreed to a short-duration discussion on the replacement of colonial-era criminal laws. However, the deadlock over the Electoral Rolls (SIR) debate continues, leading to adjournments in the Rajya Sabha.",
-                    link: "https://sansad.in/rs"
+                    headline: "Parliament Winter Session: Oppn Demands Debate on SIR",
+                    summary: "The Opposition bloc is united in demanding a discussion on the Special Intensive Revision (SIR) of electoral rolls and national security. The government has agreed to discuss electoral reforms next week in a rare consensus.",
+                    link: "https://www.thehindu.com/news/national/all-party-meeting-opposition-demands-debate-on-sir-national-security-in-parliament/article70341766.ece"
                 },
                 bullets: [
-                    { tag: "Election", text: "Rajasthan Assembly election results to be declared tomorrow; exit polls predict close contest.", link: "https://eci.gov.in/elections/future-elections/" },
-                    { tag: "Judiciary", text: "NJAC debate resurfaces as Law Minister comments on judicial overreach.", link: "https://indianexpress.com/section/india/politics/" },
-                    { tag: "Kerala", text: "Governor returns two bills to the State Assembly, escalating constitutional crisis.", link: "https://www.thehindu.com/news/national/kerala/" },
-                    { tag: "Defense", text: "DAC approves procurement of 97 Tejas Mk1A fighter jets for Indian Air Force.", link: "https://pib.gov.in/PressReleasePage.aspx?PRID=1980756" },
-                    { tag: "Foreign", text: "India abstains from UN resolution on Israel-Palestine; calls for dialogue.", link: "https://mea.gov.in/press-releases.htm" },
-                    { tag: "Welfare", text: "Centre to launch 'Lakhpati Didi' scheme expansion in 5 states next week.", link: "https://pib.gov.in/" }
+                    { tag: "Security", text: "Opposition presses for debate on national security after Delhi blast incident.", link: "https://www.thehindu.com/news/national/all-party-meeting-opposition-demands-debate-on-sir-national-security-in-parliament/article70341766.ece" },
+                    { tag: "Maharashtra", text: "Raj Bhavan officially renamed 'Maharashtra Lok Bhavan' by Governor.", link: "https://rajbhavan-maharashtra.gov.in/en/02-12-2025-maharashtra-raj-bhavan-is-now-lok-bhavan/" },
+                    { tag: "Parliament", text: "Manipur GST Bill returned to Lok Sabha amid Opposition walkout in Rajya Sabha.", link: "https://www.thehindu.com/news/national/parliament-winter-session-lok-sabha-rajya-sabha-day-2-highlights-december-2-2025/article70348014.ece" },
+                    { tag: "Local", text: "Sarpanchs in Mohali protest against merger of 15 villages into Municipal Corporation.", link: "https://indianexpress.com/article/cities/chandigarh/dont-want-our-villages-under-mc-sarpanchs-of-several-panchayats-submit-memorandum-as-dissent-grows-10399472/" },
+                    { tag: "Elections", text: "ECI asserts exclusive authority to verify citizenship for electoral rolls.", link: "https://visionias.in/current-affairs/upsc-daily-news-summary" },
+                    { tag: "Foreign", text: "Russian President Putin to visit India on Dec 4-5 for Annual Summit.", link: "https://www.thehindu.com/news/top-news-of-the-day-indian-economy-growth-82-in-q2-cyclone-ditwah-wreaks-havoc-in-sri-lanka-likely-to-reach-tn-andhra-coast-on-nov-30-and-more/article70334743.ece" }
                 ],
-                stat: { label: "Bills Passed", value: "0", desc: "No bills have been passed in the first three days of the Winter Session due to disruptions." }
+                stat: { label: "Enumeration", value: "99%", desc: "Percentage of SIR forms distributed in Kerala, according to EC's statement to SC." }
             },
             'Technology': {
                 date: 'December 3, 2025',
                 lead: {
-                    headline: "Meta Unveils 'Llama-4': Multi-Modal AI for Mobile",
-                    summary: "Meta has open-sourced 'Llama-4', a lightweight AI model optimized for running on smartphones without internet. It promises to democratize AI access in low-bandwidth regions like rural India, challenging Google's Gemini Nano dominance.",
-                    link: "https://ai.meta.com/blog/"
+                    headline: "India Mandates 'Sanchar Saathi' on New Phones",
+                    summary: "The government has directed smartphone makers to pre-install the 'Sanchar Saathi' security app on all new devices to curb fraud. The move has sparked debate, with critics calling it potential surveillance, while the government defends it as a safety measure.",
+                    link: "https://techwireasia.com/2025/12/india-requires-apple-and-other-phone-makers-to-preload-its-anti-fraud-app/"
                 },
                 bullets: [
-                    { tag: "Cybersec", text: "India's 'Cyber Swachhta Kendra' cleans 5 million botnet infections in 2025.", link: "https://www.csk.gov.in/" },
-                    { tag: "Hardware", text: "AMD launches Ryzen 9000 series processors with integrated AI engines.", link: "https://www.amd.com/en/newsroom.html" },
-                    { tag: "Space", text: "ISRO's XPoSat mission sends first X-ray polarimetry data of Black Holes.", link: "https://www.isro.gov.in/XPoSat.html" },
-                    { tag: "Policy", text: "Digital India Act draft released for public consultation; focuses on 'Open Internet'.", link: "https://meity.gov.in/" },
-                    { tag: "Gaming", text: "Steam Deck 2 handheld console confirmed for India launch in Q1 2026.", link: "https://store.steampowered.com/news/" },
-                    { tag: "Innovation", text: "IIT Delhi startup develops biodegradable circuit boards from agricultural waste.", link: "https://fitt-iitd.in/" }
+                    { tag: "Android", text: "Android 17 'Cinnamon Bun' leaks hint at mid-2026 release with major UI changes.", link: "https://www.indiatoday.in/technology/news/story/google-gears-up-for-android-17-launch-expected-release-date-top-features-and-everything-to-know-2828337-2025-11-30" },
+                    { tag: "AI", text: "Elon Musk predicts 'work will become optional' due to AI in future.", link: "https://indianexpress.com/article/technology/tech-news-technology/elon-musk-predicts-work-will-become-optional-due-to-ai-in-talk-with-nikhil-kamath-10394817/" },
+                    { tag: "Deals", text: "iPhone Air price drops significantly in India as Black Friday sales extend.", link: "https://timesofindia.indiatimes.com/technology/tech-news/iphone-air-price-in-india-drops-check-discounts-on-reliance-digital-amazon-croma-and-flipkart/articleshow/125671937.cms" },
+                    { tag: "Investment", text: "Nvidia invests $2 billion in Synopsys to accelerate AI chip design.", link: "https://timesofindia.indiatimes.com/technology/tech-news/nvidia-invests-2-billion-in-synopsys-for-ai-engineering-partnership/articleshow/125697172.cms" },
+                    { tag: "Space", text: "ISRO's uncrewed Gaganyaan 'G1' mission set for December launch.", link: "https://timesofindia.indiatimes.com/science/isro-gaganyaan-2025-indias-first-uncrewed-g1-mission-with-vyommitra-set-to-launch-in-december/articleshow/123450124.cms" },
+                    { tag: "Privacy", text: "Government clarifies Sanchar Saathi app is 'not mandatory' for citizens.", link: "https://www.indiatoday.in/education-today/news/story/school-assembly-news-headlines-today-december-3-national-world-sports-business-education-news-updates-2829701-2025-12-03" }
                 ],
-                stat: { label: "Parameters", value: "7B", desc: "The parameter count of Llama-4, small enough to run locally on mid-range phones." }
+                stat: { label: "Investment", value: "$2 Bn", desc: "Value of Nvidia's investment in Synopsys to boost AI-driven chip engineering." }
             },
             'Education': {
                 date: 'December 3, 2025',
                 lead: {
-                    headline: "CBSE Releases Date Sheet for 2026 Board Exams",
-                    summary: "The CBSE has released the schedule for Class 10 and 12 board exams, starting February 15, 2026. The board has increased the gap between major papers to reduce student stress and introduced more competency-based questions.",
-                    link: "https://www.cbse.gov.in/cbsenew/cbse.html"
+                    headline: "Schools Closed in Tamil Nadu Due to Heavy Rain",
+                    summary: "Schools in Thiruvallur, Chennai, and Kanchipuram remain closed today due to persistent heavy rainfall from the remnants of Cyclone Ditwah. District administrations have issued holiday orders to ensure student safety.",
+                    link: "https://www.indiatoday.in/education-today/news/story/thiruvallur-district-schools-shut-on-december-3-amid-cyclone-ditwah-rains-2829610-2025-12-02"
                 },
                 bullets: [
-                    { tag: "NEP 2020", text: "Karnataka to implement 4-year degree programme in all state universities from 2026.", link: "https://karnataka.gov.in/education" },
-                    { tag: "Study Abroad", text: "Canada doubles 'Cost of Living' requirement for international students.", link: "https://www.canada.ca/en/immigration-refugees-citizenship/news.html" },
-                    { tag: "Entrance", text: "CLAT 2026 results declared; cut-offs rise for top NLUs.", link: "https://consortiumofnlus.ac.in/" },
-                    { tag: "Scholarship", text: "Ministry of Minority Affairs announces 5000 new merit-cum-means scholarships.", link: "https://www.minorityaffairs.gov.in/" },
-                    { tag: "EdTech", text: "PhysicsWallah announces offline centers in 50 Tier-3 cities.", link: "https://www.pw.live/" },
-                    { tag: "Research", text: "Government launches 'Anusandhan' grant portal for PhD scholars.", link: "https://dst.gov.in/" }
+                    { tag: "Policy", text: "NEP advocates for mother tongue-based education: Education Minister.", link: "https://www.newsonair.gov.in/nep-is-advocating-for-mother-tongue-based-education-dharmendra-pradhan/" },
+                    { tag: "Reform", text: "AAP teachers' wing opposes HECI Bill, fearing centralization.", link: "https://www.theweek.in/wire-updates/national/2025/12/01/des50-dl-heci-aadta.html" },
+                    { tag: "Skill", text: "Jharkhand DG Rail calls for shift to skill-based education system.", link: "https://timesofindia.indiatimes.com/city/ranchi/skill-based-education-call/articleshow/125677130.cms" },
+                    { tag: "Festival", text: "Thiruvananthapuram Revenue District School Youth Festival begins today.", link: "https://timesofindia.indiatimes.com/city/thiruvananthapuram/thiruvananthapuram-revenue-district-school-youth-festival-begins-on-december-1/articleshow/125663044.cms" },
+                    { tag: "Exam", text: "AIBE 20 held with strict guidelines; results expected in 2 weeks.", link: "https://timesofindia.indiatimes.com/education/news/aibe-20-exam-2025-on-november-30-check-exam-day-dos-and-donts-issued-by-bci-here/articleshow/125579919.cms" },
+                    { tag: "Assembly", text: "School assembly headlines for Dec 3 released, focusing on national updates.", link: "https://www.jagranjosh.com/articles/school-assembly-news-headlines-today-3-december-2025-parliament-passes-manipur-gst-bill-2025-nhai-collaborates-with-reliance-jio-cbse-updates-sops-and-guidelines-and-other-important-news-1800005967-1" }
                 ],
-                stat: { label: "Exam Start", value: "Feb 15", desc: "The official start date for CBSE Class 10 and 12 Board Exams 2026." }
-            },
-                'International': {
-                date: 'December 3, 2025',
-                lead: {
-                    headline: "Global Tensions Rise: US-China Trade Talks Stall",
-                    summary: "High-level trade negotiations between the US and China have hit a roadblock over intellectual property rights and tariff structures. Markets worldwide reacted nervously, with Asian indices closing lower amid fears of a renewed trade war.",
-                    link: "https://www.reuters.com/world/us/us-china-trade-talks-stall-2025-12-03/"
-                },
-                bullets: [
-                    { tag: "Conflict", text: "Ceasefire talks in the Middle East show signs of progress, though sporadic clashes continue.", link: "https://www.aljazeera.com/news/2025/12/3/middle-east-ceasefire-updates" },
-                    { tag: "Climate", text: "EU proposes stricter carbon border tax, drawing criticism from developing nations at COP30.", link: "https://www.bbc.com/news/science-environment-20251203" },
-                    { tag: "Tech", text: "EU passes landmark AI Act to regulate high-risk artificial intelligence applications.", link: "https://www.europarl.europa.eu/news/en/press-room/20251203/eu-ai-act-passed" },
-                    { tag: "Space", text: "Russia announces plans for a new independent space station by 2027.", link: "https://tass.com/science/20251203" },
-                    { tag: "Politics", text: "UK Prime Minister faces leadership challenge amid economic downturn concerns.", link: "https://www.theguardian.com/politics/2025/dec/03/uk-pm-leadership-challenge" },
-                    { tag: "Health", text: "New variant of concern identified in South America; WHO urges enhanced surveillance.", link: "https://www.who.int/news/item/03-12-2025-new-variant-alert" }
-                ],
-                stat: { label: "Global Trade", value: "-2.5%", desc: "Projected decline in global trade volume for Q4 2025 due to geopolitical frictions." }
+                stat: { label: "Participants", value: "8,299", desc: "Number of students participating in the Thiruvananthapuram School Youth Festival." }
             },
             'Medical': {
                 date: 'December 3, 2025',
                 lead: {
-                    headline: "Breakthrough Dengue Vaccine Approved for Trials",
-                    summary: "The DCGI has granted approval for Phase-3 clinical trials of a new single-dose Dengue vaccine developed by Indian Immunologicals. If successful, this could be a game-changer for tropical public health.",
-                    link: "https://cdsco.gov.in/"
+                    headline: "World AIDS Day: India on Track for 2030 Target",
+                    summary: "Health authorities highlight India's success in reducing HIV prevalence. Andhra Pradesh has emerged as a top performer, achieving nearly 77% of its control targets, while experts warn about persisting social stigma in rural areas.",
+                    link: "https://www.thehindu.com/news/national/andhra-pradesh/andhra-pradesh-stands-first-in-controlling-hiv-cases-says-health-minister/article70342004.ece"
                 },
                 bullets: [
-                    { tag: "Public Health", text: "Air pollution linked to 15% rise in respiratory OPD cases in Delhi-NCR.", link: "https://www.aiims.edu/" },
-                    { tag: "Pharma", text: "India's PLI scheme for bulk drugs reduces import dependence on APIs by 20%.", link: "https://pharmaceuticals.gov.in/" },
-                    { tag: "Mental Health", text: "National Tele-Mental Health program 'Tele-MANAS' receives 5 lakh calls.", link: "https://telemanas.mohfw.gov.in/" },
-                    { tag: "Regulation", text: "NMC warns medical colleges against 'ghost faculty' during inspections.", link: "https://www.nmc.org.in/" },
-                    { tag: "Tech", text: "Bengaluru startup unveils AI-powered portable ECG device for rural clinics.", link: "https://health.economictimes.indiatimes.com/" },
-                    { tag: "Global", text: "Japan approves world's first self-amplifying mRNA COVID vaccine.", link: "https://www.mhlw.go.jp/english/" }
+                    { tag: "TB", text: "India's TB mortality rate falls from 28 to 21 per lakh population.", link: "https://www.newsonair.gov.in/uhm-j-p-nadda-says-indias-tb-mortality-rate-falls-from-28-to-21-per-lakh/" },
+                    { tag: "Infra", text: "New cancer hospital in Pune to become a leading hub for oncology research.", link: "https://timesofindia.indiatimes.com/city/pune/upcoming-cancer-hospital-in-pune-to-be-leading-hub-for-research-and-education/articleshow/125726379.cms" },
+                    { tag: "Aid", text: "India deploys 'BHISHM Cube' mobile hospital to aid cyclone-hit Sri Lanka.", link: "https://www.newsonair.gov.in/india-deploys-bhishm-cube-under-aarogya-maitri-project-to-aid-cyclone-hit-sri-lanka/" },
+                    { tag: "Global", text: "WHO warns of global measles surge with 11 million cases last year.", link: "https://news.un.org/en/story/2025/11/1166471" },
+                    { tag: "Stigma", text: "Rural India sees rise in HIV awareness, but stigma remains a barrier.", link: "https://timesofindia.indiatimes.com/life-style/health-fitness/health-news/world-aids-day-2025-rural-india-learns-more-about-hiv-but-stigma-remains-says-expert/articleshow/125684902.cms" },
+                    { tag: "Quality", text: "CDSCO flags 148 drug samples as 'Not of Standard Quality' in October alert.", link: "https://medicaldialogues.in/news/industry/pharma/cdsco/state-drug-alert-148-medicine-samples-fail-cdsco-quality-tests-in-october-159564" }
                 ],
-                stat: { label: "Trial Phase", value: "Phase-3", desc: "The final stage of human testing before a vaccine can be approved for public use." }
+                stat: { label: "TB Deaths", value: "21/Lakh", desc: "Reduced TB mortality rate in India per lakh population, down from 28 in 2015." }
             },
             'Engineering': {
                 date: 'December 3, 2025',
                 lead: {
-                    headline: "Mumbai Trans Harbour Link (MTHL) Near Completion",
-                    summary: "India's longest sea bridge, the MTHL, is 98% complete and set for inauguration next month. The engineering marvel uses orthotropic steel decks, a first for India, reducing travel time between Mumbai and Navi Mumbai to 20 minutes.",
-                    link: "https://mmrda.maharashtra.gov.in/mthl"
+                    headline: "L&T Secures Mega Bullet Train Contract",
+                    summary: "Engineering giant L&T has secured a major contract for the electrification of the Mumbai-Ahmedabad High-Speed Rail (MAHSR). The project involves deploying advanced Shinkansen technology tailored for Indian conditions.",
+                    link: "https://www.larsentoubro.com/"
                 },
                 bullets: [
-                    { tag: "Defense", text: "HAL Prachand Light Combat Helicopters deployed in high-altitude zones.", link: "https://hal-india.co.in/" },
-                    { tag: "Energy", text: "NTPC commissions India's first green hydrogen blending project in Gujarat.", link: "https://www.ntpc.co.in/" },
-                    { tag: "Auto", text: "Maruti Suzuki to invest ₹35,000 Cr in new Gujarat plant for EVs.", link: "https://www.marutisuzuki.com/corporate/media" },
-                    { tag: "Material", text: "Steel Authority of India (SAIL) develops specialized steel for naval warships.", link: "https://sail.co.in/" },
-                    { tag: "Semicon", text: "Micron's Gujarat assembly plant to roll out first 'Made in India' chips in Dec.", link: "https://www.micron.com/" },
-                    { tag: "Civil", text: "NHAI sets new record by laying 100km of bituminous concrete in 100 hours.", link: "https://nhai.gov.in/" }
+                    { tag: "Expo", text: "ENGIMACH 2025, Asia's largest engineering expo, kicks off in Gandhinagar.", link: "https://indianews.com.au/engimach-2025-to-unlock-business-opportunities-for-engineering-companies-gujarat-dy-cm/" },
+                    { tag: "Hydro", text: "THDC India achieves major milestone in Vishnugad Pipalkoti Hydro Project.", link: "https://www.psuconnect.in/psu-news/thdc-india-vishnugad-pipalkoti-hydro-project-achieves-major-milestone-with-unit-2-hydro-static-testing" },
+                    { tag: "JEE", text: "JEE Main registrations hit record 14.5 lakh; engineering demand surges.", link: "https://timesofindia.indiatimes.com/city/mumbai/engineering-entrance-exam-jee-main-session-1-sees-record-14-5-lakh-applications/articleshow/125622056.cms" },
+                    { tag: "Exports", text: "Engineering exports slumped 16.7% in October due to US tariffs.", link: "https://timesofindia.indiatimes.com/business/india-business/us-tariffs-bite-indias-engineering-exports-slump-16-7-in-october-asean-eu-and-uae-shipments-weaken/articleshow/125661032.cms" },
+                    { tag: "AI Deal", text: "Nvidia invests $2 billion in Synopsys for AI-driven engineering solutions.", link: "https://timesofindia.indiatimes.com/technology/tech-news/nvidia-invests-2-billion-in-synopsys-for-ai-engineering-partnership/articleshow/125697172.cms" },
+                    { tag: "Space", text: "ISRO developing NGLV 'Soorya' rocket to replace PSLV by 2034.", link: "https://en.wikipedia.org/wiki/Next_Generation_Launch_Vehicle" }
                 ],
-                stat: { label: "Length", value: "21.8 km", desc: "Total length of the Mumbai Trans Harbour Link, making it the longest sea bridge in India." }
+                stat: { label: "Registration", value: "14.5 Lakh", desc: "Record number of student registrations for JEE Main Session-1 2025." }
             },
             'Architecture': {
                 date: 'December 3, 2025',
                 lead: {
-                    headline: "Sabarmati Riverfront Phase-2 Wins Urban Design Award",
-                    summary: "The Phase-2 expansion of the Sabarmati Riverfront in Ahmedabad has won the HUDCO Design Award 2025. The project is praised for its stepped promenades and integration of green bio-swales for flood management.",
-                    link: "https://sabarmatiriverfront.com/"
+                    headline: "Raj Sabhagruh Wins Dezeen Award 2025",
+                    summary: "The Raj Sabhagruh in Gujarat, designed by Serie Architects, has won the 2025 Dezeen Award for Best Civic Project. The building is noted for its sustainable use of 8 lakh hand-laid discarded marble bricks.",
+                    link: "https://www.freepressjournal.in/mumbai/raj-sabhagruh-wins-2025-dezeen-award-for-best-civic-project"
                 },
                 bullets: [
-                    { tag: "Heritage", text: "ASI discovers 1200-year-old temple remains near Bhubaneswar.", link: "https://asi.nic.in/" },
-                    { tag: "Sustainable", text: "New 'Net Zero' Secretariat building inaugurated in Telangana.", link: "https://telangana.gov.in/" },
-                    { tag: "Smart City", text: "Indore retains 'Cleanest City' tag; focuses on waste-to-art architectural installations.", link: "https://smartcityindore.org/" },
-                    { tag: "Education", text: "CEPT University launches new Masters in 'Computational Design' for architects.", link: "https://cept.ac.in/" },
-                    { tag: "Interior", text: "IKEA Foundation partners with Indian artisans for sustainable bamboo furniture line.", link: "https://ikeafoundation.org/" },
-                    { tag: "Event", text: "Kochi-Muziris Biennale 2025 announces architectural pavilion theme: 'Fluidity'.", link: "https://kochimuzirisbiennale.org/" }
+                    { tag: "Interior", text: "Architectural Digest highlights 'Chalet Hotels' leadership in design evolution.", link: "https://www.hotelierindia.com/leadership/the-architects-of-chalet" },
+                    { tag: "Profile", text: "Architect Syed Sohrab Afzal redefining Odisha's cafe and dining scene.", link: "https://www.prameyanews.com/architect-syed-sohrab-afzal-the-visionary-redefining-odishas-cafe-and-dining-scene" },
+                    { tag: "Urban", text: "Bengaluru proposes ₹1.5L crore plan for urban tunnels and elevated corridors.", link: "https://timesofindia.indiatimes.com/city/bengaluru/building-bengaluru-2-0-city-bets-whopping-rs-1-5-lakh-crore-on-its-infrastructure/articleshow/125603009.cms" },
+                    { tag: "Design", text: "Kéré Architecture reveals designs for its first built project in South America.", link: "https://www.dezeen.com/architecture/" },
+                    { tag: "Airport", text: "AAI to monitor Chennai Airport T3 construction live to meet 2026 deadline.", link: "https://timesofindia.indiatimes.com/city/chennai/aai-to-monitor-terminal-3-project/articleshow/124882491.cms" },
+                    { tag: "Global", text: "Dezeen Awards 2025 Designers of the Year winners announced.", link: "https://www.dezeen.com/2025/11/25/dezeen-awards-2025-designers-of-the-year-winners-announced/" }
                 ],
-                stat: { label: "Length", value: "11.5 km", desc: "Total developed length of the Sabarmati Riverfront, transforming the city's urban fabric." }
+                stat: { label: "Bricks Used", value: "8 Lakh", desc: "Number of recycled marble bricks used in the award-winning Raj Sabhagruh project." }
             },
             'Sports': {
                 date: 'December 3, 2025',
                 lead: {
-                    headline: "India vs South Africa: 2nd ODI Preview",
-                    summary: "After a convincing win in the first match, India looks to seal the series in Gqeberha today. The team management might rotate bowlers, giving a chance to pacer Mukesh Kumar, while heavy rains threaten to interrupt play.",
-                    link: "https://www.bcci.tv/"
+                    headline: "India vs South Africa: 2nd ODI Today",
+                    summary: "India takes on South Africa in the 2nd ODI at Raipur today, aiming to seal the series after a 17-run victory in the opener. Virat Kohli's 52nd century and Kuldeep Yadav's bowling were the highlights of the first match.",
+                    link: "https://timesofindia.indiatimes.com/sports/cricket/india-vs-south-africa/ind-vs-sa-im-37-and-need-time-for-recovery-what-virat-kohli-said-after-indias-win-over-south-africa-in-1st-odi/articleshow/125676533.cms"
                 },
                 bullets: [
-                    { tag: "Cricket", text: "IPL 2026 Auction scheduled for December 19 in Dubai; 1166 players register.", link: "https://www.iplt20.com/" },
-                    { tag: "Football", text: "Manchester United bans journalists over 'negative' stories; sparks media outrage.", link: "https://www.bbc.com/sport/football" },
-                    { tag: "Olympics", text: "IOA forms ad-hoc committee to run Wrestling Federation of India operations.", link: "https://olympic.ind.in/" },
-                    { tag: "Tennis", text: "Rafael Nadal announces comeback tournament in Brisbane ahead of Australian Open.", link: "https://www.atptour.com/" },
-                    { tag: "Badminton", text: "Satwik-Chirag nominated for BWF 'Pair of the Year' award.", link: "https://bwfbadminton.com/" },
-                    { tag: "Hockey", text: "Hockey India League (HIL) to return in 2026 after 8-year hiatus.", link: "https://www.hockeyindia.org/" }
+                    { tag: "Hockey", text: "India thrash Switzerland 5-0 to enter Junior World Cup Quarterfinals.", link: "https://www.newsonair.gov.in/category/sports/" },
+                    { tag: "Women", text: "India Women's Junior Hockey team starts World Cup campaign with 13-0 win.", link: "https://www.newsonair.gov.in/category/sports/" },
+                    { tag: "Award", text: "Archery Premier League wins 'Emerging Event of the Year' at India Sports Awards.", link: "https://www.newsonair.gov.in/category/sports/" },
+                    { tag: "Football", text: "Rajasthan United FC wins 41st Governor's Gold Cup.", link: "https://www.newsonair.gov.in/category/sports/" },
+                    { tag: "TT", text: "Manika Batra leads India squad at ITTF Mixed Team World Cup in China.", link: "https://www.newsonair.gov.in/category/sports/" },
+                    { tag: "Cricket", text: "Rohit Sharma breaks Shahid Afridi's record for most ODI sixes (352).", link: "https://timesofindia.indiatimes.com/sports/cricket/india-vs-south-africa/ind-vs-sa-virat-kohlis-hundred-kuldeep-yadav-four-for-power-indias-17-run-win-in-first-odi/articleshow/125676367.cms" }
                 ],
-                stat: { label: "Purse", value: "₹262 Cr", desc: "Total auction purse available with all 10 IPL franchises for the upcoming mini-auction." }
+                stat: { label: "ODI Tons", value: "52", desc: "Virat Kohli's record-extending number of ODI centuries." }
             },
             'Space': {
                 date: 'December 3, 2025',
                 lead: {
-                    headline: "Gaganyaan: First Uncrewed Mission Ready for Dec Launch",
-                    summary: "ISRO Chief has confirmed that the first uncrewed Gaganyaan mission (G1), carrying the humanoid robot 'Vyommitra', is set for launch this December. This critical test will pave the way for India's first manned spaceflight in 2027.",
+                    headline: "Gaganyaan Mission: ISRO Ready for 'G1' Test Flight",
+                    summary: "ISRO Chairman has confirmed that the agency is fully prepared for the first uncrewed Gaganyaan mission (G1), scheduled for this December. The launch will validate the performance of the Crew Module and the Escape System.",
                     link: "https://timesofindia.indiatimes.com/science/isro-gaganyaan-2025-indias-first-uncrewed-g1-mission-with-vyommitra-set-to-launch-in-december/articleshow/123450124.cms"
                 },
                 bullets: [
+                    { tag: "Launch", text: "SpaceX launches 60th mission of the year with Starlink satellites.", link: "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-60th-mission-of-the-year-from-california" },
                     { tag: "Private", text: "Agnikul Cosmos raises ₹150 Cr to scale up reusable rocket technology.", link: "https://www.thehindu.com/news/national/tamil-nadu/space-startup-agnikul-raises-150-crore-to-fund-reusable-rockets/article70310628.ece" },
                     { tag: "NISAR", text: "NASA-ISRO satellite NISAR enters 'Science Phase'; beams back first images.", link: "https://www.thehindu.com/sci-tech/science/nisar-earth-observation-satellite-enters-final-science-operations-phase/article70334808.ece" },
-                    { tag: "SpaceX", text: "US clears SpaceX to build Starship launch pad at Kennedy Space Center.", link: "https://www.indiatoday.in/science/story/us-clears-elon-musks-spacex-to-build-starship-launch-pad-at-nasas-kennedy-space-center-2829291-2025-12-02" },
-                    { tag: "Launch", text: "SpaceX launches 60th mission of the year with Starlink satellites.", link: "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-60th-mission-of-the-year-from-california" },
                     { tag: "Outreach", text: "ISRO space exhibition in Rajasthan draws massive student crowds.", link: "https://www.livemint.com/focus/3day-isro-space-exhibition-at-rajasthan-technical-university-draws-high-student-turnout-11764648887228.html" },
+                    { tag: "SpaceX", text: "US Govt clears SpaceX to build Starship launch pad at Kennedy Space Center.", link: "https://www.indiatoday.in/science/story/us-clears-elon-musks-spacex-to-build-starship-launch-pad-at-nasas-kennedy-space-center-2829291-2025-12-02" },
                     { tag: "Future", text: "ISRO developing NGLV 'Soorya' rocket for 2034 heavy-lift missions.", link: "https://en.wikipedia.org/wiki/Next_Generation_Launch_Vehicle" }
                 ],
                 stat: { label: "Tests", value: "80,000", desc: "Number of tests completed by ISRO to certify systems for the Gaganyaan mission." }
+            },
+            'International': {
+                date: 'December 3, 2025',
+                lead: {
+                    headline: "US Pauses Migration from 19 Countries",
+                    summary: "The Trump administration has announced a pause on immigration applications from 19 non-European countries, citing security reviews. The move has drawn criticism from the UN and human rights groups.",
+                    link: "https://www.thehindu.com/news/international/"
+                },
+                bullets: [
+                    { tag: "Disaster", text: "Sri Lanka death toll from Cyclone Ditwah rises to 474; relief efforts underway.", link: "https://www.newsonair.gov.in/category/international/" },
+                    { tag: "Conflict", text: "Israel says forensic findings do not match remaining hostages in Gaza.", link: "https://www.thehindu.com/news/international/israel-says-findings-returned-from-gaza-do-not-match-remaining-hostages/article70352514.ece" },
+                    { tag: "Geopolitics", text: "Allianz report: Geopolitics and cyber risks top concerns for corporate boards in 2026.", link: "https://laotiantimes.com/2025/12/03/allianz-commercial-geopolitics-and-cyber-drive-risk-exposures-for-directors-and-officers-in-2026/" },
+                    { tag: "Climate", text: "WMO warns of deadly floods in Asia due to extreme rains.", link: "https://www.newsonair.gov.in/category/international/" },
+                    { tag: "Politics", text: "Bangladesh armed forces chiefs visit ailing ex-PM Khaleda Zia.", link: "https://www.thehindu.com/news/international/" },
+                    { tag: "Economy", text: "UNCTAD Report: Global trade resilience fading; developing nations face finance crunch.", link: "https://unctad.org/publication/trade-and-development-report-2025" }
+                ],
+                stat: { label: "Death Toll", value: "474", desc: "Confirmed deaths in Sri Lanka due to the devastating impact of Cyclone Ditwah." }
             }
         };
+
 
 
 
