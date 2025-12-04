@@ -167,7 +167,7 @@
         .card.upsc-card {
             background: linear-gradient(135deg, #eff6ff 0%, #ffffff 100%);
             border: 2px solid #bfdbfe;
-            grid-column: span 2; /* Make it wider on large screens */
+            grid-column: span 4; /* Make it wider on large screens */
         }
         
         @media (max-width: 768px) {
@@ -204,6 +204,7 @@
         .card:nth-child(9) { animation-delay: 0.9s; }
         .card:nth-child(10) { animation-delay: 1.0s; }
         .card:nth-child(11) { animation-delay: 1.1s; }
+
 
 
 
