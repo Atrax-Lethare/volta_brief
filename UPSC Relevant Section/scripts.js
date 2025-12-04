@@ -310,6 +310,8 @@
                         <div class="question-box">
                             <span class="content-label" style="color:var(--accent-blue);">Practice Question</span>
                             <p class="question-text">"${article.question}"</p>
+                            <p style="font-size:small; color:grey">----------</p>
+                            <p style="font-size:small; color:grey"><i>This model answer is just a suggestion of how to write. WE PROMOTE WRITING THE ANSWERS ON YOUR OWN SO THAT YOU GRADUALLY GAIN PERFECTION IN EXPRESSING YOUR THOUGHTS ON PAPER, which is certainly necessary for the UPSC Examinations.</i></p>
                             
                             <!-- MODEL ANSWER BUTTON -->
                             <button class="btn-answer" onclick="toggleAnswer(this)">
@@ -334,6 +336,13 @@
                                 </a>
                             </div>
                         </div>
+                        <p style="font-size:small; color:grey">----------</p>
+                        <p style="font-size:small; color:grey">
+                                <i>
+                                        Sometimes the link might not work due to continuously changing news URL's. <br>
+                                        If that is the case, click on this search button. You will be redirected to a similar news page. 👍
+                                </i>
+                        </p>
                     </div>`;
                 container.innerHTML += articleHTML;
             });
@@ -380,6 +389,7 @@
             document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeModalDirect(); });
 
         });
+
 
 
 
