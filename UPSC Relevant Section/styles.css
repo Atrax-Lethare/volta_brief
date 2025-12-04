@@ -303,7 +303,7 @@
             border: 1px solid #d1d5db;
             color: #64748b;
             width: 36px;
-            height: 36px;
+            height: 40px;
             border-radius: 50%;
             display: flex;
             align-items: center;
@@ -329,6 +329,7 @@
         .btn-save.active svg {
             fill: currentColor; /* Fills the icon */
         }
+
 
 
 
