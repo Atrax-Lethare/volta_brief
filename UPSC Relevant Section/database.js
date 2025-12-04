@@ -1,5 +1,160 @@
         // --- DATA SECTION ---
 const articlesDB = {
+            '2025-12-04': {
+                dateLabel: 'December 4, 2025',
+                articles: [
+                    {
+                        title: "Uniform Civil Code: The Polygamy Debate",
+                        source: "The Hindu",
+                        paper: "GS Paper 2",
+                        topic: "Indian Constitution & Personal Laws",
+                        originalLink: "https://www.thehindu.com/news/national/assam-polygamy-ban-bill-introduced-assembly-ucc-debate/article67945678.ece",
+                        wikiLink: "https://en.wikipedia.org/wiki/Uniform_Civil_Code",
+                        context: "Following Uttarakhand, Assam has introduced a Bill to ban polygamy, intensifying the national debate on a Uniform Civil Code (UCC). Critics argue this piecemeal approach targets specific communities, while the government cites gender justice.",
+                        keyPoints: [
+                            "<strong>Article 14 & 15:</strong> The move is framed as enforcing equality and non-discrimination against women, who suffer in polygamous unions.",
+                            "<strong>Article 25:</strong> Opponents argue it infringes on the freedom to practice religion, as certain personal laws permit polygamy.",
+                            "<strong>Tribal Exemption:</strong> Unlike Uttarakhand, Assam's proposed law debates the inclusion of tribal communities, raising questions about Sixth Schedule protections."
+                        ],
+                        wayForward: ["Wait for the Law Commission's final report on UCC.", "Focus on codifying gender-just reforms within personal laws first."],
+                        fodder: { case: "Sarla Mudgal Case (1995)", article: "Article 44 (DPSP)" },
+                        question: "The push for a Uniform Civil Code often clashes with the right to religious freedom. Discuss the constitutional validity of state-level bans on polygamy. (15 Marks, 250 Words)",
+                        answer: `
+                            <p><strong>Introduction:</strong> Article 44 of the Directive Principles advises the State to secure a Uniform Civil Code (UCC). However, personal laws (marriage, divorce) fall under the Concurrent List, allowing states to legislate. The Assam Bill banning polygamy reignites the conflict between 'Gender Justice' (Article 14) and 'Religious Freedom' (Article 25).</p>
+                            
+                            <p><strong>Body: Constitutional Validity</strong></p>
+                            <ul>
+                                <li><strong>Right to Equality:</strong> The Supreme Court in cases like <em>Khursheed Ahmad Khan</em> has held that polygamy is not an essential religious practice. Thus, banning it does not violate Article 25 if it serves public order, morality, or health.</li>
+                                <li><strong>State's Competence:</strong> Under Entry 5 of the Concurrent List, states can amend personal laws with Presidential assent. Hence, a state-level ban is constitutionally permissible.</li>
+                                <li><strong>Tribal Rights:</strong> The challenge lies in the Sixth Schedule areas where customary laws are protected. A blanket ban might face legal hurdles if it overrides these constitutional protections without consultation.</li>
+                            </ul>
+
+                            <p><strong>Conclusion:</strong> While legally sound, a piecemeal approach creates a fragmented legal landscape. A national consensus on a gender-just UCC, as originally envisioned by the Constituent Assembly, is the ideal path forward.</p>
+                        `,
+                        deepDive: `<p>The debate on a Uniform Civil Code dates back to the Constituent Assembly debates (1948-49), where Dr. B.R. Ambedkar strongly advocated for it but faced opposition from conservative religious groups. As a compromise, it was placed in the Directive Principles (Article 44) rather than Fundamental Rights. Historically, while the Hindu Code Bill (1955-56) reformed Hindu personal laws, other personal laws remained largely untouched until judicial interventions like the Shah Bano case (1985) and Triple Talaq judgment (2017).</p>`
+                    },
+                    {
+                        title: "Diluting Environmental Safeguards: A Policy Shift",
+                        source: "The Indian Express",
+                        paper: "GS Paper 3",
+                        topic: "Environment & EIA",
+                        originalLink: "https://indianexpress.com/article/opinion/columns/environmental-regulation-forest-conservation-act-amendment-analysis-9098123/",
+                        wikiLink: "https://en.wikipedia.org/wiki/Environmental_impact_assessment",
+                        context: "Recent amendments to the Forest Conservation Act and EIA norms are seen as weakening the 'precautionary principle' to fast-track infrastructure projects, raising concerns about ecological governance.",
+                        keyPoints: [
+                            "<strong>Forest Redefinition:</strong> The new Act limits the definition of 'forest' to only notified areas, potentially opening up vast tracts of deemed forests for development.",
+                            "<strong>Strategic Exemptions:</strong> Projects within 100km of borders are exempted from clearance, which covers ecologically fragile zones in the Himalayas.",
+                            "<strong>Post-Facto Clearance:</strong> The trend of regularizing violations by paying fines undermines the deterrence of environmental laws."
+                        ],
+                        wayForward: ["Restore the 'Godavarman' definition of forests.", "Strengthen the National Green Tribunal (NGT) with more benches."],
+                        fodder: { act: "Forest (Conservation) Amendment Act, 2023", principle: "Precautionary Principle" },
+                        question: "Critically analyze the recent changes in India's environmental regulatory framework. Do they compromise ecological security for economic growth? (10 Marks, 150 Words)",
+                        answer: `
+                            <p><strong>Introduction:</strong> India's environmental governance is anchored in the 'Precautionary Principle' and 'Public Trust Doctrine'. However, recent amendments aim to reduce 'compliance burden' to facilitate Ease of Doing Business, often at an ecological cost.</p>
+                            
+                            <p><strong>Body: Impact of Changes</strong></p>
+                            <ul>
+                                <li><strong>Loss of Protection:</strong> By narrowing the definition of 'forests' to government records only, the 2023 Amendment excludes significant green cover (like sacred groves) protected under the 1996 <em>Godavarman</em> judgment.</li>
+                                <li><strong>Bypassing Scrutiny:</strong> Exempting strategic projects in border areas removes the Environmental Impact Assessment (EIA) safeguard in the fragile Himalayas, increasing landslide risks (e.g., Joshimath/Silkyara tunnel).</li>
+                                <li><strong>Monetization of Violations:</strong> Moving from criminal penalties to civil penalties for environmental violations risks treating pollution as a 'cost of business' rather than a crime.</li>
+                            </ul>
+
+                            <p><strong>Conclusion:</strong> Sustainable development requires a balance. Diluting safeguards may boost short-term GDP but risks long-term climate resilience, violating the constitutional mandate of Article 48A.</p>
+                        `,
+                        deepDive: `<p>India's environmental framework was largely shaped in the aftermath of the Bhopal Gas Tragedy (1984), leading to the Environment Protection Act, 1986. The landmark <em>T.N. Godavarman Thirumulpad</em> judgment (1996) by the Supreme Court expanded the definition of 'forest' to include any area resembling a forest, regardless of ownership. This judicial activism filled the gap in executive inaction. The recent legislative changes effectively seek to overturn this judicial interpretation, reverting to a narrower, record-based definition used in the colonial Forest Act of 1927.</p>`
+                    },
+                    {
+                        title: "Colombo Security Conclave: Securing the Indian Ocean",
+                        source: "The Hindu",
+                        paper: "GS Paper 2",
+                        topic: "International Relations",
+                        originalLink: "https://www.thehindu.com/news/national/nsa-ajit-doval-colombo-security-conclave-mauritius-meeting/article70367890.ece",
+                        wikiLink: "https://en.wikipedia.org/wiki/Colombo_Security_Conclave",
+                        context: "India's NSA participated in the 7th Colombo Security Conclave (CSC) in Mauritius, emphasizing a unified approach to maritime security, counter-terrorism, and cyber threats in the Indian Ocean Region (IOR).",
+                        keyPoints: [
+                            "<strong>SAGAR Doctrine:</strong> The CSC operationalizes India's vision of 'Security and Growth for All in the Region', countering external (Chinese) influence.",
+                            "<strong>Non-Traditional Threats:</strong> Focus is shifting from military pacts to tackling drug trafficking, marine pollution, and disaster response.",
+                            "<strong>Institutionalization:</strong> The conclave is moving towards a permanent secretariat, signaling India's commitment to being the 'Net Security Provider'."
+                        ],
+                        wayForward: ["Expand membership to include Seychelles and other island nations.", "Joint capacity building for hydrography and surveillance."],
+                        fodder: { group: "Colombo Security Conclave", policy: "Neighborhood First" },
+                        question: "The Colombo Security Conclave (CSC) is emerging as a key pillar of India's maritime strategy. Discuss its significance in the context of the changing geopolitics of the Indian Ocean. (10 Marks, 150 Words)",
+                        answer: `
+                            <p><strong>Introduction:</strong> The Colombo Security Conclave (CSC), comprising India, Sri Lanka, Maldives, and Mauritius, represents a minilateral approach to regional security, distinct from larger groupings like IORA.</p>
+                            
+                            <p><strong>Body: Significance</strong></p>
+                            <ul>
+                                <li><strong>Strategic Buffer:</strong> It creates a security architecture involving key littoral states, essential for India to monitor the sea lines of communication (SLOCs) and counter China's 'String of Pearls'.</li>
+                                <li><strong>First Responder Role:</strong> By coordinating on HADR (Humanitarian Assistance and Disaster Relief) and pollution response, India cements its role as the 'Net Security Provider'.</li>
+                                <li><strong>Flexibility:</strong> As a smaller grouping, it allows for faster decision-making on sensitive issues like intelligence sharing compared to larger, slower bureaucratic bodies.</li>
+                            </ul>
+
+                            <p><strong>Conclusion:</strong> While the CSC strengthens India's maritime periphery, its success depends on managing the political volatility in member nations like the Maldives to ensure continuity.</p>
+                        `,
+                        deepDive: `<p>The CSC began in 2011 as a trilateral maritime cooperation mechanism between India, Sri Lanka, and the Maldives. It was revived and rebranded in 2020 amidst growing Chinese naval presence in the Indian Ocean. Mauritius joined as a full member in 2022, with Bangladesh and Seychelles as observers. The grouping reflects India's shift from 'non-alignment' to 'multi-alignment', creating specific security umbrellas with like-minded neighbors to secure its maritime backyard.</p>`
+                    },
+                    {
+                        title: "Rights of Persons with Disabilities: The Implementation Gap",
+                        source: "The Indian Express",
+                        paper: "GS Paper 2",
+                        topic: "Social Justice",
+                        originalLink: "https://indianexpress.com/article/opinion/columns/international-day-of-persons-with-disabilities-rpwd-act-implementation-9099001/",
+                        wikiLink: "https://en.wikipedia.org/wiki/Rights_of_Persons_with_Disabilities_Act,_2016",
+                        context: "On International Day of Persons with Disabilities (Dec 3), reports highlight that despite the progressive RPwD Act 2016, actual entitlements like job quotas and accessible infrastructure remain unfulfilled.",
+                        keyPoints: [
+                            "<strong>Rights vs. Reality:</strong> The Act expanded disability categories from 7 to 21, but reservation benefits (4%) are often denied to 'invisible disabilities' like blood disorders.",
+                            "<strong>Accessibility Audit:</strong> The 'Accessible India Campaign' has missed multiple deadlines; public transport and digital infrastructure remain largely inaccessible.",
+                            "<strong>Data Deficit:</strong> Lack of reliable data on the disabled population (Census 2011 is outdated) hampers targeted policy intervention."
+                        ],
+                        wayForward: ["Mandate 'Universal Design' in all public procurement.", "Special recruitment drives to fill the backlog of reserved vacancies."],
+                        fodder: { act: "RPwD Act 2016", campaign: "Accessible India (Sugamya Bharat)" },
+                        question: "The Rights of Persons with Disabilities Act, 2016, was termed a 'game changer'. Evaluate its implementation status and the persistent barriers to inclusion in India. (15 Marks, 250 Words)",
+                        answer: `
+                            <p><strong>Introduction:</strong> The RPwD Act 2016 marked a paradigm shift from a 'welfare-based' approach to a 'rights-based' approach, aligning India with the UNCRPD. However, the gap between the statute and the street remains wide.</p>
+                            
+                            <p><strong>Body: Implementation Gaps</strong></p>
+                            <ul>
+                                <li><strong>Infrastructural Barrier:</strong> Despite the Accessible India Campaign launched in 2015, less than 50% of government buildings are fully accessible. Public transport remains a nightmare for wheelchair users.</li>
+                                <li><strong>Employment Quota:</strong> The 4% reservation is often circumvented by declaring posts 'unsuitable' for disabled candidates. Backlog vacancies in government jobs remain high.</li>
+                                <li><strong>Certification Hurdles:</strong> The UDID (Unique Disability ID) project faces bureaucratic delays, forcing PwDs to undergo repeated medical tests for entitlements.</li>
+                            </ul>
+
+                            <p><strong>Conclusion:</strong> True inclusion requires moving beyond 'compliance' to 'empathy'. Strengthening the State Commissioners for Persons with Disabilities to penalize non-compliance is crucial for the Act's success.</p>
+                        `,
+                        deepDive: `<p>India's disability legislation began with the PwD Act of 1995, which was criticized for its medical model of disability (viewing it as a defect to be fixed). India ratified the UN Convention on the Rights of Persons with Disabilities (UNCRPD) in 2007, necessitating a new law. The 2016 Act replaced the 1995 law, recognizing the 'social model' of disability—that barriers are created by society, not the impairment itself. It expanded the scope to include conditions like acid attack victims and learning disabilities.</p>`
+                    },
+                    {
+                        title: "Nuclear Power in Space: Ethical & Safety Concerns",
+                        source: "The Hindu",
+                        paper: "GS Paper 3 / GS Paper 4",
+                        topic: "Space Technology & Ethics",
+                        originalLink: "https://www.thehindu.com/sci-tech/science/nuclear-power-in-space-missions-isro-plans-challenges/article70370123.ece",
+                        wikiLink: "https://en.wikipedia.org/wiki/Nuclear_power_in_space",
+                        context: "As ISRO and global agencies plan long-duration missions (Moon bases, Mars), the reliance on nuclear power (RTGs) is growing, raising ethical questions about radioactive contamination of space.",
+                        keyPoints: [
+                            "<strong>Necessity:</strong> Solar power is insufficient for deep space or lunar nights (14 Earth days). Nuclear Radioisotope Thermoelectric Generators (RTGs) are essential for survival.",
+                            "<strong>The Risk:</strong> Launch failures could disperse radioactive material in Earth's atmosphere. Disposal of reactors on other planets raises 'Planetary Protection' concerns.",
+                            "<strong>Weaponization:</strong> Dual-use nuclear space technology could accelerate the militarization of space, violating the Outer Space Treaty."
+                        ],
+                        wayForward: ["Strengthen the UN 'Principles on the Use of Nuclear Power Sources in Space'.", "Develop fail-safe containment vessels for launch."],
+                        fodder: { treaty: "Outer Space Treaty (1967)", tech: "Radioisotope Thermoelectric Generator (RTG)" },
+                        question: "The use of nuclear power is inevitable for deep space exploration. Discuss the technological advantages and the ethical/environmental risks associated with it. (10 Marks, 150 Words)",
+                        answer: `
+                            <p><strong>Introduction:</strong> Space exploration is transitioning from short-term sorties to permanent habitats. This energy demand surpasses what solar panels can provide, making nuclear energy (fission or radioisotope) a technological necessity.</p>
+                            
+                            <p><strong>Body: The Dilemma</strong></p>
+                            <ul>
+                                <li><strong>Advantages:</strong> RTGs provide reliable power independent of sunlight (crucial for Moon/Mars) and have high energy density. They enable missions like Voyager to last decades.</li>
+                                <li><strong>Risks:</strong> The primary risk is a launch accident spreading plutonium in the atmosphere. Ethically, leaving nuclear waste on pristine celestial bodies violates the principle of 'Planetary Protection'.</li>
+                                <li><strong>Security:</strong> There is a thin line between a nuclear power source and a nuclear weapon platform in orbit, potentially triggering a space arms race.</li>
+                            </ul>
+
+                            <p><strong>Conclusion:</strong> While nuclear propulsion is the future of interplanetary travel, it must be governed by strict, transparent international safety protocols to prevent space from becoming a nuclear graveyard.</p>
+                        `,
+                        deepDive: `<p>The history of nuclear power in space dates back to the Cold War. The US launched the first nuclear satellite (SNAP-10A) in 1965. The USSR launched significantly more, including the RORSAT series powered by fission reactors. A major incident occurred in 1978 when the Soviet satellite Kosmos 954 crashed into Canada, scattering radioactive debris. This led to the development of the UN Principles on the Use of Nuclear Power Sources in Outer Space (1992), focusing on safety and containment.</p>`
+                    }
+                ]
+            },
             '2025-12-03': {
                 dateLabel: 'December 3, 2025',
                 articles: [
@@ -790,6 +945,7 @@ const articlesDB = {
             }
 };
         
+
 
 
 
