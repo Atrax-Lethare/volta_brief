@@ -390,7 +390,59 @@
 
         });
 
-
+        function toggleSave(btn, title, link, topic) {
+            // 1. Get existing saved items
+            let savedItems = JSON.parse(localStorage.getItem('savedArticles') || '[]');
+            
+            // 2. Check if already saved
+            const existingIndex = savedItems.findIndex(item => item.title === title);
+            
+            if (existingIndex > -1) {
+                // REMOVE: If found, remove it
+                savedItems.splice(existingIndex, 1);
+                btn.classList.remove('active');
+                showToast("Article removed from Library");
+            } else {
+                // ADD: If not found, add it
+                savedItems.push({
+                    title: title,
+                    link: link,
+                    topic: topic,
+                    date: new Date().toLocaleDateString()
+                });
+                btn.classList.add('active');
+                showToast("Article saved to Dashboard");
+            }
+            
+            // 3. Save back to storage
+            localStorage.setItem('savedArticles', JSON.stringify(savedItems));
+        }
+        
+        // Check if an article is saved (to set initial button state)
+        function isSaved(title) {
+            const savedItems = JSON.parse(localStorage.getItem('savedArticles') || '[]');
+            return savedItems.some(item => item.title === title);
+        }
+        
+        // Simple Toast Notification
+        function showToast(message) {
+            const toast = document.createElement('div');
+            toast.textContent = message;
+            toast.style.cssText = `
+                position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);
+                background: #1f1f1f; color: white; padding: 12px 24px; border-radius: 50px;
+                font-size: 14px; z-index: 1000; animation: fadeIn 0.3s, fadeOut 0.3s 2.7s forwards;
+            `;
+            document.body.appendChild(toast);
+            setTimeout(() => toast.remove(), 3000);
+        }
+        
+        // Add basic fade animations for toast
+        const styleSheet = document.createElement("style");
+        styleSheet.innerText = `
+            @keyframes fadeOut { to { opacity: 0; } }
+        `;
+        document.head.appendChild(styleSheet);
 
 
 
