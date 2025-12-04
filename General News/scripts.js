@@ -32,7 +32,6 @@
             
             // Generate Search URL for Lead Story
             const leadSearchUrl = `https://www.google.com/search?q=${encodeURIComponent(data.lead.headline + " news")}`;
-                const saveBtnState = isSaved(article.title) ? 'active' : '';
             const html = `
                 <div class="bulletin-card">
                     <!-- Hero Section -->
@@ -81,12 +80,6 @@
                             ${data.stat.desc}
                         </div>
                     </div>
-                    <!-- NEW SAVE BUTTON -->
-                    <button class="btn-save ${saveBtnState}" onclick="toggleSave(this, '${safeTitle}', '${article.originalLink || article.link}', '${article.topic || article.lead?.headline}')" title="Save for Later">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
-                        </svg>
-                    </button>
 
                     <p style="font-size:small; color:grey; text-align:center">----------</p>
                         <p style="font-size:small; color:grey; text-align:center">
@@ -330,6 +323,7 @@
             });
 
         });
+
 
 
 
