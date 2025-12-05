@@ -1,5 +1,150 @@
         // --- DATA SECTION ---
 const articlesDB = {
+            '2025-12-05': {
+                dateLabel: 'December 5, 2025',
+                articles: [
+                    {
+                        title: "Census 2027: The Cost of Data Deficit",
+                        source: "The Hindu",
+                        paper: "GS Paper 1 & 2",
+                        topic: "Population & Governance",
+                        originalLink: "https://www.thehindu.com/opinion/editorial/census-delayed-impact-on-welfare/article67954321.ece",
+                        wikiLink: "https://en.wikipedia.org/wiki/Census_of_India",
+                        context: "India has missed its decennial Census for the first time in 143 years. The next Census, now expected in 2027, creates a 16-year data vacuum, impacting welfare delivery, delimitation, and the Finance Commission's resource allocation.",
+                        keyPoints: [
+                            "<strong>Welfare Exclusion:</strong> Outdated 2011 data excludes millions of new beneficiaries from schemes like PDS, which rely on population figures.",
+                            "<strong>Delimitation Freeze:</strong> The freeze on Lok Sabha seats ends in 2026. Conducting delimitation without fresh census data poses a constitutional crisis.",
+                            "<strong>Caste Enumeration:</strong> The demand for a caste census to determine OBC reservation policies remains a contentious political issue delaying the process."
+                        ],
+                        wayForward: ["Delink the Census from the National Population Register (NPR) to build trust.", "Use projected population data for immediate welfare corrections."],
+                        fodder: { data: "16-year gap (2011-2027) in Census data.", article: "Article 82 (Delimitation)" },
+                        question: "The delay in the decennial Census has created a 'statistical vacuum' in India. Discuss its implications for federalism, welfare administration, and democratic representation. (15 Marks, 250 Words)",
+                        answer: `
+                            <p><strong>Introduction:</strong> The Census is not just a headcount but the backbone of India's administrative structure. The delay of the 2021 Census to 2027 breaks an uninterrupted chain since 1881, rendering the 2011 data obsolete for a population that has grown by over 200 million.</p>
+                            <p><strong>Body: Implications of the Data Void</strong></p>
+                            <ul>
+                                <li><strong>Welfare Denial:</strong> The National Food Security Act (NFSA) covers 67% of the population based on 2011 data. Experts estimate over 10 crore deserving citizens are excluded from PDS because coverage hasn't been updated to 2024 population levels.</li>
+                                <li><strong>Federal Friction:</strong> The 16th Finance Commission relies on population data for tax devolution. Using outdated or projected figures penalizes states with successful population control measures (South India) vs those with high growth (North India).</li>
+                                <li><strong>Delimitation Crisis:</strong> Article 82 mandates delimitation based on the 'latest published census'. A 2027 Census pushes the redrawing of constituencies dangerously close to the 2029 elections, compressing the political window for consensus.</li>
+                            </ul>
+                            <p><strong>Conclusion:</strong> Data is a public good. The government must expedite the digital census process and consider releasing provisional administrative data to plug the governance gaps immediately.</p>
+                        `,
+                        deepDive: `<p>The Indian Census began under the British Raj in 1872 (non-synchronous) and became a synchronous decennial exercise from 1881. It is conducted under the Census Act of 1948, which makes providing data mandatory but does not bind the government to a specific timeline. Historically, the Census has been the sole source of primary data for delimitation commissions (1952, 1963, 1973, 2002) and determining SC/ST reservations in Parliament. The 2021 delay is unprecedented, surpassing even the disruptions caused by World Wars.</p>`
+                    },
+                    {
+                        title: "India-Russia Summit: Strategic Autonomy in Focus",
+                        source: "LiveMint",
+                        paper: "GS Paper 2",
+                        topic: "International Relations",
+                        originalLink: "https://www.livemint.com/news/india/putin-visit-live-updates-5-dec-2025-agenda-india-russia-annual-summit/11764896299331.html",
+                        wikiLink: "https://en.wikipedia.org/wiki/India%E2%80%93Russia_relations",
+                        context: "Russian President Vladimir Putin is in New Delhi for the 23rd Annual Summit. The leaders have set a target of $100 billion bilateral trade by 2030, emphasizing cooperation in energy, defense, and connectivity amidst global polarization.",
+                        keyPoints: [
+                            "<strong>Trade Rebalancing:</strong> While energy imports from Russia have surged, India seeks to boost its exports (pharma, machinery) to address the widening trade deficit.",
+                            "<strong>Connectivity:</strong> Revival of the Chennai-Vladivostok Maritime Corridor and the International North-South Transport Corridor (INSTC) to bypass traditional routes.",
+                            "<strong>Defense & Nuclear:</strong> Discussions on the joint production of defense equipment under 'Make in India' and expansion of civil nuclear cooperation at Kudankulam."
+                        ],
+                        wayForward: ["Operationalize the Rupee-Ruble payment mechanism fully.", "Diversify defense partnerships to reduce single-source dependency."],
+                        fodder: { target: "$100 Billion Trade by 2030", corridor: "Chennai-Vladivostok Maritime Corridor" },
+                        question: "India's relationship with Russia has evolved from 'buyer-seller' to 'strategic partners'. Analyze the significance of this partnership in the context of India's pursuit of strategic autonomy. (10 Marks, 150 Words)",
+                        answer: `
+                            <p><strong>Introduction:</strong> The India-Russia 'Special and Privileged Strategic Partnership' has proven resilient despite the Ukraine conflict and Western sanctions. The 23rd Annual Summit reaffirms Russia's role as a key pillar in India's multi-aligned foreign policy.</p>
+                            <p><strong>Body: Strategic Significance</strong></p>
+                            <ul>
+                                <li><strong>Energy Security:</strong> Discounted Russian crude oil has acted as a buffer against global inflation for the Indian economy, saving billions in the import bill.</li>
+                                <li><strong>Continental Balance:</strong> A strong Russia tie prevents a complete Sino-Russian axis, which is detrimental to India's security interests in Asia.</li>
+                                <li><strong>Defense Indigenization:</strong> The shift from direct purchases (like S-400) to joint production (like BrahMos and AK-203 rifles) aligns with 'Atmanirbhar Bharat' and ensures long-term spares supply.</li>
+                            </ul>
+                            <p><strong>Conclusion:</strong> While diversifying ties with the West, India maintains its Russia engagement to ensure a multipolar Asia. The challenge lies in navigating secondary sanctions while pursuing national interests.</p>
+                        `,
+                        deepDive: `<p>The Treaty of Peace, Friendship, and Cooperation (1971) cemented the Indo-Soviet bond during the Cold War, providing India with critical diplomatic support during the 1971 War. Post-1991, the relationship transitioned to a Strategic Partnership in 2000. Historically, Russia has been the only major power willing to share strategic technologies (nuclear submarines, aircraft carriers) with India, creating a dependency that is now evolving into a partnership of mutual necessity amidst the rise of China.</p>`
+                    },
+                    {
+                        title: "Critical Minerals: The Refining Gap",
+                        source: "The Hindu Editorial",
+                        paper: "GS Paper 3",
+                        topic: "Economy & Resources",
+                        originalLink: "https://www.thehindu.com/opinion/op-ed/missing-link-in-indias-mineral-mission/article67951234.ece",
+                        wikiLink: "https://en.wikipedia.org/wiki/Critical_mineral_raw_materials",
+                        context: "India's Critical Mineral Mission aims to secure resources for the green transition. However, the editorial argues that mere extraction is insufficient; India must build 'midstream' refining capacity to avoid trading dependency on China for dependency on others.",
+                        keyPoints: [
+                            "<strong>Value Chain Control:</strong> China controls 80% of global refining capacity for cobalt and lithium. India's mining push must be matched by processing infrastructure.",
+                            "<strong>Urban Mining:</strong> Recycling e-waste (urban mining) can be a faster, cleaner source of critical minerals like copper and rare earths than traditional mining.",
+                            "<strong>Technology Transfer:</strong> Partnerships with nations like Australia and Japan should focus on acquiring refining technologies, not just raw ore."
+                        ],
+                        wayForward: ["Incentivize 'Refining Hubs' near ports.", "Mandate e-waste recycling targets for electronics manufacturers."],
+                        fodder: { term: "Urban Mining", fact: "China controls ~60% of rare earth mining but ~90% of processing." },
+                        question: "Securing critical minerals is vital for India's energy transition. Why is 'midstream' refining capacity as important as securing mining assets? (10 Marks, 150 Words)",
+                        answer: `
+                            <p><strong>Introduction:</strong> Critical minerals like Lithium, Cobalt, and Nickel are the building blocks of the green economy (EVs, Solar). While India has launched a Critical Mineral Mission, the current focus heavily tilts towards securing upstream assets (mines).</p>
+                            <p><strong>Body: The Importance of Refining</strong></p>
+                            <ul>
+                                <li><strong>Strategic Autonomy:</strong> Raw ore is useless without processing. Currently, even if India mines lithium, it must be shipped to China for refining into battery-grade material, maintaining the geopolitical vulnerability.</li>
+                                <li><strong>Value Capture:</strong> The economic value addition happens at the refining stage. Exporting ore and importing finished batteries traps India in a 'colonial' trade pattern.</li>
+                                <li><strong>Environmental Cost:</strong> Refining is energy and water-intensive. Developing indigenous, cleaner refining technologies is essential to meet net-zero goals.</li>
+                            </ul>
+                            <p><strong>Conclusion:</strong> India needs a 'Mine-to-Market' strategy. The KABIL joint venture must prioritize technology transfer agreements alongside asset acquisition to build a domestic processing ecosystem.</p>
+                        `,
+                        deepDive: `<p>The categorization of 'Critical Minerals' gained prominence in the 21st century due to the boom in electronics and renewable energy. Historically, the supply chains for these minerals were allowed to concentrate in specific geographies (like China and Congo) due to cost efficiencies and lax environmental norms elsewhere. The COVID-19 supply shocks and the Russia-Ukraine war highlighted the strategic risk of this concentration, prompting nations like India (via Khanij Bidesh India Ltd - KABIL) to aggressively seek supply chain diversification.</p>`
+                    },
+                    {
+                        title: "South Korea's Martial Law Crisis: Democratic Resilience",
+                        source: "The Indian Express",
+                        paper: "GS Paper 2",
+                        topic: "International Relations & Democracy",
+                        originalLink: "https://indianexpress.com/article/explained/south-korea-martial-law-president-yoon-impeachment-9078123/",
+                        wikiLink: "https://en.wikipedia.org/wiki/History_of_South_Korea#Sixth_Republic",
+                        context: "South Korea faced a brief turmoil when President Yoon declared martial law, citing 'anti-state forces', only to revoke it hours later after Parliament voted it down. The incident highlights the strength of democratic institutions in checking executive overreach.",
+                        keyPoints: [
+                            "<strong>Executive Overreach:</strong> The declaration was seen as a desperate move by a President facing low approval ratings and a hostile opposition.",
+                            "<strong>Institutional Check:</strong> The swift action by the National Assembly (Parliament) to vote down the decree demonstrates the maturity of Korean democracy.",
+                            "<strong>Public Reaction:</strong> Immediate protests and the military's eventual compliance with the parliamentary vote prevented a slide into authoritarianism."
+                        ],
+                        wayForward: ["Strengthen constitutional safeguards against emergency powers.", "Diplomatic monitoring of regional stability in East Asia."],
+                        fodder: { event: "Martial Law Decree 2025", concept: "Checks and Balances" },
+                        question: "The recent political crisis in South Korea underscores the importance of institutional checks and balances. Compare the emergency provisions in the Indian Constitution with the events in Seoul. (15 Marks, 250 Words)",
+                        answer: `
+                            <p><strong>Introduction:</strong> The imposition and rapid revocation of martial law in South Korea serves as a global case study in democratic resilience. It highlights how robust legislative and judicial institutions can act as a bulwark against executive excess.</p>
+                            <p><strong>Body: Comparison and Analysis</strong></p>
+                            <ul>
+                                <li><strong>Legislative Check:</strong> In Seoul, the Parliament convened despite army barricades and voted down the decree, legally forcing the President to withdraw it. In India, Article 352 requires Parliament to ratify a National Emergency within one month to keep it active.</li>
+                                <li><strong>Judicial Review:</strong> The 44th Amendment (1978) in India made the declaration of emergency justiciable and removed 'internal disturbance' as a ground, replacing it with 'armed rebellion', tightening the norms to prevent a 1975-like scenario.</li>
+                                <li><strong>Military Subservience:</strong> The Korean military's decision to stand down following the parliamentary vote reinforces the principle of civilian control over the military, a cornerstone of both Indian and Korean democracies.</li>
+                            </ul>
+                            <p><strong>Conclusion:</strong> Democracy is sustained not just by elections but by the agility of its institutions during crises. The Korean example reinforces the necessity of the 'Basic Structure' doctrine in preserving constitutional morality.</p>
+                        `,
+                        deepDive: `<p>South Korea's transition to democracy is relatively recent, beginning with the Sixth Republic in 1987 after decades of military dictatorships and coups (1961, 1979). The memory of the Gwangju Uprising (1980) and the rigorous struggle for direct presidential elections makes the Korean public highly vigilant against authoritarian backsliding. The swift parliamentary response reflects a deep-seated resolve to protect the hard-won democratic constitution established in 1987.</p>`
+                    },
+                    {
+                        title: "EIB Invests in India's Metro: Sustainable Urban Mobility",
+                        source: "Highways Today / Business Standard",
+                        paper: "GS Paper 3",
+                        topic: "Infrastructure & Investment",
+                        originalLink: "https://highways.today/2025/12/05/eib-india-metro-growth/",
+                        wikiLink: "https://en.wikipedia.org/wiki/Urban_rail_transit_in_India",
+                        context: "The European Investment Bank (EIB) has committed €289.5 million for the expansion of Pune and Nagpur Metros. This investment underscores India's push for low-carbon urban mobility solutions to tackle congestion and pollution.",
+                        keyPoints: [
+                            "<strong>Green Financing:</strong> EIB's investment aligns with India's climate goals (Nationally Determined Contributions) by promoting electric mass transit.",
+                            "<strong>Urban decongestion:</strong> Metro expansion in Tier-2 cities like Nagpur is crucial to prevent the chaotic urbanization seen in metros like Delhi and Mumbai.",
+                            "<strong>Economic Multiplier:</strong> Metro projects generate massive direct employment in construction and indirect economic growth by improving labor mobility."
+                        ],
+                        wayForward: ["Integrate Metro with 'Last Mile' connectivity (e-buses/cycles).", "Adopt 'Transit Oriented Development' (TOD) along metro corridors."],
+                        fodder: { agency: "European Investment Bank (EIB)", concept: "Transit Oriented Development (TOD)" },
+                        question: "Urban transport infrastructure is a key driver of economic efficiency. Discuss the role of international green financing in modernizing India's public transport systems. (10 Marks, 150 Words)",
+                        answer: `
+                            <p><strong>Introduction:</strong> India's urban population is expected to double by 2050. Developing sustainable, high-capacity public transport like Metros is critical to managing this growth without choking cities with pollution and congestion.</p>
+                            <p><strong>Body: Role of Green Financing</strong></p>
+                            <ul>
+                                <li><strong>Capital Access:</strong> Infrastructure projects have long gestation periods. Institutions like EIB, JICA, and ADB provide long-term, low-interest 'soft loans' that are viable for public goods projects where immediate profit isn't the primary motive.</li>
+                                <li><strong>Technology Transfer:</strong> Financing often comes with technical assistance, bringing global best practices in signaling, safety, and energy efficiency to Indian projects.</li>
+                                <li><strong>Climate Goals:</strong> Financing from entities like EIB is tied to ESG (Environmental, Social, Governance) norms, ensuring that projects adhere to strict sustainability standards, aiding India's Net Zero 2070 goal.</li>
+                            </ul>
+                            <p><strong>Conclusion:</strong> While foreign funding initiates projects, long-term sustainability depends on 'Value Capture Financing' (monetizing land value along corridors) and non-fare box revenue to make Metro systems financially self-reliant.</p>
+                        `,
+                        deepDive: `<p>Metro rail development in India started with the Kolkata Metro in 1984, but the revolution truly began with the Delhi Metro (DMRC) in 2002, pioneered by E. Sreedharan. The Delhi model demonstrated that large-scale public infrastructure could be completed on time and budget. Since then, the Metro Rail Policy 2017 has standardized norms and encouraged Public-Private Partnerships (PPP). International funding agencies like JICA (Japan) and EIB (Europe) have been pivotal partners, financing nearly 50-60% of the capital cost for most Indian metro projects.</p>`
+                    }
+                ]
+            },
             '2025-12-04': {
                 dateLabel: 'December 4, 2025',
                 articles: [
@@ -952,6 +1097,7 @@ const articlesDB = {
             }
 };
         
+
 
 
 
