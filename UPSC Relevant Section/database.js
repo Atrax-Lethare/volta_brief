@@ -1,5 +1,150 @@
         // --- DATA SECTION  ---
 const articlesDB = {
+            '2025-12-06': {
+                dateLabel: 'December 6, 2025',
+                articles: [
+                    {
+                        title: "The Global South's Climate Dilemma",
+                        source: "The Hindu",
+                        paper: "GS Paper 3",
+                        topic: "Environment & Climate Justice",
+                        originalLink: "https://www.thehindu.com/sci-tech/energy-and-environment/climate-finance-global-south-cop30-expectations/article70389123.ece",
+                        wikiLink: "https://en.wikipedia.org/wiki/Climate_justice",
+                        context: "As COP30 approaches, developing nations are uniting to demand a new climate finance goal, arguing that the current $100 billion pledge is insufficient and often comes as loans rather than grants.",
+                        keyPoints: [
+                            "<strong>Debt Trap:</strong> Climate finance provided as loans exacerbates the debt crisis in vulnerable nations.",
+                            "<strong>Loss and Damage:</strong> Operationalizing the Loss and Damage Fund remains slow, with little actual money disbursed.",
+                            "<strong>Technology Transfer:</strong> Intellectual property rights continue to hinder the affordable transfer of green technologies."
+                        ],
+                        wayForward: ["Establish a 'Climate Justice Tribunal' to adjudicate disputes.", "Shift focus from 'billions to trillions' in grant-based finance."],
+                        fodder: { term: "Common but Differentiated Responsibilities (CBDR)", target: "New Collective Quantified Goal (NCQG)" },
+                        question: "The Global South faces a dual challenge of development and climate adaptation. Analyze the inadequacies of the current global climate finance architecture. (15 Marks, 250 Words)",
+                        answer: `
+                            <p><strong>Introduction:</strong> The principle of 'Common but Differentiated Responsibilities' (CBDR) is the bedrock of climate justice. However, the current climate finance architecture often fails to reflect this, placing a disproportionate burden on the Global South.</p>
+                            <p><strong>Body: Structural Inadequacies</strong></p>
+                            <ul>
+                                <li><strong>Loan-heavy Finance:</strong> According to OECD, nearly 70% of climate finance is in the form of loans. This pushes vulnerable nations, already reeling from climate disasters, further into a debt trap.</li>
+                                <li><strong>Adaptation Gap:</strong> Most funding flows towards mitigation (renewable energy projects with returns) rather than adaptation (sea walls, resilient crops), which is critical for survival but offers no financial ROI.</li>
+                                <li><strong>Accounting Tricks:</strong> Developed nations often re-label existing development aid as 'climate finance', inflating figures without providing 'new and additional' resources.</li>
+                            </ul>
+                            <p><strong>Conclusion:</strong> A paradigm shift is needed. The New Collective Quantified Goal (NCQG) must prioritize grants over loans and include a dedicated window for 'Loss and Damage' to ensure true climate justice.</p>
+                        `,
+                        deepDive: `<p>The concept of climate finance dates back to the establishment of the UNFCCC in 1992. The $100 billion annual pledge was first made at the Copenhagen Summit (COP15) in 2009, intended to be met by 2020. This target was missed and extended to 2025. The Paris Agreement (2015) reaffirmed the obligation of developed countries to provide financial resources, but the definition of 'climate finance' remains contested, allowing for creative accounting.</p>`
+                    },
+                    {
+                        title: "Judicial Pendency: A Structural Crisis",
+                        source: "The Indian Express",
+                        paper: "GS Paper 2",
+                        topic: "Judiciary",
+                        originalLink: "https://indianexpress.com/article/opinion/columns/judicial-pendency-supreme-court-national-court-of-appeal-9101234/",
+                        wikiLink: "https://en.wikipedia.org/wiki/Judiciary_of_India",
+                        context: "The Law Minister informed Parliament that over 5 crore cases are pending across Indian courts. The debate on creating a National Court of Appeal to unburden the Supreme Court has resurfaced.",
+                        keyPoints: [
+                            "<strong>The Burden:</strong> The Supreme Court is overwhelmed with Special Leave Petitions (SLPs), leaving little time for constitutional matters.",
+                            "<strong>Vacancy Crisis:</strong> High judicial vacancies in High Courts (approx. 30%) are a primary driver of delays.",
+                            "<strong>Infrastructure Gap:</strong> Lack of digital infrastructure and courtrooms in subordinate judiciary hampers speed."
+                        ],
+                        wayForward: ["Establish Regional Benches of the Supreme Court.", "Increase the retirement age of High Court judges to 65."],
+                        fodder: { data: "5 Crore Pending Cases", commission: "Law Commission 229th Report" },
+                        question: "The mounting backlog of cases threatens the fundamental right to speedy justice. Discuss the feasibility of establishing a National Court of Appeal. (10 Marks, 150 Words)",
+                        answer: `
+                            <p><strong>Introduction:</strong> 'Justice delayed is justice denied.' With pendency crossing 5 crore, the Indian judiciary faces a crisis of credibility. The Supreme Court, designed as a Constitutional Court, has effectively become a court of appeal for mundane matters.</p>
+                            <p><strong>Body: The Case for National Court of Appeal (NCA)</strong></p>
+                            <ul>
+                                <li><strong>Unburdening the SC:</strong> An NCA with regional benches would handle all appeals from High Courts in civil and criminal matters, allowing the Supreme Court to focus solely on constitutional interpretation and cases of national importance.</li>
+                                <li><strong>Access to Justice:</strong> Litigants from southern or eastern India struggle to approach the SC in Delhi due to cost and distance. Regional NCA benches would democratize access.</li>
+                                <li><strong>Constitutional Hurdle:</strong> Article 130 allows the CJI to sit in other places, but a separate appellate layer might require a constitutional amendment, which the SC has historically been hesitant about (fearing dilution of authority).</li>
+                            </ul>
+                            <p><strong>Conclusion:</strong> While an NCA is a structural solution, immediate relief requires filling vacancies, adopting AI for case management, and promoting Alternative Dispute Resolution (ADR).</p>
+                        `,
+                        deepDive: `<p>The Supreme Court of India was inaugurated on January 28, 1950, succeeding the Federal Court of India. The vision of the Constituent Assembly was for a court that interprets the Constitution. However, over decades, the broad jurisdiction under Article 136 (Special Leave Petition) has transformed it into a regular appellate court. The 229th Law Commission Report (2009) recommended setting up Cassation Benches in four regions to handle appellate work, a suggestion yet to be implemented.</p>`
+                    },
+                    {
+                        title: "Deepfakes and Democracy: The Regulation Debate",
+                        source: "The Hindu",
+                        paper: "GS Paper 3",
+                        topic: "Cyber Security & Internal Security",
+                        originalLink: "https://www.thehindu.com/sci-tech/technology/deepfakes-election-integrity-regulation-challenges/article70391234.ece",
+                        wikiLink: "https://en.wikipedia.org/wiki/Deepfake",
+                        context: "With state elections approaching, the Election Commission is grappling with the spread of political deepfakes. The government is considering amendments to the IT Rules to specifically target AI-generated misinformation.",
+                        keyPoints: [
+                            "<strong>Electoral Threat:</strong> Deepfakes can manipulate voter perception by creating realistic fake videos of candidates, undermining free and fair elections.",
+                            "<strong>Attribution Challenge:</strong> The anonymity of the internet makes it difficult to trace the origin of such content quickly.",
+                            "<strong>Legal Vacuum:</strong> Current laws (IT Act, IPC) lack specific provisions for AI-generated impersonation, leading to enforcement gaps."
+                        ],
+                        wayForward: ["Mandatory watermarking of AI-generated content.", "Fast-track courts for electoral cyber-offenses."],
+                        fodder: { act: "IT Rules, 2021", term: "Synthentic Media" },
+                        question: "The weaponization of 'Deepfakes' poses a novel threat to democratic processes. Analyze the legal and technological challenges in countering this menace. (15 Marks, 250 Words)",
+                        answer: `
+                            <p><strong>Introduction:</strong> Deepfakes, or hyper-realistic AI-generated media, represent the next frontier of disinformation. In a diverse democracy like India, their potential to incite violence or sway elections is a critical national security threat.</p>
+                            <p><strong>Body: Challenges</strong></p>
+                            <ul>
+                                <li><strong>Technological Arms Race:</strong> Detection tools lag behind generation tools. As soon as a detector is built, AI models learn to bypass it.</li>
+                                <li><strong>The 'Liar's Dividend':</strong> The mere existence of deepfakes allows politicians to dismiss genuine incriminating evidence as 'fake', eroding trust in truth itself.</li>
+                                <li><strong>Platform Liability:</strong> Social media platforms often hide behind 'Safe Harbour' provisions. The sheer volume of content makes manual moderation impossible, and automated moderation struggles with local languages and context.</li>
+                            </ul>
+                            <p><strong>Conclusion:</strong> Regulation must move from 'takedown' to 'provenance'. Mandating digital watermarks and holding platforms accountable for algorithmic amplification of unverified content are essential steps.</p>
+                        `,
+                        deepDive: `<p>The term 'deepfake' originated in 2017 from a Reddit user. The technology relies on Generative Adversarial Networks (GANs), where two AI models compete—one creating fakes, the other detecting them—until the result is indistinguishable from reality. While initial concerns focused on non-consensual pornography, the political weaponization was starkly visible in recent global conflicts (e.g., Ukraine war fake surrender videos), prompting urgent calls for regulation worldwide.</p>`
+                    },
+                    {
+                        title: "Cooperative Federalism: The Governor's discretion",
+                        source: "The Indian Express",
+                        paper: "GS Paper 2",
+                        topic: "Federalism",
+                        originalLink: "https://indianexpress.com/article/opinion/editorials/governors-discretion-supreme-court-ruling-analysis-9102345/",
+                        wikiLink: "https://en.wikipedia.org/wiki/Governor_(India)",
+                        context: "The Supreme Court's recent remarks on the Punjab Governor case reiterate that the Governor cannot sit on bills indefinitely. This highlights the friction between elected governments and appointed constitutional heads.",
+                        keyPoints: [
+                            "<strong>Article 200:</strong> The core dispute revolves around the interpretation of 'as soon as possible' regarding assent to bills.",
+                            "<strong>Pocket Veto:</strong> Governors in opposition-ruled states are accused of using a pocket veto to stall legislation, paralyzing administration.",
+                            "<strong>Democratic Principles:</strong> The Court emphasized that an unelected Head of State cannot override the will of a popularly elected legislature."
+                        ],
+                        wayForward: ["Codify a rigid timeline (e.g., 6 months) for Governor's assent.", "Implement Sarkaria Commission norms for Governor selection."],
+                        fodder: { article: "Article 200", case: "Nabam Rebia (2016)" },
+                        question: "The office of the Governor was envisaged as a linchpin of federalism but has become a flashpoint. Discuss the Supreme Court's evolving jurisprudence on the Governor's legislative powers. (15 Marks, 250 Words)",
+                        answer: `
+                            <p><strong>Introduction:</strong> The Constituent Assembly envisioned the Governor as a 'constitutional sentinel', ensuring the state runs per the Constitution. However, the absence of a deadline in Article 200 has allowed the office to become a tool for political obstruction.</p>
+                            <p><strong>Body: Judicial Interpretation</strong></p>
+                            <ul>
+                                <li><strong>Shamsher Singh (1974):</strong> The SC held that the Governor is a formal head and must act on the aid and advice of the Council of Ministers, except in specific discretionary areas (which do not include law-making).</li>
+                                <li><strong>Nabam Rebia (2016):</strong> The Court ruled that the Governor cannot summon or prorogue the House without the advice of the Cabinet, limiting discretionary interference in legislative schedules.</li>
+                                <li><strong>Punjab Governor Case (2023):</strong> The SC clarified that if a Governor withholds assent, they <em>must</em> return the bill. They cannot simply 'sit' on it. If re-passed by the Assembly, assent is mandatory.</li>
+                            </ul>
+                            <p><strong>Conclusion:</strong> The 'pleasure doctrine' promotes partisanship. Reforms like fixed tenure and transparent appointment (Punchhi Commission) are needed to restore the dignity of the office.</p>
+                        `,
+                        deepDive: `<p>The post of Governor is a colonial legacy, adapted from the Government of India Act, 1935. The Constituent Assembly debated whether to have an elected or nominated Governor. The nominated model was chosen to preserve national unity and avoid a power center rivaling the Chief Minister. However, the ambiguity in Article 163 (discretionary powers) has been a perennial source of conflict, leading to the dismissal of state governments (Article 356) over 100 times, a trend only curbed after the S.R. Bommai judgment (1994).</p>`
+                    },
+                    {
+                        title: "Semiconductors: India's Fabrication Dream",
+                        source: "The Hindu",
+                        paper: "GS Paper 3",
+                        topic: "Industrial Policy & Science",
+                        originalLink: "https://www.thehindu.com/business/Industry/india-semiconductor-mission-progress-report/article70395678.ece",
+                        wikiLink: "https://en.wikipedia.org/wiki/Semiconductor_industry_in_India",
+                        context: "The groundbreaking for Tata Electronics' semiconductor fab in Dholera marks India's entry into commercial chip manufacturing. The success of the India Semiconductor Mission (ISM) depends on solving infrastructure challenges.",
+                        keyPoints: [
+                            "<strong>Strategic Necessity:</strong> Chips are the 'new oil', critical for everything from missiles to mobiles. Domestic capacity reduces reliance on geopolitical rivals.",
+                            "<strong>Resource Intensity:</strong> Fabs require massive amounts of ultra-pure water and uninterrupted power, posing an infrastructure challenge.",
+                            "<strong>Talent Gap:</strong> While India excels in chip design, it lacks a trained workforce for process engineering and fab operations."
+                        ],
+                        wayForward: ["Develop 'Semiconductor Clusters' with dedicated utility grids.", "Update engineering curriculum to focus on VLSI and fabrication."],
+                        fodder: { scheme: "India Semiconductor Mission (ISM)", incentive: "$10 Billion PLI" },
+                        question: "India aims to become a global semiconductor hub. Evaluate the opportunities and infrastructural challenges in establishing a viable fab ecosystem. (10 Marks, 150 Words)",
+                        answer: `
+                            <p><strong>Introduction:</strong> The global semiconductor shortage post-COVID exposed supply chain vulnerabilities. India's $10 billion ISM aims to leverage this by building a self-reliant chip ecosystem, moving up from design to manufacturing.</p>
+                            <p><strong>Body: Challenges vs Opportunities</strong></p>
+                            <ul>
+                                <li><strong>Opportunity:</strong> India has 20% of the world's chip design talent. Moving to manufacturing captures higher value and ensures strategic autonomy in defense and electronics.</li>
+                                <li><strong>Infrastructure Hurdle:</strong> A single fab needs millions of liters of ultra-pure water daily. Ensuring this in water-stressed regions like Gujarat is a logistical feat. Power stability (99.99% uptime) is non-negotiable.</li>
+                                <li><strong>Supply Chain:</strong> Fabs need hundreds of specialized chemicals and gases. Developing a local ancillary industry is as hard as building the fab itself.</li>
+                            </ul>
+                            <p><strong>Conclusion:</strong> Success depends on execution. India must emulate the 'Taiwan Model'—government support for infrastructure and specialized education—to compete with established giants.</p>
+                        `,
+                        deepDive: `<p>India's attempt to enter chip manufacturing isn't new. In the 1980s, the Semiconductor Complex Limited (SCL) in Mohali was a pioneer but lost the race after a mysterious fire in 1989 and subsequent lack of investment. While nations like Taiwan and South Korea doubled down on R&D and capital expenditure during the 90s and 2000s, India missed the bus, becoming a software giant but a hardware dwarf. The current push is a strategic attempt to regain that lost ground in a changed geopolitical landscape.</p>`
+                    }
+                ]
+            },
             '2025-12-05': {
                 dateLabel: 'December 5, 2025',
                 articles: [
@@ -1097,6 +1242,7 @@ const articlesDB = {
             }
 };
         
+
 
 
 
