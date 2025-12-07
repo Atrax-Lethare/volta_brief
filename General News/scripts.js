@@ -54,7 +54,7 @@ function loadCategory(category) {
     // A. Update Page Headers
     document.getElementById('headerCategory').textContent = category;
     document.getElementById('displayDate').textContent = data.date;
-    document.getElementById('displayHeadline').textContent = data.lead.headline;
+    document.getElementById('displayHeadline').textContent = category;
 
     // B. Clear Container
     const container = document.getElementById('bulletinContainer');
