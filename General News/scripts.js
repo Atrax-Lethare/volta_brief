@@ -1,4 +1,4 @@
-// Global variable to hold the news data
+// Global variable to hold the news data 
 let newsDB = {};
 
 // --- INITIALIZATION ---
@@ -185,3 +185,4 @@ function applyHighlight(color) {
     alert("Highlighting requires a text selection.");
 }
 function removeHighlight() { }
+
