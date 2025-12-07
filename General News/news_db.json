@@ -1,0 +1,627 @@
+{
+    "Economics": {
+        "date": "December 07, 2025",
+        "lead": {
+            "headline": "Higher Prices, Less Coverage: Your Stories of the Home Insurance Crunch",
+            "summary": "Home insurance prices have risen drastically in areas most exposed to climate-related risk, like California and Florida. And research shows the effects of the higher rates are also spilling over into the broader real estate market.",
+            "link": "https://www.nytimes.com/2025/12/04/climate/home-insurance-prices-climate-change-readers.html"
+        },
+        "bullets": [
+            {
+                "tag": "Banking",
+                "text": "Rupee hits record low of 90: Calculated move by RBI or a sign of losing control?",
+                "link": "https://www.thehindu.com/data/rupee-hits-record-low-of-90-calculated-move-by-rbi-or-a-sign-of-losing-control/article70365760.ece"
+            },
+            {
+                "tag": "Nature",
+                "text": "Nature Retracts Study Predicting Catastrophic Climate Toll",
+                "link": "https://www.nytimes.com/2025/12/03/business/economy/study-climate-damage-retracted.html"
+            },
+            {
+                "tag": "AI",
+                "text": "Govt denies issuing any advisory to stop clean energy funding",
+                "link": "https://www.thehindu.com/business/Industry/govt-denies-issuing-any-advisory-to-stop-clean-energy-funding/article70368382.ece"
+            },
+            {
+                "tag": "Fpis",
+                "text": "FPIs withdraw ₹11,820 crore in first week of December; outflow reaches ₹1.55 lakh crore in 2025",
+                "link": "https://www.thehindu.com/business/Economy/fpis-withdraw-11820-crore-in-first-week-of-december-outflow-reaches-155-lakh-crore-in-2025/article70368246.ece"
+            },
+            {
+                "tag": "Known",
+                "text": "Known for ‘internationalisation’ of IndiGo, its CEO for 3 years Pieter Elbers gets show cause notice",
+                "link": "https://indianexpress.com/article/business/aviation/indigo-disruptions-dgca-issues-show-cause-notices-to-airline-ceo-pieter-elbers-coo-porqueras-gives-24-hours-to-respond-10406590/"
+            },
+            {
+                "tag": "Italian",
+                "text": "Italian wellness firm Technogym sets up base in New Delhi",
+                "link": "https://www.thehindu.com/business/italian-wellness-firm-technogym-sets-up-base-in-new-delhi/article70366487.ece"
+            },
+            {
+                "tag": "AI",
+                "text": "‘Clear all ticket refunds by Dec 7’: Centre tells IndiGo as passengers protest outside airports across nation",
+                "link": "https://indianexpress.com/article/business/aviation/clear-cancelled-ticket-refunds-deadlline-govt-indigo-passenger-protests-10405770/"
+            },
+            {
+                "tag": "Us",
+                "text": "US negotiators in Delhi next week, kindle hopes of deal before December-end",
+                "link": "https://indianexpress.com/article/business/us-negotiators-in-delhi-next-week-indi-us-trade-deal-december-end-trump-tariff-10406398/"
+            },
+            {
+                "tag": "AI",
+                "text": "Groups Express Anixety as Trump Threatens to Derail U.S.-Mexico-Canada Trade Pact",
+                "link": "https://www.nytimes.com/2025/12/04/business/economy/trump-north-american-trade-deal.html"
+            },
+            {
+                "tag": "AI",
+                "text": "DGCA serves show-cause notice to IndiGo CEO Pieter Elbers",
+                "link": "https://www.thehindu.com/business/Industry/dgca-serves-showcause-notice-to-indigo-ceo-pieter-elbers/article70366769.ece"
+            }
+        ],
+        "stat": {
+            "label": "News Count",
+            "value": "15",
+            "desc": "Total updates analyzed for this section today."
+        }
+    },
+    "Politics": {
+        "date": "December 07, 2025",
+        "lead": {
+            "headline": "IndiGo Flight Cancellations Live Updates: Airline cancels 650 flights today; to operate 1,650 of 2,300 scheduled services",
+            "summary": "",
+            "link": "https://indianexpress.com/article/india/indigo-flight-cancellations-live-dgca-airline-pieter-elbers-airport-operations-10407022/"
+        },
+        "bullets": [
+            {
+                "tag": "Conservative",
+                "text": "Conservative Project at Supreme Court Meets Trump’s Push to Oust Officials",
+                "link": "https://www.nytimes.com/2025/12/07/us/politics/supreme-court-trump-independent-agencies.html"
+            },
+            {
+                "tag": "The",
+                "text": "The Impact of Trump’s Slipping Approval Rating",
+                "link": "https://www.nytimes.com/video/us/politics/100000010563180/the-impact-of-trumps-slipping-approval-rating.html"
+            },
+            {
+                "tag": "Superpower",
+                "text": "Superpower Competition: The Missing Chapter in Trump’s Security Strategy",
+                "link": "https://www.nytimes.com/2025/12/07/us/politics/trump-security-strategy-superpowers.html"
+            },
+            {
+                "tag": "US",
+                "text": "4 Takeaways From The Times’s Reporting on Biden’s Immigration Record",
+                "link": "https://www.nytimes.com/2025/12/07/us/politics/biden-immigration-policy-takeaways.html"
+            },
+            {
+                "tag": "No",
+                "text": "No ‘good certificate’ to Jamaat-e-Islami Hind ever, says Kerala CM",
+                "link": "https://www.thehindu.com/news/national/kerala/no-good-certificate-to-jamaat-e-islami-hind-ever-says-kerala-cm/article70368435.ece"
+            },
+            {
+                "tag": "Just",
+                "text": "Just before fire engulfed Goa nightclub, fireworks set off during belly dance performance: eyewitnesses",
+                "link": "https://indianexpress.com/article/india/fire-engulf-goa-nightclub-fireworks-belly-dance-performance-eyewitnesses-10407285/"
+            },
+            {
+                "tag": "AI",
+                "text": "Anti-drug activist’s murder reveals Nellore’s dark underbelly",
+                "link": "https://www.thehindu.com/news/national/andhra-pradesh/anti-drug-activists-murder-reveals-nellores-dark-underbelly/article70368485.ece"
+            },
+            {
+                "tag": "Education",
+                "text": "Fee determination order to be produced for renewal of recognition of private schools in Tamil Nadu",
+                "link": "https://www.thehindu.com/news/national/tamil-nadu/fee-determination-order-to-be-produced-for-renewal-of-recognition-of-private-schools-in-tamil-nadu/article70368496.ece"
+            },
+            {
+                "tag": "Cheetah",
+                "text": "Cheetah missing from Kuno hit by vehicle, found dead on highway",
+                "link": "https://indianexpress.com/article/india/cheetah-missing-kuno-hit-vehicle-dead-highway-10407258/"
+            },
+            {
+                "tag": "AI",
+                "text": "Armed forces flag day: Governor, CM, Deputy CM contribute to fund",
+                "link": "https://www.thehindu.com/news/national/tamil-nadu/armed-forces-flag-day-governor-cm-deputy-cm-contribute-to-fund/article70368495.ece"
+            }
+        ],
+        "stat": {
+            "label": "News Count",
+            "value": "15",
+            "desc": "Total updates analyzed for this section today."
+        }
+    },
+    "Technology": {
+        "date": "December 07, 2025",
+        "lead": {
+            "headline": "U.S. lawmakers press Google, Apple to remove apps tracking immigration agents",
+            "summary": "Attorney General Pam Bondi said the apps “put ICE agents at risk just for doing their jobs,” while Apple cited violations of its policies against content that could harm individuals or groups",
+            "link": "https://www.thehindu.com/sci-tech/technology/us-lawmakers-press-google-apple-to-remove-apps-tracking-immigration-agents/article70364592.ece"
+        },
+        "bullets": [
+            {
+                "tag": "AI",
+                "text": "Twitch star QTCinderella says she wishes she never started streaming",
+                "link": "https://www.bbc.com/news/articles/c3v1dd01x65o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+                "tag": "AI",
+                "text": "OpenAI Calls a ‘Code Red’ + Which Model Should I Use? + The Hard Fork Review of Slop",
+                "link": "https://www.nytimes.com/2025/12/05/podcasts/hardfork-openai-code-red.html"
+            },
+            {
+                "tag": "AI",
+                "text": "Meta partners with news outlets to expand AI content",
+                "link": "https://www.thehindu.com/sci-tech/technology/meta-partners-with-news-outlets-to-expand-ai-content/article70364566.ece"
+            },
+            {
+                "tag": "Production",
+                "text": "Production halted at Chinese factory making 'childlike' sex dolls",
+                "link": "https://www.bbc.com/news/articles/ckgzqxjzjyqo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+                "tag": "AI",
+                "text": "Sam Altman | Merchant of the future",
+                "link": "https://www.thehindu.com/sci-tech/technology/sam-altman-merchant-of-the-future/article70366667.ece"
+            },
+            {
+                "tag": "AI",
+                "text": "Porn site fined £1m over age checks has never responded to Ofcom",
+                "link": "https://www.bbc.com/news/articles/c93nll07z3go?at_medium=RSS&at_campaign=rss"
+            },
+            {
+                "tag": "Us",
+                "text": "US hits out at EU's 'suffocating regulations' after it fines Elon Musk's X",
+                "link": "https://www.bbc.com/news/articles/c4g9kejzvw0o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+                "tag": "Design",
+                "text": "New homes delayed by 'energy-hungry' data centres",
+                "link": "https://www.bbc.com/news/articles/c0mpr1mvwj3o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+                "tag": "AI",
+                "text": "Netflix to Buy Warner Bros in $83 Billion Deal",
+                "link": "https://www.nytimes.com/2025/12/05/business/warner-brothers-discovery-netflix.html"
+            },
+            {
+                "tag": "AI",
+                "text": "Meta delays release of Phoenix mixed-reality glasses to 2027: Report",
+                "link": "https://www.thehindu.com/sci-tech/technology/meta-delays-release-of-phoenix-mixed-reality-glasses-to-2027-report/article70365106.ece"
+            }
+        ],
+        "stat": {
+            "label": "News Count",
+            "value": "15",
+            "desc": "Total updates analyzed for this section today."
+        }
+    },
+    "Education": {
+        "date": "December 07, 2025",
+        "lead": {
+            "headline": "Why a play about a fatal punch has gripped younger audiences and will tour schools",
+            "summary": "James Graham’s play Punch touches on gang culture, restorative justice and masculinity in crisis, and for the playwright the true story was a privilege to tellWhen thousands of schoolchildren came to see James Graham’s play Punch in the West End, the...",
+            "link": "https://www.theguardian.com/stage/2025/dec/06/james-graham-play-fatal-punch-gripped-younger-audiences-tour-schools"
+        },
+        "bullets": [
+            {
+                "tag": "Resident",
+                "text": "Resident doctors to get higher monthly stipend in HP: CM Sukhu",
+                "link": "https://indianexpress.com/article/education/resident-mbbs-pg-doctors-to-get-higher-monthly-stipend-in-hp-neet-ug-2026-10406951/"
+            },
+            {
+                "tag": "Education",
+                "text": "‘India changed my life’: What IIT living means for a student from Zambia | Life in an IIT",
+                "link": "https://indianexpress.com/article/education/life-in-an-iit-meaning-for-zambia-student-iccr-scholarship-gate-jeemain-2026-advanced-10406982/"
+            },
+            {
+                "tag": "Education",
+                "text": "Tell us: have you lived in temporary accommodation in the UK with children?",
+                "link": "https://www.theguardian.com/education/2024/nov/22/tell-us-have-you-lived-in-uk-temporary-accommodation-with-children"
+            },
+            {
+                "tag": "New",
+                "text": "New Zealand immigration announces new seasonal visa categories under AEWV framework",
+                "link": "https://indianexpress.com/article/education/study-abroad/new-zealand-immigration-announces-new-seasonal-visa-categories-under-aewv-framework-10407012/"
+            },
+            {
+                "tag": "Education",
+                "text": "TOSS releases exam fee schedule for SSC & IPE for March–April 2026",
+                "link": "https://indianexpress.com/article/education/toss-releases-exam-fee-schedule-for-ssc-ipe-for-march-april-2026-10407094/"
+            },
+            {
+                "tag": "Neet",
+                "text": "NEET PG 2025 Round Two: 2,620 new seats added to matrix; choice filing begins",
+                "link": "https://indianexpress.com/article/education/neet-pg-2025-round-two-2620-new-seats-added-to-matrix-mcc-nic-in-10407121/"
+            },
+            {
+                "tag": "AI",
+                "text": "‘Empathy that lasts a lifetime’: charity bridges gap between Bradford schools",
+                "link": "https://www.theguardian.com/uk-news/2025/dec/06/empathy-that-lasts-a-lifetime-charity-bridges-gap-between-bradford-schools-the-linking-network"
+            },
+            {
+                "tag": "AI",
+                "text": "‘My legacy is not Charlie Kirk’: the university president building a culture of peace after violence",
+                "link": "https://www.theguardian.com/us-news/ng-interactive/2025/dec/06/utah-valley-university-president-charlie-kirk"
+            },
+            {
+                "tag": "AI",
+                "text": "Artificial intelligence research has a slop problem, academics say: ‘It’s a mess’",
+                "link": "https://www.theguardian.com/technology/2025/dec/06/ai-research-papers"
+            }
+        ],
+        "stat": {
+            "label": "News Count",
+            "value": "10",
+            "desc": "Total updates analyzed for this section today."
+        }
+    },
+    "Engineering": {
+        "date": "December 07, 2025",
+        "lead": {
+            "headline": "Volcanic eruption may have triggered Europe's deadly Black Death plague",
+            "summary": "A volcanic eruption may have set off a chain reaction that led to Europe's deadliest pandemic.",
+            "link": "https://www.bbc.com/news/articles/cy5gr2x914ro?at_medium=RSS&at_campaign=rss"
+        },
+        "bullets": [
+            {
+                "tag": "Top",
+                "text": "Top UK scientist says research visa restrictions endanger economy",
+                "link": "https://www.bbc.com/news/articles/ckgl4vrlk7do?at_medium=RSS&at_campaign=rss"
+            },
+            {
+                "tag": "Low-Ph",
+                "text": "Low-pH cements could let microbes seal cracks in deep nuclear vaults",
+                "link": "https://www.thehindu.com/sci-tech/science/low-ph-cements-could-let-microbes-seal-cracks-in-deep-nuclear-vaults/article70351929.ece"
+            },
+            {
+                "tag": "Bakelite,",
+                "text": "Bakelite, the first synthetic plastic",
+                "link": "https://www.thehindu.com/children/bakelite-the-first-synthetic-plastic/article70333364.ece"
+            },
+            {
+                "tag": "Waste",
+                "text": "Waste from UK's largest opencast mine 'poses significant risk'",
+                "link": "https://www.bbc.com/news/articles/c62vzw30y0qo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+                "tag": "Why",
+                "text": "Why do faucets drip even when you close them tight?",
+                "link": "https://www.thehindu.com/sci-tech/science/why-do-faucets-drip/article70348866.ece"
+            },
+            {
+                "tag": "AI",
+                "text": "Unlocking the potential of India’s research in medicine",
+                "link": "https://www.thehindu.com/sci-tech/health/unlocking-the-potential-indias-research-in-medicine/article70356469.ece"
+            },
+            {
+                "tag": "AI",
+                "text": "Deep-sea mining tests impact over a third of seabed animals - scientists",
+                "link": "https://www.bbc.com/news/articles/cedx2p8gnx9o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+                "tag": "Cats",
+                "text": "Cats became our companions much later than you think",
+                "link": "https://www.bbc.com/news/articles/cq8dvdp9gn7o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+                "tag": "What",
+                "text": "What are cosmic filaments?",
+                "link": "https://www.thehindu.com/sci-tech/science/what-are-cosmic-filaments/article70368437.ece"
+            }
+        ],
+        "stat": {
+            "label": "News Count",
+            "value": "10",
+            "desc": "Total updates analyzed for this section today."
+        }
+    },
+    "Architecture": {
+        "date": "December 07, 2025",
+        "lead": {
+            "headline": "Frank Gehry: maximalist master who created instant icons like the Bilbao Guggenheim",
+            "summary": "He made buildings that looked like slouching drunks and quarrelling couples but it was the Spanish museum that secured his ‘starchitect’ status – a creation that became something of a curseFrank Gehry once had a cameo in The Simpsons in which he desi...",
+            "link": "https://www.theguardian.com/artanddesign/2025/dec/06/frank-gehry-architect-bilbao-guggenheim-instant-icons"
+        },
+        "bullets": [
+            {
+                "tag": "Banking",
+                "text": "Frank Gehry obituary",
+                "link": "https://www.theguardian.com/artanddesign/2025/dec/06/frank-gehry-obituary"
+            },
+            {
+                "tag": "AI",
+                "text": "Six greats reads: a train ride to the future; searching for the ‘sky boys’ and wallaby hunting in the English countryside",
+                "link": "https://www.theguardian.com/news/2025/dec/06/six-greats-reads-a-train-ride-to-the-future-searching-for-the-sky-boys-and-wallaby-hunting-in-the-english-countryside"
+            },
+            {
+                "tag": "AI",
+                "text": "Bold shapes and binoculars: Frank Gehry’s stunning California architecture",
+                "link": "https://www.theguardian.com/artanddesign/2025/dec/06/frank-gehry-california-architecture"
+            },
+            {
+                "tag": "Miami",
+                "text": "Miami Beach’s New Art Installation Frolics With the Fishes",
+                "link": "https://www.nytimes.com/2025/12/01/arts/design/miami-beach-art-installation-concrete-coral.html"
+            },
+            {
+                "tag": "Design",
+                "text": "From Bilbao to Las Vegas: Frank Gehry’s incredible architecture – in pictures",
+                "link": "https://www.theguardian.com/artanddesign/gallery/2025/dec/05/frank-gehry-architecture-in-pictures"
+            },
+            {
+                "tag": "AI",
+                "text": "Frank Gehry, the Disrupter, Opened Their Imaginations",
+                "link": "https://www.nytimes.com/2025/12/05/arts/design/frank-gehry-appraisal-disney-hall-bilbao-los-angeles.html"
+            },
+            {
+                "tag": "Arthur",
+                "text": "Arthur Szyk: Spotlight Returns to a Forgotten ‘Soldier in Art’",
+                "link": "https://www.nytimes.com/2025/12/04/arts/design/arthur-szyk-museum-of-jewish-heritage.html"
+            },
+            {
+                "tag": "AI",
+                "text": "Jennifer Packer: Art at the Cosmic Edges of Longing",
+                "link": "https://www.nytimes.com/2025/12/04/arts/design/jennifer-packer-grief-painting-sikkema.html"
+            },
+            {
+                "tag": "Design",
+                "text": "Frank Gehry: 12 Essential, Stunning Projects",
+                "link": "https://www.nytimes.com/2025/12/05/arts/design/frank-gehry-buildings-photos.html"
+            }
+        ],
+        "stat": {
+            "label": "News Count",
+            "value": "10",
+            "desc": "Total updates analyzed for this section today."
+        }
+    },
+    "Sports": {
+        "date": "December 07, 2025",
+        "lead": {
+            "headline": "Kane scores hat-trick as Bayern extends Bundesliga lead to 11 points",
+            "summary": "The England captain took his goal tally for Bayern Munich this season to 28 and the defending champions extended their lead to 11 points after thrashing Stuttgart 5-0 on the road.",
+            "link": "https://www.thehindu.com/sport/football/kane-scores-hat-trick-as-bayern-extends-bundesliga-lead-to-11-points/article70366969.ece"
+        },
+        "bullets": [
+            {
+                "tag": "Cricket",
+                "text": "India vs South Africa: With runs, guidance and star power, Virat Kohli and Rohit Sharma answer every doubt about their spots for foreseeable future",
+                "link": "https://indianexpress.com/article/sports/cricket/ind-vs-sa-odis-rohit-sharma-virat-kohli-answer-doubts-guidance-star-power-10407408/"
+            },
+            {
+                "tag": "Epic",
+                "text": "Epic Greaves double ton earns West Indies draw in first NZ Test",
+                "link": "https://www.thehindu.com/sport/cricket/epic-greaves-double-ton-earns-west-indies-draw-in-first-nz-test/article70366958.ece"
+            },
+            {
+                "tag": "AI",
+                "text": "Ashes Test series; Australia skipper Pat Cummins ‘good to go’ for Adelaide Test",
+                "link": "https://www.thehindu.com/sport/cricket/ashes-test-series-australia-skipper-pat-cummins-good-to-go-for-adelaide-test/article70368038.ece"
+            },
+            {
+                "tag": "AI",
+                "text": "Lionel Messi's double assist inspires Inter Miami to maiden MLS Cup title",
+                "link": "https://www.thehindu.com/sport/football/lionel-messis-double-assist-inspires-inter-miami-to-maiden-mls-cup-title/article70368083.ece"
+            },
+            {
+                "tag": "Project",
+                "text": "Project Mahadeva: 30 Boys, 30 Girls & a common dream to meet Lionel Messi",
+                "link": "https://indianexpress.com/article/sports/football/project-mahadeva-60-maharashtra-u13-players-meet-messi-goat-tour-10407322/"
+            },
+            {
+                "tag": "Australia",
+                "text": "Australia had Bruce Reid and Mitchell Johnson, but Starc is the best of the lot’ – David ‘Bumble’ Lloyd",
+                "link": "https://indianexpress.com/article/sports/cricket/australia-ashes-2025-mitchell-starc-best-left-arm-pacer-lloyd-10407436/"
+            },
+            {
+                "tag": "Smriti",
+                "text": "Smriti Mandhana cancels wedding with Palash Muchhal: ‘I request you to please respect the privacy of both families…’",
+                "link": "https://indianexpress.com/article/sports/cricket/smriti-mandhana-palash-muchhal-wedding-cancelled-10407290/"
+            },
+            {
+                "tag": "AI",
+                "text": "AUS vs ENG 2nd Ashes Test: Ben Stokes’ gritty knock keeps England’s hopes alive",
+                "link": "https://www.thehindu.com/sport/cricket/australia-vs-england-second-ashes-test-day-4/article70368315.ece"
+            },
+            {
+                "tag": "Cricket",
+                "text": "Sunil Gavaskar on Virat Kohli scoring 100 hundreds: ‘Why not?’",
+                "link": "https://indianexpress.com/article/sports/cricket/sunil-gavaskar-on-virat-kohli-100-hundereds-why-not-10407375/"
+            }
+        ],
+        "stat": {
+            "label": "News Count",
+            "value": "10",
+            "desc": "Total updates analyzed for this section today."
+        }
+    },
+    "Medical": {
+        "date": "December 07, 2025",
+        "lead": {
+            "headline": "Kidney Recipient Dies After Transplant From Organ Donor Who Had Rabies",
+            "summary": "A man died of rabies he contracted after receiving a kidney transplant from another person who later tested positive for the virus after being scratched by a skunk.",
+            "link": "https://www.nytimes.com/2025/12/06/health/rabies-death-skunk-kidney-transplant.html"
+        },
+        "bullets": [
+            {
+                "tag": "AI",
+                "text": "C.D.C. Vaccine Committee Ends Recommendation That All Newborns Receive Hepatitis B Shots",
+                "link": "https://www.nytimes.com/2025/12/05/health/kennedy-vaccine-committee-vote-hepatitisb.html"
+            },
+            {
+                "tag": "Poll",
+                "text": "Poll Suggests Voters May Blame Republicans More if Affordable Care Act Subsidies Go Away",
+                "link": "https://www.nytimes.com/2025/12/04/us/politics/poll-republicans-health-insurance-subsidies-affordable-care-act.html"
+            },
+            {
+                "tag": "AI",
+                "text": "Faulty Glucose Monitor Sensors May Be Tied to 7 Deaths, F.D.A. Says",
+                "link": "https://www.nytimes.com/2025/12/04/health/blood-glucose-monitor-recall-abbott.html"
+            },
+            {
+                "tag": "Health",
+                "text": "Hospitals facing unprecedented flu season, say NHS bosses",
+                "link": "https://www.bbc.com/news/articles/c74xqn2zg1eo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+                "tag": "AI",
+                "text": "Doctors failed to tell dad-of-seven he was dying",
+                "link": "https://www.bbc.com/news/articles/c7096ex92d3o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+                "tag": "Inside",
+                "text": "Inside RFK Jr.’s Methodical Quest to Shake Up America’s Vaccine System",
+                "link": "https://www.nytimes.com/2025/12/04/us/politics/rfk-vaccines-hhs-trump.html"
+            },
+            {
+                "tag": "Education",
+                "text": "WHO, B-school study shows how digitally unified insurance systems can transform India's healthcare",
+                "link": "https://www.thehindu.com/sci-tech/health/who-b-school-study-shows-how-digitally-unified-insurance-systems-can-transform-indias-healthcare/article70368325.ece"
+            },
+            {
+                "tag": "Nhs",
+                "text": "NHS must take elderly infections more seriously, Chris Whitty warns",
+                "link": "https://www.bbc.com/news/articles/c1kpvxewg93o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+                "tag": "Women",
+                "text": "Women experience amplified health risks due to rising heat: MSSRF study in seven States",
+                "link": "https://www.thehindu.com/sci-tech/energy-and-environment/women-experience-amplified-health-risks-due-to-rising-heat-mssrf-study-in-seven-states/article70366284.ece"
+            },
+            {
+                "tag": "AI",
+                "text": "Streeting orders review into mental health and ADHD diagnoses",
+                "link": "https://www.bbc.com/news/articles/ce8q26q2r75o?at_medium=RSS&at_campaign=rss"
+            }
+        ],
+        "stat": {
+            "label": "News Count",
+            "value": "15",
+            "desc": "Total updates analyzed for this section today."
+        }
+    },
+    "Space": {
+        "date": "December 07, 2025",
+        "lead": {
+            "headline": "Bakelite, the first synthetic plastic",
+            "summary": "On December 7, 1909, Belgian-American chemist Leo Baekeland’s process patent for making Bakelite was granted, two years after he had figured it out. Bakelite is the first fully synthetic plastic and its invention marked the beginning of the Age of Pl...",
+            "link": "https://www.thehindu.com/children/bakelite-the-first-synthetic-plastic/article70333364.ece"
+        },
+        "bullets": [
+            {
+                "tag": "Why",
+                "text": "Why do faucets drip even when you close them tight?",
+                "link": "https://www.thehindu.com/sci-tech/science/why-do-faucets-drip/article70348866.ece"
+            },
+            {
+                "tag": "AI",
+                "text": "Unlocking the potential of India’s research in medicine",
+                "link": "https://www.thehindu.com/sci-tech/health/unlocking-the-potential-indias-research-in-medicine/article70356469.ece"
+            },
+            {
+                "tag": "Space",
+                "text": "NASA Rover Discovers Lightning on Mars",
+                "link": "https://www.nytimes.com/2025/11/26/science/mars-lightning-nasa.html"
+            },
+            {
+                "tag": "Space",
+                "text": "The Moon Was an Inside Job",
+                "link": "https://www.nytimes.com/2025/11/20/science/moon-collision-earth-theia.html"
+            },
+            {
+                "tag": "AI",
+                "text": "Russian Launch Site Mishap Leaves Country’s Space Program in Limbo",
+                "link": "https://www.nytimes.com/2025/12/01/science/russia-base-damage-iss-launch-collapse.html"
+            },
+            {
+                "tag": "What",
+                "text": "What are cosmic filaments?",
+                "link": "https://www.thehindu.com/sci-tech/science/what-are-cosmic-filaments/article70368437.ece"
+            },
+            {
+                "tag": "Low-Ph",
+                "text": "Low-pH cements could let microbes seal cracks in deep nuclear vaults",
+                "link": "https://www.thehindu.com/sci-tech/science/low-ph-cements-could-let-microbes-seal-cracks-in-deep-nuclear-vaults/article70351929.ece"
+            },
+            {
+                "tag": "Space",
+                "text": "Trump’s NASA Pick Poised to Win Senate Vote After Do-Over Hearing",
+                "link": "https://www.nytimes.com/2025/12/03/science/trump-nasa-jared-isaacman-senate-hearing.html"
+            },
+            {
+                "tag": "In",
+                "text": "In Michigan’s Upper Peninsula, Locals Fight for ‘The Right to Night’",
+                "link": "https://www.nytimes.com/2025/11/24/science/astronomy-michigan-dark-sky.html"
+            }
+        ],
+        "stat": {
+            "label": "News Count",
+            "value": "10",
+            "desc": "Total updates analyzed for this section today."
+        }
+    },
+    "International": {
+        "date": "December 07, 2025",
+        "lead": {
+            "headline": "60,000 African penguins starved to death after sardine numbers collapsed – study",
+            "summary": "Climate crisis and overfishing contributed to loss of 95% of penguins in two breeding colonies in South Africa, research findsMore than 60,000 penguins in colonies off the coast of South Africa have starved to death as a result of disappearing sardin...",
+            "link": "https://www.theguardian.com/environment/2025/dec/05/african-penguins-starve-to-death-south-africa-sardine-population-aoe"
+        },
+        "bullets": [
+            {
+                "tag": "Hong",
+                "text": "Hong Kong votes in election as city mourns deadly fire",
+                "link": "https://www.bbc.com/news/articles/c3r7plnwr0zo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+                "tag": "AI",
+                "text": "US considers wider sanctions on Sudanese army and RSF as ceasefire efforts falter",
+                "link": "https://www.theguardian.com/world/2025/dec/05/us-sanctions-sudan-army-rsf-ceasefire"
+            },
+            {
+                "tag": "AI",
+                "text": "“World attention needs to be on Sudan now”",
+                "link": "https://www.aljazeera.com/video/quotable/2025/12/7/aje-onl-qt_carl-skau-071225?traffic_source=rss"
+            },
+            {
+                "tag": "AI",
+                "text": "Gunmen kill at least 12 people including three-year-old in hostel in South Africa",
+                "link": "https://www.theguardian.com/world/2025/dec/06/gunmen-kill-pretoria-south-african-hostel"
+            },
+            {
+                "tag": "No",
+                "text": "No essential supplies in truce: Gaza’s healthcare system broken by Israel",
+                "link": "https://www.aljazeera.com/news/2025/12/7/no-gauze-no-gloves-israels-severe-restrictions-on-medical-aid-to-gaza?traffic_source=rss"
+            },
+            {
+                "tag": "AI",
+                "text": "RSF massacres left Sudanese city ‘a slaughterhouse’, satellite images show",
+                "link": "https://www.theguardian.com/global-development/2025/dec/05/rsf-massacres-sudanese-city-el-fasher-slaughterhouse-satellite-images"
+            },
+            {
+                "tag": "AI",
+                "text": "Ukrainian city hit by 'massive' strike as peace talks in US conclude",
+                "link": "https://www.bbc.com/news/articles/cz680jx511no?at_medium=RSS&at_campaign=rss"
+            },
+            {
+                "tag": "People",
+                "text": "People flee DR Congo fighting one day after peace deal signed in Washington",
+                "link": "https://www.theguardian.com/world/2025/dec/05/people-flee-dr-congo-fighting-one-day-after-peace-deal-signed-in-washington"
+            },
+            {
+                "tag": "AI",
+                "text": "Soldiers in Benin say they have seized power from President Talon",
+                "link": "https://www.bbc.com/news/articles/c62v7n9wzkyo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+                "tag": "Staff",
+                "text": "Staff and tourists among 25 killed in Goa nightclub fire",
+                "link": "https://www.bbc.com/news/articles/cdj82d0nd4eo?at_medium=RSS&at_campaign=rss"
+            }
+        ],
+        "stat": {
+            "label": "Key Figure",
+            "value": " 95%",
+            "desc": "Statistic derived from the lead story: 60,000 African penguins starved to death after sar..."
+        }
+    }
+}
