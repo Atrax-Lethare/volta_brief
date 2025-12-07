@@ -177,7 +177,145 @@ function downloadNotes() {
 
 // Placeholder functions for FABs if not using a library
 function downloadBulletinPDF() {
-    alert("To enable PDF download, include 'html2pdf.js' library.");
+    // 1. Get the current content
+    const category = document.getElementById('headerCategory').textContent;
+    const date = document.getElementById('displayDate').textContent;
+    const headline = document.getElementById('displayHeadline').textContent;
+    const content = document.getElementById('bulletinContainer').innerHTML;
+
+    // 2. Open a temporary window
+    const printWindow = window.open('', '', 'height=800,width=900');
+
+    // 3. Write the HTML structure for the PDF
+    printWindow.document.write(`
+        <html>
+        <head>
+            <title>${category} Briefing - ${date}</title>
+            <style>
+                @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Roboto:wght@300;400&display=swap');
+                
+                body { 
+                    font-family: 'Roboto', sans-serif; 
+                    padding: 40px 60px; 
+                    color: #1f2937;
+                    max-width: 100%;
+                }
+
+                /* Header Section */
+                .print-header {
+                    border-bottom: 2px solid #111827;
+                    padding-bottom: 20px;
+                    margin-bottom: 30px;
+                }
+                .print-meta {
+                    font-family: 'Outfit', sans-serif;
+                    text-transform: uppercase;
+                    font-size: 12px;
+                    color: #6b7280;
+                    letter-spacing: 1px;
+                    font-weight: 600;
+                }
+                h1 {
+                    font-family: 'Outfit', sans-serif;
+                    font-size: 32px;
+                    margin: 10px 0;
+                    line-height: 1.2;
+                }
+
+                /* Content Styling (Matching your UI) */
+                .bulletin-card {
+                    margin-bottom: 30px;
+                }
+                
+                /* Lead Story */
+                .news-hero h2 { font-size: 24px; margin-bottom: 10px; }
+                .news-hero p { font-size: 16px; line-height: 1.6; color: #374151; }
+                .source-link-btn { display: none; } /* Hide buttons in PDF */
+
+                /* Bullet Points */
+                .roundup-section { margin-top: 30px; }
+                .section-label { 
+                    display: block; 
+                    font-size: 12px; 
+                    text-transform: uppercase; 
+                    color: #9ca3af; 
+                    margin-bottom: 15px; 
+                    font-weight: 700;
+                }
+                .bullet-item {
+                    display: flex;
+                    align-items: flex-start;
+                    gap: 15px;
+                    margin-bottom: 15px;
+                    page-break-inside: avoid; /* Prevent splitting bullets across pages */
+                }
+                .bullet-tag {
+                    font-family: 'Outfit', sans-serif;
+                    font-weight: 700;
+                    font-size: 11px;
+                    text-transform: uppercase;
+                    background: #e0f2fe; /* Light blue bg */
+                    color: #0369a1;
+                    padding: 4px 8px;
+                    border-radius: 4px;
+                    min-width: 80px;
+                    text-align: center;
+                    -webkit-print-color-adjust: exact; /* Force color printing */
+                    print-color-adjust: exact;
+                }
+                .bullet-text { font-size: 14px; line-height: 1.5; flex: 1; }
+                .bullet-link-icon { display: none; } /* Hide link icons */
+
+                /* Stat Box */
+                .stat-box {
+                    background: #f3f4f6;
+                    border: 1px solid #e5e7eb;
+                    border-radius: 12px;
+                    padding: 20px;
+                    text-align: center;
+                    margin-top: 30px;
+                    page-break-inside: avoid;
+                    -webkit-print-color-adjust: exact;
+                }
+                .stat-val { display: block; font-size: 36px; font-weight: 700; font-family: 'Outfit', sans-serif; }
+                .stat-label { display: block; font-size: 12px; text-transform: uppercase; margin-bottom: 5px; }
+                .stat-overlay { display: block !important; position: static; opacity: 1; background: none; color: #555; font-size: 13px; margin-top: 10px; }
+
+                /* Footer */
+                .print-footer {
+                    margin-top: 50px;
+                    font-size: 10px;
+                    text-align: center;
+                    color: #9ca3af;
+                    border-top: 1px solid #e5e7eb;
+                    padding-top: 20px;
+                }
+            </style>
+        </head>
+        <body>
+            <div class="print-header">
+                <div class="print-meta">${category} • ${date}</div>
+                <h1>${headline}</h1>
+            </div>
+
+            ${content}
+
+            <div class="print-footer">
+                Generated by Volta_Brief • ${new Date().toLocaleString()}
+            </div>
+
+            <script>
+                // Automatically trigger print when loaded
+                window.onload = function() {
+                    window.print();
+                    window.close();
+                }
+            </script>
+        </body>
+        </html>
+    `);
+
+    printWindow.document.close(); // Important for some browsers to stop loading
 }
 function applyHighlight(color) {
     // Highlighting logic requires complex DOM handling or `document.execCommand` (deprecated but works)
@@ -185,3 +323,4 @@ function applyHighlight(color) {
     alert("Highlighting requires a text selection.");
 }
 function removeHighlight() { }
+
