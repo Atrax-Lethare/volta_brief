@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap" rel="stylesheet">
+    <title>UPSC Daily Briefing</title>
+    <style>
+        :root {
+            --bg-color: #ffffff;
+            --text-primary: #1f1f1f;
+            --text-secondary: #444746;
+            --card-bg: #f8fafc;
+            --card-hover: #eff6ff;
+            --accent-blue: #0b57d0;
+            --border-color: #e2e8f0;
+            --font-main: 'Outfit', sans-serif;
+            /* fallback monospace font used by the top logo */
+            --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", "Segoe UI Mono", monospace;
+        }
+        /* Simple styling */
+        body { font-family: sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; font-family: 'Roboto';}
+        .category-title { color: black; margin-top: 30px; text-align: center;}
+        .news-card { background: white; padding: 15px; margin-bottom: 25px; border-radius: 20px; border: 2px solid #e0e3e1; transition: all 0.3s ease; }
+        .news-card:hover { box-shadow: 0 2px 4px rgba(0,0,0,0.2); }
+        .news-title { font-size: 1.2em; font-weight: bold; }
+        .news-summary { color: #555; }
+        .read-more { display: flex; margin-top: 5px; color: white; text-decoration: none; background-color: #0b57d0; width: 150px; height: 25px; padding: 5px 10px; text-align: center; border-radius: 30px; font-size: small; justify-content: center; align-items: center; gap: 5px; font-weight: bold;}
+        h1{
+            text-align: center;
+            color: black;
+        }
+        h3{
+            text-align: center;
+            color: #0b57d0;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: -10px;
+            background-color: #d6e6fed8;
+            width: fit-content;
+            height: fit-content;
+            padding: 5px 20px;
+            border-radius: 20px;
+            font-size: x-small;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* border: #0b57d0 2px solid; */
+        }
+        .top-logo {
+            position: absolute;
+            top: 24px;
+            right: 32px;
+            font-family: var(--font-mono);
+            font-size: 27px;
+            font-weight: 700;
+            color: var(--text-primary);
+            text-decoration: none;
+            z-index: 100;
+            letter-spacing: -0.5px;
+        }
+
+        .logo-accent { color: var(--accent-blue); }
+
+        .logo{
+            display: flex;
+            text-align: center;
+            justify-content: right;
+            align-items: center;
+            padding: 2vh 3vw 2vh 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <a href="index.html" class="top-logo">volta<span class="logo-accent">_brief</span></a>
+    </div>
+    <h1>Morning Briefing</h1>
+    <h3>The Guardian - Global News</h3>
+    <div id="news-container">Loading news...</div>
+
+    <script>
+        // 1. Fetch the JSON file we just generated
+        fetch('daily_news.json')
+            .then(response => response.json())
+            .then(data => {
+                const container = document.getElementById('news-container');
+                container.innerHTML = ''; // Clear "Loading..." text
+
+                // 2. Loop through sections (National, World, etc.)
+                for (const [category, articles] of Object.entries(data.sections)) {
+                    
+                    // Create Category Header
+                    const catHeader = document.createElement('h2');
+                    catHeader.className = 'category-title';
+                    catHeader.textContent = category;
+                    container.appendChild(catHeader);
+
+                    // 3. Loop through articles in this section
+                    articles.forEach(article => {
+                        const card = document.createElement('div');
+                        card.className = 'news-card';
+                        
+                        card.innerHTML = `
+                            <div class="news-title">${article.title}</div>
+                            <p class="news-summary">${article.summary}</p>
+                                    <a href="${article.link}" target="_blank" class="read-more">Read Original Source
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="arrow-icon">
+                                        <line x1="7" y1="17" x2="17" y2="7"></line>
+                                        <polyline points="7 7 17 7 17 17"></polyline>
+                                        </svg>
+                                    </a>
+                        `;
+                        container.appendChild(card);
+                    });
+                }
+            })
+            .catch(error => {
+                document.getElementById('news-container').innerHTML = "Error loading news.";
+                console.error('Error:', error);
+            });
+    </script>
+</body>
+</html>
