@@ -1,4 +1,4 @@
-// Global variable to hold the news data 
+// Global variable to hold the news data
 let newsDB = {};
 
 // --- INITIALIZATION ---
@@ -46,6 +46,7 @@ function renderSidebar() {
     });
 }
 
+// --- 3. LOAD CONTENT (MATCHING YOUR CSS CLASSES) ---
 function loadCategory(category) {
     const data = newsDB[category];
     if (!data) return;
@@ -53,7 +54,7 @@ function loadCategory(category) {
     // A. Update Page Headers
     document.getElementById('headerCategory').textContent = category;
     document.getElementById('displayDate').textContent = data.date;
-    document.getElementById('displayHeadline').textContent = category;
+    document.getElementById('displayHeadline').textContent = data.lead.headline;
 
     // B. Clear Container
     const container = document.getElementById('bulletinContainer');
@@ -99,6 +100,29 @@ function loadCategory(category) {
         roundupDiv.appendChild(bulletItem);
     });
     card.appendChild(roundupDiv);
+
+    // --- SECTION 3: STAT BOX (Matches .stat-box) ---
+    if (data.stat && data.stat.value) {
+        const statBox = document.createElement('div');
+        statBox.className = 'stat-box';
+        statBox.innerHTML = `
+            <span class="stat-val">${data.stat.value}</span>
+            <span class="stat-label">${data.stat.label}</span>
+            <div class="stat-overlay">
+                ${data.stat.desc}
+            </div>
+        `;
+        card.appendChild(statBox);
+    }
+
+    // Append Card to Container
+    container.appendChild(card);
+
+    // Disclaimer Footer
+    const footer = document.createElement('div');
+    footer.className = 'disclaimer';
+    footer.textContent = "Generated via Python • Sources: The Hindu, Indian Express, BBC, NYT";
+    container.appendChild(footer);
 
     // Highlight Active Sidebar
     updateActiveSidebar(category);
@@ -161,5 +185,3 @@ function applyHighlight(color) {
     alert("Highlighting requires a text selection.");
 }
 function removeHighlight() { }
-
-
