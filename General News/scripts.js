@@ -19,7 +19,7 @@ async function fetchNewsData() {
         renderSidebar();
         
         // Load first category (usually Economics)
-        const firstCategory = category;
+        const firstCategory = Object.keys(newsDB);
         if (firstCategory) loadCategory(firstCategory);
 
     } catch (error) {
