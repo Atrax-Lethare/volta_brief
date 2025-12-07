@@ -1,5 +1,149 @@
         // --- DATA SECTION  ---
 const articlesDB = {
+            '2025-12-07': {
+                dateLabel: 'December 7, 2025',
+                articles: [
+                    {
+                        title: "Digital Constitutionalism: The 'Sanchar Saathi' Reversal",
+                        source: "The Hindu",
+                        paper: "GS Paper 2 & 3",
+                        topic: "E-Governance & Cyber Security",
+                        originalLink: "https://www.thehindu.com/news/national/centre-reverses-mandate-on-pre-installing-sanchar-saathi-app-on-phones/article70362078.ece",
+                        wikiLink: "https://en.wikipedia.org/wiki/Right_to_privacy",
+                        context: "The government has withdrawn the mandate for pre-installing the 'Sanchar Saathi' app on smartphones following backlash over privacy concerns. The incident highlights the tension between national security (cyber fraud prevention) and digital rights.",
+                        keyPoints: [
+                            "<strong>Policy Reversal:</strong> The initial mandate aimed to curb cyber fraud (SIM swaps, phishing) but was criticized as 'digital overreach' and potential mass surveillance.",
+                            "<strong>Digital Constitutionalism:</strong> Experts argue that technological interventions must adhere to the 'Principle of Proportionality' (Puttaswamy Judgement) and cannot be coercive without legislative backing.",
+                            "<strong>Regulatory Gap:</strong> The incident underscores the urgent need to operationalize the Digital Personal Data Protection (DPDP) Act, 2025 rules to define the limits of state data collection."
+                        ],
+                        wayForward: ["Formulate clear rules under the DPDP Act for government apps.", "Adopt a 'Privacy by Design' approach for all citizen-centric digital tools."],
+                        fodder: { principle: "Digital Constitutionalism", act: "DPDP Act 2025" },
+                        question: "The state's increasing reliance on digital governance often clashes with citizens' digital rights. Critically analyze the need for 'Digital Constitutionalism' in India. (15 Marks, 250 Words)",
+                        answer: `
+                            <p><strong>Introduction:</strong> Digital Constitutionalism refers to the adaptation of constitutional values—like liberty, privacy, and checks and balances—to the digital ecosystem. The recent controversy over the mandatory 'Sanchar Saathi' app highlights the friction between the state's policing powers (GS-3) and individual rights (GS-2).</p>
+                            <p><strong>Body: The Core Conflict</strong></p>
+                            <ul>
+                                <li><strong>Security vs. Liberty:</strong> While the state has a legitimate interest in curbing cybercrime (which has risen 900%), mandatory pre-installation of closed-source software on personal devices violates the 'least intrusive measure' test laid down in the <em>Puttaswamy</em> judgement.</li>
+                                <li><strong>Function Creep:</strong> Without a robust data protection framework, apps designed for fraud prevention can easily be repurposed for surveillance, creating a 'Panopticon State'.</li>
+                                <li><strong>Institutional Void:</strong> The delay in notifying rules for the DPDP Act 2025 leaves a regulatory vacuum where executive orders often bypass legislative scrutiny.</li>
+                            </ul>
+                            <p><strong>Conclusion:</strong> To build trust in Digital India, the government must move from 'coercion' to 'consent'. Institutionalizing independent audits of government apps and strengthening the Data Protection Board are essential steps toward Digital Constitutionalism.</p>
+                        `,
+                        deepDive: `<p>The 'Sanchar Saathi' portal was launched by the Department of Telecommunications (DoT) to empower mobile subscribers to track lost phones and verify SIM connections. It integrates the CEIR (Central Equipment Identity Register) system. The recent push for pre-installation was part of a broader strategy to tackle the 'Jamtara model' of cyber fraud. Historically, similar debates arose during the mandatory imposition of the Aarogya Setu app during the COVID-19 pandemic, which was later made voluntary after ethical hackers raised privacy red flags.</p>`
+                    },
+                    {
+                        title: "India-Russia Summit: Pivot to the Arctic",
+                        source: "The Hindu",
+                        paper: "GS Paper 2",
+                        topic: "International Relations",
+                        originalLink: "https://www.thehindu.com/news/national/india-russia-agree-to-continue-working-towards-enhancing-trade-in-national-currencies/article70362078.ece",
+                        wikiLink: "https://en.wikipedia.org/wiki/Arctic_policy_of_India",
+                        context: "The 23rd India-Russia Annual Summit concluded with agreements expanding cooperation beyond defense into the Arctic region, space, and trade settlements in national currencies.",
+                        keyPoints: [
+                            "<strong>New Frontiers:</strong> The partnership is diversifying into the Arctic (energy, shipping routes) and Space (Gaganyaan training, navigation), moving beyond the traditional 'buyer-seller' defense dynamic.",
+                            "<strong>De-dollarisation:</strong> Both nations committed to a target of $100 billion trade by 2030, emphasizing the use of Rupee-Ruble mechanisms to bypass Western sanctions.",
+                            "<strong>Strategic Autonomy:</strong> Continued engagement with Russia, despite Western pressure, signals India's commitment to a multipolar world order."
+                        ],
+                        wayForward: ["Operationalize the Chennai-Vladivostok Maritime Corridor.", "Invest in joint R&D for polar research vessels."],
+                        fodder: { term: "Special and Privileged Strategic Partnership", goal: "$100 Billion Trade Target" },
+                        question: "'The India-Russia partnership is navigating a complex global order by strategically diversifying its focus.' Elaborate with reference to the recent Annual Summit. (15 Marks, 250 Words)",
+                        answer: `
+                            <p><strong>Introduction:</strong> The 23rd Annual Summit reaffirms that the India-Russia tie is not just a relic of the Cold War but a dynamic partnership adapting to new geopolitical realities. The focus has shifted from mere defense procurement to energy security and logistics.</p>
+                            <p><strong>Body: Diversification Pillars</strong></p>
+                            <ul>
+                                <li><strong>Arctic Pivot:</strong> India's interest in the Arctic is driven by energy security (Russian oil/gas) and the potential of the Northern Sea Route (NSR) as a shorter trade corridor to Europe.</li>
+                                <li><strong>Financial Sovereignty:</strong> The push for national currency settlements is a strategic hedge against the weaponization of the global financial system (SWIFT) and aligns with the broader BRICS agenda of de-dollarisation.</li>
+                                <li><strong>Space & Tech:</strong> Collaboration in human spaceflight (Gaganyaan) and GLONASS-NavIC interoperability reduces reliance on Western GPS systems.</li>
+                            </ul>
+                            <p><strong>Conclusion:</strong> While defense remains the bedrock, the diversification into the Arctic and energy creates a more balanced, interdependent relationship that serves India's core national interest of strategic autonomy.</p>
+                        `,
+                        deepDive: `<p>India's engagement with the Arctic began with the signing of the Svalbard Treaty in 1920. In 2013, India became an Observer state to the Arctic Council. The region holds an estimated 30% of the world's undiscovered gas and 13% of oil. Russia, controlling over 50% of the Arctic coastline, is the natural partner. Historically, Indo-Russian cooperation was anchored in the 1971 Treaty of Peace, Friendship, and Cooperation, which provided India critical support during the Bangladesh Liberation War.</p>`
+                    },
+                    {
+                        title: "'Sin Tax' on Pan Masala: Health vs. Revenue",
+                        source: "The Hindu",
+                        paper: "GS Paper 2 & 3",
+                        topic: "Health & Government Budgeting",
+                        originalLink: "https://www.thehindu.com/news/national/lok-sabha-passes-bill-to-levy-special-cess-on-pan-masala/article70362078.ece",
+                        wikiLink: "https://en.wikipedia.org/wiki/Sin_tax",
+                        context: "Lok Sabha passed the 'Health Security se National Security Cess Bill, 2025', imposing a special excise cess on pan masala to fund health infrastructure, replacing the GST Compensation Cess.",
+                        keyPoints: [
+                            "<strong>Dual Objective:</strong> The cess acts as a Pigovian tax (discouraging consumption) while creating a dedicated corpus for public health and national security expenditure.",
+                            "<strong>Capacity-Based Tax:</strong> To curb rampant evasion, the levy is based on the capacity of packing machines rather than actual production output.",
+                            "<strong>Fiscal Federalism:</strong> As a 'cess', the revenue is not shared with states, raising concerns about the shrinking divisible pool of taxes."
+                        ],
+                        wayForward: ["Ensure transparency in the utilization of the cess proceeds.", "Strengthen the GST intelligence network to prevent grey market growth."],
+                        fodder: { concept: "Pigovian Tax", bill: "Health Security se National Security Cess Bill, 2025" },
+                        question: "The imposition of high cesses on demerit goods serves both a fiscal and social purpose. Discuss the efficacy of the new Pan Masala Cess in achieving these twin objectives. (10 Marks, 150 Words)",
+                        answer: `
+                            <p><strong>Introduction:</strong> 'Sin Taxes' are designed to penalize the consumption of harmful goods (demerit goods) like tobacco, thereby internalizing the social cost (healthcare burden) of their usage.</p>
+                            <p><strong>Body: Twin Objectives</strong></p>
+                            <ul>
+                                <li><strong>Social (Public Health):</strong> Higher prices theoretically reduce consumption, especially among price-sensitive youth. However, in India, high taxes often drive demand to the illicit, untaxed sector, blunting the health benefit.</li>
+                                <li><strong>Fiscal (Revenue):</strong> The cess provides the Centre with a steady, non-lapsable revenue stream. By linking it to 'National Security', the government justifies the extra levy. However, the capacity-based taxation model is a direct response to the failure of the ad-valorem system in checking evasion.</li>
+                            </ul>
+                            <p><strong>Conclusion:</strong> While fiscally prudent, the success of this measure depends on enforcement. Without cracking down on the black market, the 'Health Security' goal will remain unmet while only the 'Revenue' goal is partially achieved.</p>
+                        `,
+                        deepDive: `<p>The taxation of tobacco and pan masala in India has a long history of evasion. The concept of 'capacity-based taxation' was first introduced in 2008 for gutkha and pan masala to check duty evasion, as manufacturers would under-report production. This system was discontinued under GST in 2017 but is now being brought back in a new form. The distinction between 'tax' (general purpose) and 'cess' (specific purpose) is crucial in Indian public finance, as cesses do not form part of the Net Proceeds shared with states under Article 270.</p>`
+                    },
+                    {
+                        title: "India's Coal Conundrum: The 'Just Transition' Challenge",
+                        source: "LiveMint",
+                        paper: "GS Paper 3",
+                        topic: "Energy & Environment",
+                        originalLink: "https://www.livemint.com/news/india/india-s-coal-conundrum-balancing-growth-and-sustainability-11670356800000.html",
+                        wikiLink: "https://en.wikipedia.org/wiki/Just_transition",
+                        context: "Despite a renewable push, India's coal dependence persists for baseload power. The drop in CCPI ranking highlights the urgent need for a 'Just Transition' framework that protects coal-dependent communities.",
+                        keyPoints: [
+                            "<strong>Energy Security:</strong> Coal remains the cheapest and most reliable source for baseload power, essential for India's 7-8% growth ambitions.",
+                            "<strong>Social Cost:</strong> Millions in states like Jharkhand and Odisha depend on the coal ecosystem. A rapid phase-out threatens their livelihoods.",
+                            "<strong>Climate Ranking:</strong> India's slide in the Climate Change Performance Index (CCPI) reflects the tension between developmental needs and emission targets."
+                        ],
+                        wayForward: ["Create a 'Just Transition Fund' for reskilling coal workers.", "Invest in Carbon Capture, Utilization, and Storage (CCUS) technologies."],
+                        fodder: { concept: "Just Transition", index: "Climate Change Performance Index (CCPI)" },
+                        question: "Examine the concept of 'Just Transition' in the context of India's coal phase-down strategy. What are the key socio-economic challenges that must be addressed? (15 Marks, 250 Words)",
+                        answer: `
+                            <p><strong>Introduction:</strong> 'Just Transition' ensures that the shift to a green economy is fair and inclusive, leaving no one behind. For India, where coal is not just a fuel but a livelihood generator, this is a socio-economic imperative.</p>
+                            <p><strong>Body: Socio-Economic Challenges</strong></p>
+                            <ul>
+                                <li><strong>Regional Inequality:</strong> Coal-rich states are often economically poor. Closing mines would devastate local economies (the 'Resource Curse' paradox) unless alternative industries are established.</li>
+                                <li><strong>Informal Workforce:</strong> While Coal India employees may get packages, the millions of informal workers (truckers, coal pickers) in the ecosystem have no safety net.</li>
+                                <li><strong>Banking Exposure:</strong> The power sector accounts for significant NPA risks. Stranded thermal assets could destabilize the banking system without a managed exit plan.</li>
+                            </ul>
+                            <p><strong>Conclusion:</strong> India cannot afford a disorderly exit from coal. A phased 'Coal-Down' strategy, supported by international climate finance for diversification, is the only viable path to Net Zero 2070.</p>
+                        `,
+                        deepDive: `<p>Coal mining in India began in 1774 in the Raniganj Coalfield. It was nationalized in the 1970s (Coal Mines Nationalisation Act, 1973) to ensure energy security for the growing nation. Today, Coal India Limited (CIL) is the world's largest coal producer. The concept of 'Just Transition' gained traction at COP24 (Poland) in 2018, acknowledging that the workforce of the fossil fuel era must be protected during the shift to renewables. India's NDC targets (50% non-fossil capacity by 2030) implicitly necessitate navigating this transition.</p>`
+                    },
+                    {
+                        title: "Judicial Review vs. Governance: The Teacher Recruitment Case",
+                        source: "Hindustan Times",
+                        paper: "GS Paper 2 & 4",
+                        topic: "Judiciary & Ethics",
+                        originalLink: "https://www.hindustantimes.com/education/calcutta-hc-overturns-own-order-restores-32k-wb-teacher-jobs-101764817712541.html",
+                        wikiLink: "https://en.wikipedia.org/wiki/Natural_justice",
+                        context: "The Calcutta High Court restored 32,000 teacher jobs, overturning a previous cancellation order. The bench ruled that 'mass termination' without proving individual guilt violates principles of Natural Justice.",
+                        keyPoints: [
+                            "<strong>Natural Justice:</strong> The principle of <em>Audi Alteram Partem</em> (hear the other side) was violated as the affected teachers were not individually heard before termination.",
+                            "<strong>Tainted vs. Untainted:</strong> The court distinguished between those who bribed their way in and honest candidates, rejecting the 'collective punishment' approach.",
+                            "<strong>Judicial Restraint:</strong> The verdict emphasizes that courts should not usurp executive functions by ordering mass firings based on suspicion alone."
+                        ],
+                        wayForward: ["Use technology (AI audits) to segregate tainted candidates.", "Strengthen recruitment bodies (PSCs) to restore public trust."],
+                        fodder: { principle: "Natural Justice", maxim: "Audi Alteram Partem" },
+                        question: "The balance between judicial intervention to ensure fair governance and the principle of judicial restraint is delicate. Discuss this in light of the recent High Court ruling on service matters. (10 Marks, 150 Words)",
+                        answer: `
+                            <p><strong>Introduction:</strong> Judicial Review is a basic feature of the Constitution, but it must be balanced with Administrative Efficiency. The Calcutta High Court's reinstatement of teachers highlights the judiciary's role as a corrective, not a destructive, force.</p>
+                            <p><strong>Body: Ethical and Legal Balance</strong></p>
+                            <ul>
+                                <li><strong>Ethical Dilemma:</strong> On one hand, corruption in public recruitment erodes meritocracy (Probity). On the other, mass termination without individual proof destroys the livelihoods and dignity of potentially innocent citizens (Justice).</li>
+                                <li><strong>Legal Precedent:</strong> The court relied on the principle that suspicion, however strong, cannot take the place of proof. Collective punishment is anathema to the Rule of Law.</li>
+                                <li><strong>Administrative Failure:</strong> The judiciary had to intervene because the executive failed to conduct a clean recruitment process. However, the remedy (mass firing) was disproportionate.</li>
+                            </ul>
+                            <p><strong>Conclusion:</strong> The verdict restores the 'presumption of innocence'. The way forward is a surgical investigation (SIT) to weed out the corrupt, rather than a blanket cancellation that punishes the honest.</p>
+                        `,
+                        deepDive: `<p>The Indian judiciary has a history of intervening in public recruitment scams (e.g., Vyapam Scam). The doctrine of 'Judicial Restraint' suggests courts should not interfere in policy or day-to-day administration unless there is a violation of fundamental rights. However, in cases of systemic corruption, 'Judicial Activism' often becomes necessary to enforce accountability. The principle of Natural Justice is derived from Article 14 (Rule of Law) and Article 21 (Due Process), ensuring no person is condemned unheard.</p>`
+                    }
+                ]
+            },
             '2025-12-06': {
                 dateLabel: 'December 6, 2025',
                 articles: [
@@ -1242,6 +1386,7 @@ const articlesDB = {
             }
 };
         
+
 
 
 
