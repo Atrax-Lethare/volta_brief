@@ -239,11 +239,11 @@
         }
         
         @media (max-width: 768px) {
-                .card { grid-column: span 4; width: 100vw; }
-                .upsc-card { grid-column: span 4; width: 100vw; }
-                .premium-card { grid-column: span 4; width: 100vw; }
-                .important-card { grid-column: span 4 !important; width: 100vw; }
-                .category-heading { grid-column: span 4; width: 100vw; }
+                .card { grid-column: span 4; width: 90vw; }
+                .upsc-card { grid-column: span 4; width: 90vw; }
+                .premium-card { grid-column: span 4; width: 90vw; }
+                .important-card { grid-column: span 4 !important; width: 90vw; }
+                .category-heading { grid-column: span 4; width: 90vw; }
                 .hero h1 { font-size: 36px; }
         }
 
