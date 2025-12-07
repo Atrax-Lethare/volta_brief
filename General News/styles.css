@@ -18,7 +18,7 @@
         * { box-sizing: border-box; }
         body { margin: 0; font-family: var(--font-main); background: var(--bg-color); color: var(--text-primary); height: 100vh; display: flex; overflow: hidden; }
 
-        /* Scrollbar */
+        /* Scrollbar  */
         ::-webkit-scrollbar { width: 8px; }
         ::-webkit-scrollbar-track { background: transparent; }
         ::-webkit-scrollbar-thumb { background: #c4c7c5; border-radius: 4px; }
@@ -218,3 +218,4 @@
         .btn-save.active svg {
             fill: currentColor; /* Fills the icon */
         }
+
