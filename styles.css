@@ -239,9 +239,9 @@
         }
         
         @media (max-width: 768px) {
-                .card { grid-column: span 1; }
-                .upsc-card { grid-column: span 1; }
-                .premium-card { grid-column: span 1; }
+                .card { grid-column: span 4; }
+                .upsc-card { grid-column: span 4; }
+                .premium-card { grid-column: span 4; }
                 .hero h1 { font-size: 36px; }
         }
 
@@ -286,6 +286,7 @@
         .card:nth-child(19) { animation-delay: 0.9s; }
         .card:nth-child(20) { animation-delay: 0.95s; }
         .card:nth-child(21) { animation-delay: 1.0s; }
+
 
 
 
