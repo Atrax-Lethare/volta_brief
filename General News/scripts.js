@@ -18,9 +18,18 @@ async function fetchNewsData() {
 
         renderSidebar();
         
-        // Load first category (usually Economics)
-        const firstCategory = Object.keys(newsDB);
-        if (firstCategory) loadCategory(firstCategory);
+        // 1. Check the URL for a category (e.g., index.html?cat=Politics)
+        const urlParams = new URLSearchParams(window.location.search);
+        const requestedCat = urlParams.get('cat');
+
+        // 2. If URL has a category AND it exists in our DB, load it.
+        if (requestedCat && newsDB[requestedCat]) {
+            loadCategory(requestedCat);
+        } else {
+            // 3. Otherwise, fall back to the first available category (Economics)
+            const firstCategory = Object.keys(newsDB)[0];
+            if (firstCategory) loadCategory(firstCategory);
+        }
 
     } catch (error) {
         console.error("Error:", error);
@@ -323,5 +332,6 @@ function applyHighlight(color) {
     alert("Highlighting requires a text selection.");
 }
 function removeHighlight() { }
+
 
 
