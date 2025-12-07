@@ -242,7 +242,7 @@
                 .card { grid-column: span 4; width: 100vw; }
                 .upsc-card { grid-column: span 4; width: 100vw; }
                 .premium-card { grid-column: span 4; width: 100vw; }
-                .important-card { grid-column: span 4; width: 100vw; }
+                .important-card { grid-column: span 4 !important; width: 100vw; }
                 .category-heading { grid-column: span 4; width: 100vw; }
                 .hero h1 { font-size: 36px; }
         }
