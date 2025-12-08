@@ -14,7 +14,7 @@
         * { box-sizing: border-box; }
         body { margin: 0; font-family: var(--font-main); background: var(--bg-color); color: var(--text-primary); }
 
-        /*Logo*/
+        /*Logo */
         .top-logo {
             position: absolute;
             top: 24px;
@@ -284,6 +284,7 @@
         .card:nth-child(19) { animation-delay: 0.9s; }
         .card:nth-child(20) { animation-delay: 0.95s; }
         .card:nth-child(21) { animation-delay: 1.0s; }
+
 
 
 
