@@ -239,7 +239,10 @@
         }
         
         @media (max-width: 768px) {
-            .card.upsc-card { grid-column: span 1; }
+            .card { grid-column: span 4; width: 90vw; }
+            .upsc-card { grid-column: span 4; width: 90vw; }
+            .important-card { grid-column: span 4; width: 90vw; }
+            .premium-card { grid-column: span 4; width: 90vw; }
             .hero h1 { font-size: 36px; }
         }
 
