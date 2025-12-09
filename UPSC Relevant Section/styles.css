@@ -309,7 +309,6 @@
             justify-content: center;
             cursor: pointer;
             transition: all 0.2s ease;
-            margin-left: auto; /* Pushes it to the right */
         }
         
         .btn-save:hover {
@@ -328,6 +327,7 @@
         .btn-save.active svg {
             fill: currentColor; /* Fills the icon */
         }
+
 
 
 
