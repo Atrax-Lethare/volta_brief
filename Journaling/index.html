@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindful Journal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Sidebar -->
+    <aside id="sidebar">
+        <div class="sidebar-header">
+            <div class="brand">
+                <svg class="icon" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+                <span>My Journal</span>
+            </div>
+            <button class="btn-icon mobile-close-sidebar" onclick="toggleSidebar()">
+                <svg class="icon" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"></path></svg>
+            </button>
+        </div>
+
+        <!-- Search Bar -->
+        <div class="search-container">
+            <div class="search-wrapper">
+                <svg class="icon search-icon" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" x2="16.65" y1="21" y2="16.65"></line></svg>
+                <input type="text" id="searchInput" class="search-input" placeholder="Search entries & tags..." oninput="handleSearch()">
+            </div>
+        </div>
+
+        <button class="btn-new-entry" onclick="createEntry()">
+            <svg class="icon icon-lg" viewBox="0 0 24 24"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg>
+            <span>New Entry</span>
+        </button>
+
+        <!-- Filter Banner (Hidden by default) -->
+        <div id="filterBanner" class="filter-banner">
+            <span id="filterText">Filtering by date</span>
+            <button class="btn-clear-filter" onclick="clearDateFilter()">Clear</button>
+        </div>
+
+        <ul class="entry-list" id="entryList">
+            <!-- Entries injected here via JS -->
+        </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <main>
+        <button class="btn-icon btn-menu" onclick="toggleSidebar()">
+            <svg class="icon" viewBox="0 0 24 24"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg>
+        </button>
+
+        <header>
+
+            <div class="toolbar-actions">
+                <button class="btn-icon btn-mic" id="micBtn" onclick="toggleDictation()" title="Voice Dictation">
+                    <svg class="icon" id="micIcon" viewBox="0 0 24 24"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path><path d="M19 10v2a7 7 0 0 1-14 0v-2"></path><line x1="12" x2="12" y1="19" y2="23"></line><line x1="8" x2="16" y1="23" y2="23"></line></svg>
+                    <span>Dictate</span>
+                </button>
+
+                <div class="divider"></div>
+                
+                <!-- Image Upload Button -->
+                <button class="btn-icon" onclick="triggerImageUpload()" title="Add Image">
+                    <svg class="icon" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
+                </button>
+                <input type="file" id="imageInput" accept="image/*" style="display: none;" onchange="handleImageUpload(event)">
+
+                <!-- Calendar Button -->
+                <button class="btn-icon" id="calendarBtn" onclick="toggleCalendar()" title="Calendar View">
+                    <svg class="icon" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                </button>
+
+                <!-- Insights Button -->
+                <button class="btn-icon" id="insightsBtn" onclick="toggleInsights()" title="Mood Insights">
+                   <svg class="icon" viewBox="0 0 24 24"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+                </button>
+
+                <!-- Import Button -->
+                <button class="btn-icon" onclick="triggerImport()" title="Import / Restore Data">
+                    <svg class="icon" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg>
+                </button>
+                <input type="file" id="importInput" accept=".json" style="display: none;" onchange="handleImport(event)">
+
+                <!-- Export Button -->
+                <button class="btn-icon" onclick="exportData()" title="Export Data">
+                    <svg class="icon" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                </button>
+
+                <button class="btn-icon" onclick="window.print()" title="Print">
+                    <svg class="icon" viewBox="0 0 24 24"><path d="M6 9V2h12v7"></path><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><path d="M6 14h12v8H6z"></path></svg>
+                </button>
+
+                <button class="btn-icon" onclick="saveEntry()" title="Save">
+                    <svg class="icon" viewBox="0 0 24 24"><path d="M15.2 3a2 2 0 0 1 1.4.6l3.8 3.8a2 2 0 0 1 .6 1.4V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z"></path><path d="M17 21v-8H7v8"></path><path d="M7 3v5h8"></path></svg>
+                </button>
+            </div>
+            
+            <!-- Calendar Modal -->
+            <div id="calendarModal" class="modal">
+                <div class="cal-header">
+                    <button class="cal-nav-btn" onclick="changeMonth(-1)">
+                        <svg class="icon icon-sm" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"></path></svg>
+                    </button>
+                    <span class="cal-month-label" id="calMonthLabel">Month Year</span>
+                    <button class="cal-nav-btn" onclick="changeMonth(1)">
+                        <svg class="icon icon-sm" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"></path></svg>
+                    </button>
+                </div>
+                <div class="cal-grid" id="calGrid">
+                    <!-- Days generated by JS -->
+                </div>
+            </div>
+            
+            <!-- Insights Modal -->
+            <div id="insightsModal" class="modal">
+                <div class="insights-content">
+                    <div class="insights-title">
+                        <svg class="icon" viewBox="0 0 24 24"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+                        <span>Insights</span>
+                    </div>
+                    
+                    <div class="stat-group">
+                        <div class="stat-label">Total Entries</div>
+                        <div class="stat-value" id="totalEntriesVal">0</div>
+                    </div>
+                    
+                    <div class="stat-group">
+                        <div class="stat-label">Mood Distribution</div>
+                        <div id="moodChart"></div>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+
+        <div class="editor-container">
+            <div class="editor-wrapper">
+
+                <div class="date-display">
+                <svg class="icon icon-sm" viewBox="0 0 24 24"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"></rect><line x1="16" x2="16" y1="2" y2="6"></line><line x1="8" x2="8" y1="2" y2="6"></line><line x1="3" x2="21" y1="10" y2="10"></line></svg>
+                <span id="activeDate">Select an entry</span>
+                <span class="save-feedback" id="saveFeedback">Saved locally</span>
+                <!-- Streak Badge -->
+                <div class="streak-container" title="Current writing streak">
+                    <svg class="icon icon-sm streak-icon" viewBox="0 0 24 24"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"></path></svg>
+                    <span id="streakCount">0</span>
+                </div>
+            </div>
+                
+                <!-- Daily Prompt -->
+                <div class="prompt-container">
+                    <button class="btn-prompt" onclick="showRandomPrompt()">
+                        <svg class="icon icon-sm" viewBox="0 0 24 24"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 1 1 7.072 0l-.548 5.478a1 1 0 0 1-.994.9h-4.011a1 1 0 0 1-.994-.9l-.548-5.478z"></path></svg>
+                        Spark an idea
+                    </button>
+                    <div id="promptDisplay" class="prompt-display"></div>
+                </div>
+
+                <input type="text" id="entryTitle" class="title-input" placeholder="Entry Title..." disabled>
+                
+                <!-- Tags Section -->
+                <div class="tags-section" id="tagsSection" style="opacity: 0.5; pointer-events: none;">
+                    <div id="tagsList" style="display: flex; gap: 8px; flex-wrap: wrap;"></div>
+                    <input type="text" id="tagInput" class="tag-input" placeholder="Add a tag..." disabled onkeypress="handleTagInput(event)">
+                </div>
+
+                <!-- Mood Selector -->
+                <div class="mood-selector" id="moodSelector">
+                    <button class="mood-btn" data-mood="happy" onclick="setMood('happy')" title="Happy">😊</button>
+                    <button class="mood-btn" data-mood="calm" onclick="setMood('calm')" title="Calm">😌</button>
+                    <button class="mood-btn" data-mood="neutral" onclick="setMood('neutral')" title="Neutral">😐</button>
+                    <button class="mood-btn" data-mood="sad" onclick="setMood('sad')" title="Sad">😢</button>
+                    <button class="mood-btn" data-mood="stressed" onclick="setMood('stressed')" title="Stressed">😫</button>
+                </div>
+
+                <!-- Image Gallery -->
+                <div id="imageGallery" class="image-gallery"></div>
+
+                <div class="print-date" id="printDate"></div>
+                <textarea id="entryContent" class="content-input" placeholder="Start writing or click the microphone..." disabled oninput="updateStats()"></textarea>
+                
+                <!-- Word Count / Stats -->
+                <div class="stats-bar" id="statsBar">
+                    0 words · 0 min read
+                </div>
+            </div>
+        </div>
+
+        <div class="recording-overlay" id="recOverlay">
+            <svg class="icon" viewBox="0 0 24 24"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path><path d="M19 10v2a7 7 0 0 1-14 0v-2"></path></svg>
+            <span style="font-weight: bold; font-size: 0.875rem;">Recording</span>
+        </div>
+    </main>
+
+    <script src="scripts.js"></script>
+
+</body>
+</html>
